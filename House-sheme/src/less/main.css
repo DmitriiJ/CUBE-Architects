@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    margin-bottom: 26px;
+    /* margin-bottom: 26px; */
 }
 
 .left-column {
@@ -54,6 +54,7 @@ body {
 }
 
 .short-info-container {
+    margin-top: 25px;
     display: flex;
     flex-direction: row;
 }
@@ -165,9 +166,9 @@ body {
 
 
 
-
 .footer {
     background-color: #000;
+    
 }
 
 .footer-left-col{
@@ -227,7 +228,7 @@ body {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
-    padding-bottom: 50px;
+    padding-bottom: 65px;
 }
 
 .footer-language-button, .footer-language-separator{
