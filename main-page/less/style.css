@@ -24,6 +24,7 @@ section {
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  font-weight: 400;
   color: #B0B0B0;
   color: #000000;
   text-transform: uppercase;
@@ -34,6 +35,7 @@ section {
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  font-weight: 400;
   color: #B0B0B0;
   color: #000000;
   text-transform: uppercase;
@@ -62,8 +64,62 @@ section {
 .main .main-txt {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  font-weight: 400;
   color: #B0B0B0;
   color: #000000;
   text-transform: uppercase;
   line-height: 3.5rem;
+  margin-bottom: 24rem;
+}
+.main .switch-slider-number {
+  height: 2.5rem;
+}
+.main .first-slider {
+  font-family: 'SF_pro_display_reg';
+  font-size: 16px;
+  color: #B0B0B0;
+  display: inline-block;
+  color: #000000;
+  margin-right: 1.65rem;
+}
+.main .second-slider {
+  font-family: 'SF_pro_display_reg';
+  font-size: 16px;
+  color: #B0B0B0;
+  display: inline-block;
+  margin-right: 1.65rem;
+}
+.main .third-slider {
+  font-family: 'SF_pro_display_reg';
+  font-size: 16px;
+  color: #B0B0B0;
+  display: inline-block;
+}
+.main .slider-img {
+  width: 96rem;
+}
+.main .slider-img img {
+  width: 100%;
+}
+.main .create-future-txt p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.main .under-slider-title h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 3.5rem;
+  margin-top: 5rem;
+}
+.main .under-slider-txt p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 3.5rem;
+  margin-top: 3rem;
 }
