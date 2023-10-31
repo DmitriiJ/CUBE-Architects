@@ -57,6 +57,7 @@ section{
 // colors
 @bgn_black: #1A1A1A;
 @txt_white: #FFFFFF;
+@txt_gray: #B0B0B0;
 
 
 
@@ -156,7 +157,70 @@ section{
     .under-slider-txt p{
         .montserrat_reg_24();
         line-height: 3.5rem;
-        margin-top: 3rem;
+        margin: 3rem 0rem 5rem 0rem;
+    }
+
+    .projects{
+        background-color: @bgn_black;
+        height: 143rem;
+        &-container{
+            padding-top: 5rem;
+        }
+    }
+
+    .projects-txt p{
+        .montserrat_reg_24();
+        color: @txt_gray;
+    }
+
+    .residents{
+        width: 51.9rem;
+        &-img{
+            margin-top: 11rem;
+        }
+
+        &-txt{
+            .montserrat_reg_24();
+            color: @txt_white;
+            text-transform: uppercase;
+            padding-top: 2rem;
+            display: inline-block;
+            line-height: 2rem;
+        }
+
+        &-arrow{
+            display: inline-block;
+            padding-left: 30.6rem;
+        }
+
+        &-line img{
+            vertical-align: top;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .housing{
+        width: 70rem;
+        margin: 6rem 0rem 0rem 6rem;
+        
+        &-txt{
+            .montserrat_reg_24();
+            color: @txt_white;
+            text-transform: uppercase;
+            padding-top: 2rem;
+            display: inline-block;
+            line-height: 2rem;
+        }
+
+        &-arrow{
+            display: inline-block;
+            margin-left: 47.6rem;
+        }
+
+        &-line img{
+            vertical-align: top;
+            margin-top: 1.5rem;
+        }
     }
 
 }
