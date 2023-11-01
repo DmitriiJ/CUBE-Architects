@@ -239,3 +239,57 @@ section {
 .main .all-projects-line img {
   vertical-align: top;
 }
+.main .about-us {
+  padding-top: 7rem;
+}
+.main .about-us-gray-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+.main .about-us-title h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 3.5rem;
+  margin-bottom: 3rem;
+}
+.main .about-us-img img {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.main .about-us-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+.main .about-us-read-more {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #B0B0B0;
+  text-align: right;
+  vertical-align: top;
+}
+.main .we-offer {
+  padding-top: 7rem;
+}
+.main .we-offer-gray-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+.main .we-offer-title h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 3.5rem;
+  margin-bottom: 3rem;
+}
