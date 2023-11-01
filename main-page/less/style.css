@@ -134,6 +134,7 @@ section {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #B0B0B0;
+  text-transform: uppercase;
 }
 .main .residents {
   width: 51.9rem;
@@ -178,4 +179,63 @@ section {
 .main .housing-line img {
   vertical-align: top;
   margin-top: 1.5rem;
+}
+.main .inter {
+  width: 52rem;
+  margin: 15rem 0rem 0rem 6rem;
+}
+.main .inter-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-top: 2rem;
+  display: inline-block;
+  line-height: 2rem;
+}
+.main .inter-arrow {
+  display: inline-block;
+  margin-left: 32.8rem;
+}
+.main .inter-line img {
+  vertical-align: top;
+  margin-top: 1.5rem;
+}
+.main .land {
+  width: 54.8rem;
+  margin-left: 9.7rem;
+}
+.main .land-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-top: 2rem;
+  display: inline-block;
+  line-height: 2rem;
+}
+.main .land-arrow {
+  display: inline-block;
+  margin-left: 33.65rem;
+}
+.main .land-line img {
+  vertical-align: top;
+  margin-top: 1.5rem;
+}
+.main .all-projects {
+  margin: 19rem 0rem 0rem 43.6rem;
+}
+.main .all-projects-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 2rem;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.main .all-projects-arrow {
+  display: inline-block;
+}
+.main .all-projects-line img {
+  vertical-align: top;
 }
