@@ -18,7 +18,7 @@ section {
   font-weight: 400;
 }
 .main {
-  padding: 4.5rem 0;
+  padding: 4.5rem 0 0 0;
 }
 .main .ru {
   display: inline-block;
@@ -291,5 +291,110 @@ section {
   text-transform: uppercase;
   font-weight: 600;
   line-height: 3.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
+}
+.main .we-offer-arch {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 1.5rem;
+}
+.main .we-offer-plus-arch {
+  display: inline-block;
+  padding-left: 40rem;
+}
+.main .we-offer-case-two {
+  margin-top: 1.5rem;
+}
+.main .we-offer-design {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.main .we-offer-plus-design {
+  display: inline-block;
+  padding-left: 57.5rem;
+}
+.main .we-offer-case-three {
+  margin-top: 1.5rem;
+}
+.main .we-offer-concept {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.main .we-offer-plus-concept {
+  display: inline-block;
+  padding-left: 23.1rem;
+}
+.main .footer-line {
+  padding: 12rem 0 9rem 0;
+}
+.main .footer {
+  background-color: #000;
+}
+.main .footer-left-col {
+  margin-top: 90px;
+}
+.main .footer-com-info {
+  color: #d8d8d8;
+  font-size: 20px;
+  line-height: 31.18px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  width: 45%;
+}
+.main .footer-email {
+  color: #d8d8d8;
+  font-size: 20px;
+  line-height: 31.18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 54px;
+  text-decoration: underline;
+  margin-bottom: 60px;
+}
+.main .footer-company-name {
+  width: 100%;
+  text-align: end;
+  margin-top: 65px;
+  margin-bottom: 60px;
+}
+.main .footer-right-col {
+  margin-top: 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .footer-online-contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.main .online-contact {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 37.42px;
+  color: #d8d8d8;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.main .footer-language-switcher {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  padding-bottom: 65px;
+}
+.main .footer-language-button,
+.main .footer-language-separator {
+  color: #d8d8d8;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24.38px;
+}
+.main .footer-language-separator {
+  margin: auto 10px;
 }
