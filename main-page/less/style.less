@@ -47,6 +47,14 @@ section{
     font-weight: 600;
 }
 
+.montserrat_sbold_96(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: @txt_white;
+}
+
 .questrial{
     font-family: 'Questrial', sans-serif;
     font-size: 96px;
@@ -470,4 +478,71 @@ section{
         margin: auto 10px;
     }
 
+
+
 }
+
+
+//menuuuuuuuuuuuuuuuuuuuuuuuu
+.main-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: @bgn_black;
+
+    .menu-txt{
+        padding: 2rem 0 0 6rem;
+        width: 70rem;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            h1{
+                .montserrat_sbold_96();
+                margin-bottom: 3rem;
+                -webkit-transition: all 0.5s ease;
+                transition: all 0.5s ease; /* Время изменения цвета */
+            }
+
+            h1:hover{
+                cursor: pointer;
+                color: #000; /* Меняем цвет ссылки */
+                -webkit-text-stroke: 1px #FFFFFF; /* Толщина и цвет обводки */
+                //text-stroke: 1px @txt_white;
+            }
+
+            
+        }
+        
+    }
+
+    .cross{
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 4rem;
+    }
+
+    .menu-logo{
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .mail{
+        .montserrat_sbold_96();
+        font-size: 32px;
+        text-align: right;
+        padding-right: 3.5rem;
+        line-height: 0rem; 
+    }
+    
+    .line-menu{
+        float: bottom;
+        width: 100%;
+    }
+}
+
+
+
