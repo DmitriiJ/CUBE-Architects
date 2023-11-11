@@ -432,14 +432,11 @@ section {
   margin-bottom: 3rem;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  /* Время изменения цвета */
 }
 .main-menu .menu-txt a h1:hover {
   cursor: pointer;
   color: #000;
-  /* Меняем цвет ссылки */
   -webkit-text-stroke: 1px #FFFFFF;
-  /* Толщина и цвет обводки */
 }
 .main-menu .cross {
   display: inline-block;
