@@ -4,19 +4,6 @@ html {
 section {
   padding: 9rem 0;
 }
-@font-face {
-  font-family: 'SF_pro_display_reg';
-  src: url('../fonts/SFProDisplay-Regular.eot');
-  src: url('../fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/SFProDisplay-Regular.woff2') format('woff2'), url('../fonts/SFProDisplay-Regular.woff') format('woff'), url('../fonts/SFProDisplay-Regular.ttf') format('truetype'), url('../fonts/SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-.questrial {
-  font-family: 'Questrial', sans-serif;
-  font-size: 96px;
-  font-weight: 400;
-}
 .main {
   padding: 4.5rem 0 0 0;
 }
@@ -50,285 +37,14 @@ section {
   vertical-align: bottom;
 }
 .main .wrap h1 {
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 96px;
+  text-transform: uppercase;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 65px;
 }
 .main .hamburger {
   text-align: right;
-}
-.main .main-slider {
-  padding: 5rem 0;
-}
-.main .main-txt {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #B0B0B0;
-  color: #000000;
-  text-transform: uppercase;
-  line-height: 3.5rem;
-  margin-bottom: 24rem;
-}
-.main .switch-slider-number {
-  height: 2.5rem;
-}
-.main .first-slider {
-  font-family: 'SF_pro_display_reg';
-  font-size: 16px;
-  color: #B0B0B0;
-  display: inline-block;
-  color: #000000;
-  margin-right: 1.65rem;
-}
-.main .second-slider {
-  font-family: 'SF_pro_display_reg';
-  font-size: 16px;
-  color: #B0B0B0;
-  display: inline-block;
-  margin-right: 1.65rem;
-}
-.main .third-slider {
-  font-family: 'SF_pro_display_reg';
-  font-size: 16px;
-  color: #B0B0B0;
-  display: inline-block;
-}
-.main .slider-img {
-  width: 96rem;
-}
-.main .slider-img img {
-  width: 100%;
-}
-.main .create-future-txt p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #B0B0B0;
-  line-height: 1.5rem;
-  text-transform: uppercase;
-}
-.main .under-slider-title h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  font-weight: 600;
-  text-transform: uppercase;
-  line-height: 3.5rem;
-  margin-top: 5rem;
-}
-.main .under-slider-txt p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  line-height: 3.5rem;
-  margin: 3rem 0rem 5rem 0rem;
-}
-.main .projects {
-  background-color: #1A1A1A;
-  height: 143rem;
-}
-.main .projects-container {
-  padding-top: 5rem;
-}
-.main .projects-txt p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  color: #B0B0B0;
-  text-transform: uppercase;
-}
-.main .residents {
-  width: 51.9rem;
-}
-.main .residents-img {
-  margin-top: 11rem;
-}
-.main .residents-txt {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  padding-top: 2rem;
-  display: inline-block;
-  line-height: 2rem;
-}
-.main .residents-arrow {
-  display: inline-block;
-  padding-left: 30.6rem;
-}
-.main .residents-line img {
-  vertical-align: top;
-  margin-top: 1.5rem;
-}
-.main .housing {
-  width: 70rem;
-  margin: 6rem 0rem 0rem 6rem;
-}
-.main .housing-txt {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  padding-top: 2rem;
-  display: inline-block;
-  line-height: 2rem;
-}
-.main .housing-arrow {
-  display: inline-block;
-  margin-left: 47.6rem;
-}
-.main .housing-line img {
-  vertical-align: top;
-  margin-top: 1.5rem;
-}
-.main .inter {
-  width: 52rem;
-  margin: 15rem 0rem 0rem 6rem;
-}
-.main .inter-txt {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  padding-top: 2rem;
-  display: inline-block;
-  line-height: 2rem;
-}
-.main .inter-arrow {
-  display: inline-block;
-  margin-left: 32.8rem;
-}
-.main .inter-line img {
-  vertical-align: top;
-  margin-top: 1.5rem;
-}
-.main .land {
-  width: 54.8rem;
-  margin-left: 9.7rem;
-}
-.main .land-txt {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  padding-top: 2rem;
-  display: inline-block;
-  line-height: 2rem;
-}
-.main .land-arrow {
-  display: inline-block;
-  margin-left: 33.65rem;
-}
-.main .land-line img {
-  vertical-align: top;
-  margin-top: 1.5rem;
-}
-.main .all-projects {
-  margin: 19rem 0rem 0rem 43.6rem;
-}
-.main .all-projects-txt {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  line-height: 2rem;
-  color: #B0B0B0;
-  text-transform: uppercase;
-  display: inline-block;
-}
-.main .all-projects-arrow {
-  display: inline-block;
-}
-.main .all-projects-line img {
-  vertical-align: top;
-}
-.main .about-us {
-  padding-top: 7rem;
-}
-.main .about-us-gray-txt {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #B0B0B0;
-  text-transform: uppercase;
-  margin-bottom: 5rem;
-}
-.main .about-us-title h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: 600;
-  line-height: 3.5rem;
-  margin-bottom: 3rem;
-}
-.main .about-us-img img {
-  width: 100%;
-  margin-bottom: 4rem;
-}
-.main .about-us-txt {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-}
-.main .about-us-read-more {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  text-decoration: underline;
-  color: #B0B0B0;
-  text-align: right;
-  vertical-align: top;
-}
-.main .we-offer {
-  padding-top: 7rem;
-}
-.main .we-offer-gray-txt {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #B0B0B0;
-  text-transform: uppercase;
-  margin-bottom: 5rem;
-}
-.main .we-offer-title h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: 600;
-  line-height: 3.5rem;
-  margin-bottom: 4rem;
-}
-.main .we-offer-arch {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  text-transform: uppercase;
-  display: inline-block;
-  padding-top: 1.5rem;
-}
-.main .we-offer-plus-arch {
-  display: inline-block;
-  padding-left: 40rem;
-}
-.main .we-offer-case-two {
-  margin-top: 1.5rem;
-}
-.main .we-offer-design {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  text-transform: uppercase;
-  display: inline-block;
-}
-.main .we-offer-plus-design {
-  display: inline-block;
-  padding-left: 57.5rem;
-}
-.main .we-offer-case-three {
-  margin-top: 1.5rem;
-}
-.main .we-offer-concept {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  text-transform: uppercase;
-  display: inline-block;
-}
-.main .we-offer-plus-concept {
-  display: inline-block;
-  padding-left: 23.1rem;
 }
 .main .footer-line {
   padding: 12rem 0 9rem 0;
@@ -427,8 +143,7 @@ section {
   font-family: 'Montserrat', sans-serif;
   font-size: 96px;
   text-transform: uppercase;
-  font-weight: 600;
-  color: #FFFFFF;
+  font-weight: 400;
   margin-bottom: 3rem;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -453,8 +168,7 @@ section {
   font-family: 'Montserrat', sans-serif;
   font-size: 96px;
   text-transform: uppercase;
-  font-weight: 600;
-  color: #FFFFFF;
+  font-weight: 400;
   font-size: 32px;
   text-align: right;
   padding-right: 3.5rem;
