@@ -87,6 +87,15 @@ section {
   font-size: 24px;
   text-decoration-line: underline;
 }
+.main .navigation p {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.main .navigation p:hover {
+  cursor: pointer;
+  color: #000;
+  text-decoration: underline;
+}
 .main .object-2 {
   margin: 13.3rem 0 7.5rem 0;
 }
