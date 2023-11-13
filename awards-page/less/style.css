@@ -93,3 +93,83 @@ section {
   vertical-align: top;
   padding: 5rem 0 0 1.4rem;
 }
+.main .footer-line {
+  padding: 12rem 0 9rem 0;
+}
+.main .footer {
+  background-color: #000;
+}
+.main .footer-left-col {
+  margin-top: 90px;
+}
+.main .footer-com-info {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #B0B0B0;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 31.18px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  width: 45%;
+}
+.main .footer-email {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 54px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 31.18px;
+  text-decoration: underline;
+  margin-bottom: 60px;
+}
+.main .footer-company-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 3.6rem;
+  width: 100%;
+  text-align: end;
+  margin-top: 65px;
+  margin-bottom: 70px;
+}
+.main .footer-right-col {
+  margin-top: 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .footer-online-contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.main .online-contact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 3.6rem;
+  font-weight: 500;
+  line-height: 37.42px;
+  color: #FFFFFF;
+  margin-left: 40px;
+  text-decoration: none;
+}
+.main .footer-language-switcher {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  padding-bottom: 65px;
+}
+.main .footer-language-button,
+.main .footer-language-separator {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 24.38px;
+}
+.main .footer-language-separator {
+  margin: auto 10px;
+}
