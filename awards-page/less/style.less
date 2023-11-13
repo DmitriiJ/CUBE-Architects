@@ -1,0 +1,128 @@
+// basic sattings
+html{
+    font-size: 10px;
+}
+
+section{
+    padding: 9rem 0;
+}
+
+
+// font famaly
+
+.montserrat_reg_20(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #B0B0B0;
+    text-transform: uppercase;
+}
+
+.montserrat_reg_24(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 3.6rem;
+}
+
+.montserrat_sbold_25(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.montserrat_sbold_96(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+
+// colors
+@bgn_black: #1A1A1A;
+@txt_white: #FFFFFF;
+@txt_gray: #B0B0B0;
+
+
+
+.main{
+    padding: 4.5rem 0 0 0;
+
+    .ru{
+        display: inline-block;
+        .montserrat_reg_20();
+        color: #000000;
+        text-transform: uppercase;
+        text-decoration: underline;
+        margin-right: 1.2rem;
+        padding-left: 4.5rem;
+    }
+
+    .eng{
+        display: inline-block;
+        .montserrat_reg_20();
+        color: #000000;
+        text-transform: uppercase;
+    }
+
+    .wrap{
+        display: table;
+        width: 100%;
+        height: 152px;
+        &-block{
+            display: table-cell;
+            vertical-align: bottom;
+            padding-left: 4rem;
+        }
+        
+        h1{
+            .montserrat_sbold_96();
+            line-height: 45px;
+        }
+    }
+    
+    .hamburger{
+        text-align: right;
+    }
+
+    .fest-12-arch{
+        margin: 5rem 0 0 6.6rem;
+        &-title{
+            .montserrat_reg_20();
+            margin-bottom: 4rem;
+        }
+        &-txt{
+            .montserrat_reg_24();
+            margin-top: 4rem;
+        }
+
+        &-grandprix{
+            margin: 5rem 5rem 0 0;
+            display: inline-block;
+        }
+        &-dip1degree{
+            display: inline-block;
+        }
+
+        &-dip-txt{
+            display: inline-block;
+            margin-top: 5rem;
+            h3{
+                .montserrat_sbold_25();
+                margin-bottom: 2rem;
+                line-height: 3.5rem; 
+            }
+            p{
+                .montserrat_reg_24(); 
+            }
+        }
+
+        &-dip2degree{
+            display: inline-block;
+            vertical-align: top;
+            padding: 5rem 0 0 1.4rem;
+        }
+    }
+
+    
+}
