@@ -1,4 +1,6 @@
-// basic sattings
+//compress: true
+
+//general-settings
 html{
     font-size: 10px;
 }
@@ -6,7 +8,6 @@ html{
 section{
     padding: 9rem 0;
 }
-
 
 // font famaly
 @font-face {
@@ -70,45 +71,10 @@ section{
 
 
 .main{
-    padding: 4.5rem 0 0 0;
-
-    .ru{
-        display: inline-block;
-        .montserrat_reg_20();
-        color: #000000;
-        text-transform: uppercase;
-        text-decoration: underline;
-        margin-right: 1.2rem;
-    }
-
-    .eng{
-        display: inline-block;
-        .montserrat_reg_20();
-        color: #000000;
-        text-transform: uppercase;
-    }
-
-    .wrap{
-        display: table;
-        width: 100%;
-        height: 152px;
-        &-block{
-            display: table-cell;
-            vertical-align: bottom;
-        }
-        
-        h1{
-            .questrial();
-            line-height: 45px;
-        }
-    }
     
-    .hamburger{
-        text-align: right;
-    }
 
     .main-slider{
-        padding: 5rem 0;
+        padding-bottom:5rem;
     }
 
     .main-txt{
@@ -397,85 +363,6 @@ section{
 
     .footer-line{
         padding: 12rem 0 9rem 0;
-    }
-
-
-    .footer {
-        background-color: #000;
-        
-    }
-    
-    .footer-left-col{
-        margin-top: 90px;
-    }
-    
-    .footer-com-info {
-        .montserrat_reg_20();
-        color: @txt_white;
-        font-size: 20px;
-        line-height: 31.18px;
-        text-transform: uppercase;
-        margin-bottom: 35px;
-        width: 45%;
-    }
-    
-    .footer-email {
-        color: @txt_white;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 54px;
-        text-transform: uppercase;
-        font-weight: 600;
-        line-height: 31.18px;
-        text-decoration: underline;
-        margin-bottom: 60px;
-    }
-    
-    .footer-company-name {
-        .montserrat_reg_24();
-        width: 100%;
-        text-align: end;
-        margin-top: 65px;
-        margin-bottom: 70px;
-    }
-    
-    .footer-right-col{
-        margin-top: 105px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .footer-online-contacts{
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-    }
-    
-    .online-contact{
-        .montserrat_reg_24();
-        font-weight: 500;
-        line-height: 37.42px;
-        color: @txt_white;
-        margin-left: 40px;
-        text-decoration: none;
-    }
-    
-    .footer-language-switcher{
-        display: flex;
-        flex-direction: row;
-        align-self: flex-end;
-        padding-bottom: 65px;
-    }
-    
-    .footer-language-button, .footer-language-separator{
-        .montserrat_reg_20();
-        color: @txt_white;
-        text-decoration: none;
-        line-height: 24.38px;
-    }
-    
-    .footer-language-separator{
-        margin: auto 10px;
     }
 
 
