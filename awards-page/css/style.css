@@ -13,6 +13,7 @@ section {
   font-size: 20px;
   font-weight: 400;
   color: #B0B0B0;
+  line-height: 3rem;
   color: #000000;
   text-transform: uppercase;
   text-decoration: underline;
@@ -25,6 +26,7 @@ section {
   font-size: 20px;
   font-weight: 400;
   color: #B0B0B0;
+  line-height: 3rem;
   color: #000000;
   text-transform: uppercase;
 }
@@ -55,7 +57,7 @@ section {
   font-size: 20px;
   font-weight: 400;
   color: #B0B0B0;
-  text-transform: uppercase;
+  line-height: 3rem;
   margin-bottom: 4rem;
 }
 .main .fest-12-arch-txt {
@@ -93,6 +95,39 @@ section {
   vertical-align: top;
   padding: 5rem 0 0 1.4rem;
 }
+.main .section {
+  background-color: #1a1a1a;
+}
+.main .fest-14-arch {
+  margin-top: 7rem;
+  padding: 7rem 0 7rem 0;
+}
+.main .fest-14-arch-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  line-height: 3rem;
+  padding-left: 11.5rem;
+}
+.main .fest-14-arch-img-dip1degree {
+  margin-top: 5rem;
+  display: inline-block;
+}
+.main .fest-14-arch-txt-up {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  line-height: 3rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 7rem;
+  padding-left: 6rem;
+}
+.main .fest-14-arch-txt-up img {
+  padding-top: 6rem;
+}
 .main .footer-line {
   padding: 12rem 0 9rem 0;
 }
@@ -106,6 +141,7 @@ section {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #B0B0B0;
+  line-height: 3rem;
   color: #ffffff;
   font-size: 20px;
   line-height: 31.18px;
@@ -185,7 +221,7 @@ section {
   font-size: 20px;
   font-weight: 400;
   color: #B0B0B0;
-  text-transform: uppercase;
+  line-height: 3rem;
   color: #ffffff;
   text-decoration: none;
   line-height: 24.38px;
