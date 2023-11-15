@@ -136,21 +136,19 @@ section {
 }
 .main .fest-14-arch-center-txt {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #B0B0B0;
-  line-height: 3rem;
+  font-size: 24px;
+  line-height: 3.6rem;
   padding-top: 2rem;
+  color: #B0B0B0;
 }
 .main .fest-14-arch-right {
   margin: 51rem 0 0 1.2rem;
 }
 .main .fest-14-arch-right-txt {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 24px;
+  line-height: 3.6rem;
   color: #B0B0B0;
-  line-height: 3rem;
   padding-top: 2rem;
 }
 .main .photo-awards-title {
@@ -168,15 +166,65 @@ section {
 .main .photo-awards-txtdown {
   width: 31.7rem;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #B0B0B0;
-  line-height: 3rem;
+  font-size: 24px;
+  line-height: 3.6rem;
   color: #000;
   margin: 6rem 0 0 6.6rem;
 }
 .main .photo-awards-imgdown {
   padding-top: 6rem;
+}
+.main .other-awards-title {
+  padding: 7rem 0 0 6.6rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+.main .other-awards-titletxt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 3rem 0 0 6.6rem;
+}
+.main .other-awards-img-greenurban {
+  padding: 2rem 0 0 6.6rem;
+  display: inline-block;
+}
+.main .other-awards-txt-greenurban {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 3.6rem;
+  color: #FFFFFF;
+  display: inline-block;
+  width: 34.7rem;
+  vertical-align: top;
+  margin: 1.2rem 0 0 4rem;
+}
+.main .other-awards-txt-leo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  line-height: 3rem;
+  padding-top: 10rem;
+}
+.main .other-awards-img-leo {
+  padding: 5rem 0 9rem 0;
+}
+.main .other-awards-img-yellow {
+  padding: 9.5rem 0 0 5rem;
+}
+.main .other-awards-txt-yellow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 3.6rem;
+  color: #FFFFFF;
+  padding: 4rem 0 0 5rem;
 }
 .main .footer-line {
   padding: 12rem 0 9rem 0;
