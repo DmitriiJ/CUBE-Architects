@@ -153,6 +153,31 @@ section {
   line-height: 3rem;
   padding-top: 2rem;
 }
+.main .photo-awards-title {
+  padding: 7rem 0 0 6.6rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+.main .photo-awards-img {
+  padding: 3rem 0 0 6.6rem;
+}
+.main .photo-awards-txtdown {
+  width: 31.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  line-height: 3rem;
+  color: #000;
+  margin: 6rem 0 0 6.6rem;
+}
+.main .photo-awards-imgdown {
+  padding-top: 6rem;
+}
 .main .footer-line {
   padding: 12rem 0 9rem 0;
 }
