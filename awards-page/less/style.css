@@ -100,7 +100,7 @@ section {
 }
 .main .fest-14-arch {
   margin-top: 7rem;
-  padding: 7rem 0 7rem 0;
+  padding: 7rem 0 7rem 1rem;
 }
 .main .fest-14-arch-title {
   font-family: 'Montserrat', sans-serif;
@@ -110,41 +110,48 @@ section {
   line-height: 3rem;
   padding-left: 11.5rem;
 }
-.main .fest-14-arch-img-dip1degree {
-  margin-top: 5rem;
-  display: inline-block;
+.main .fest-14-arch-left {
+  padding-top: 6rem;
 }
-.main .fest-14-arch-txt-up {
+.main .fest-14-arch-center {
+  margin: 10rem 0 0 0.7rem;
+}
+.main .fest-14-arch-center-uptxt {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 400;
   color: #B0B0B0;
   line-height: 3rem;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 7rem;
-  padding-left: 6rem;
 }
-.main .fest-14-arch-txt-up img {
+.main .fest-14-arch-center-img {
   padding-top: 6rem;
 }
-.main .fest-14-arch-txt-up h3 {
+.main .fest-14-arch-center-title {
+  padding-top: 7.5rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   text-transform: uppercase;
   font-weight: 600;
   color: #FFFFFF;
-  line-height: 3.5rem;
-  padding-top: 7.5rem;
 }
-.main .fest-14-arch-txt-up p {
+.main .fest-14-arch-center-txt {
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  line-height: 3.6rem;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  line-height: 3rem;
   padding-top: 2rem;
 }
-.main .fest-14-arch .gg {
-  display: inline-block;
+.main .fest-14-arch-right {
+  margin: 51rem 0 0 1.2rem;
+}
+.main .fest-14-arch-right-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  line-height: 3rem;
+  padding-top: 2rem;
 }
 .main .footer-line {
   padding: 12rem 0 9rem 0;
