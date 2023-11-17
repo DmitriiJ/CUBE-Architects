@@ -1,11 +1,11 @@
 //compress: true
 
 //general-settings
-html{
+html {
     font-size: 10px;
 }
 
-section{
+section {
     padding: 9rem 0;
 }
 
@@ -23,32 +23,32 @@ section{
     font-display: swap;
 }
 
-.SF_reg (){
+.SF_reg () {
     font-family: 'SF_pro_display_reg';
     font-size: 16px;
     color: #B0B0B0;
 }
 
-.montserrat_reg_20(){
+.montserrat_reg_20() {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
     color: #B0B0B0;
 }
 
-.montserrat_reg_24(){
+.montserrat_reg_24() {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
 }
 
-.montserrat_sbold_25(){
+.montserrat_sbold_25() {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 600;
 }
 
-.montserrat_sbold_96(){
+.montserrat_sbold_96() {
     font-family: 'Montserrat', sans-serif;
     font-size: 96px;
     text-transform: uppercase;
@@ -56,7 +56,7 @@ section{
     color: @txt_white;
 }
 
-.questrial{
+.questrial {
     font-family: 'Questrial', sans-serif;
     font-size: 96px;
     font-weight: 400;
@@ -70,14 +70,18 @@ section{
 
 
 
-.main{
-    
-
-    .main-slider{
-        padding-bottom:5rem;
+.main {
+    .left-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
-    .main-txt{
+    .main-slider {
+        padding-bottom: 5rem;
+    }
+
+    .main-txt {
         .montserrat_reg_20();
         color: #000000;
         text-transform: uppercase;
@@ -86,75 +90,78 @@ section{
     }
 
 
-    .switch-slider-number{
+    .switch-slider-number {
         height: 2.5rem;
     }
 
-    .first-slider{
+    .first-slider {
         .SF_reg();
         display: inline-block;
-        color:#000000;
+        color: #000000;
         margin-right: 1.65rem;
     }
 
-    .second-slider{
+    .second-slider {
         .SF_reg();
         display: inline-block;
         margin-right: 1.65rem;
     }
 
-    .third-slider{
+    .third-slider {
         .SF_reg();
-        display:inline-block;
+        display: inline-block;
     }
 
-    .slider-img{
+    .slider-img {
         width: 96rem;
-        & img{
+
+        & img {
             width: 100%;
         }
     }
 
-    .create-future-txt p{
+    .create-future-txt p {
         .montserrat_reg_20();
         line-height: 1.5rem;
         text-transform: uppercase;
     }
 
-    .under-slider-title h1{
+    .under-slider-title h1 {
         .montserrat_sbold_25();
         text-transform: uppercase;
         line-height: 3.5rem;
         margin-top: 5rem;
     }
 
-    .under-slider-txt p{
+    .under-slider-txt p {
         .montserrat_reg_24();
         line-height: 3.5rem;
         margin: 3rem 0rem 5rem 0rem;
     }
 
-    .projects{
+    .projects {
         background-color: @bgn_black;
         height: 143rem;
-        &-container{
+
+        &-container {
             padding-top: 5rem;
         }
     }
 
-    .projects-txt p{
+    .projects-txt p {
         .montserrat_reg_24();
         color: @txt_gray;
         text-transform: uppercase;
     }
 
-    .residents{
+    .residents {
         width: 51.9rem;
-        &-img{
+
+        &-img {
             margin-top: 11rem;
         }
 
-        &-txt{
+        &-txt {
             .montserrat_reg_24();
             color: @txt_white;
             text-transform: uppercase;
@@ -163,22 +170,22 @@ section{
             line-height: 2rem;
         }
 
-        &-arrow{
+        &-arrow {
             display: inline-block;
             padding-left: 30.6rem;
         }
 
-        &-line img{
+        &-line img {
             vertical-align: top;
             margin-top: 1.5rem;
         }
     }
 
-    .housing{
+    .housing {
         width: 70rem;
         margin: 6rem 0rem 0rem 6rem;
-        
-        &-txt{
+
+        &-txt {
             .montserrat_reg_24();
             color: @txt_white;
             text-transform: uppercase;
@@ -187,22 +194,22 @@ section{
             line-height: 2rem;
         }
 
-        &-arrow{
+        &-arrow {
             display: inline-block;
             margin-left: 47.6rem;
         }
 
-        &-line img{
+        &-line img {
             vertical-align: top;
             margin-top: 1.5rem;
         }
     }
 
-    .inter{
+    .inter {
         width: 52rem;
         margin: 15rem 0rem 0rem 6rem;
 
-        &-txt{
+        &-txt {
             .montserrat_reg_24();
             color: @txt_white;
             text-transform: uppercase;
@@ -211,22 +218,22 @@ section{
             line-height: 2rem;
         }
 
-        &-arrow{
+        &-arrow {
             display: inline-block;
             margin-left: 32.8rem;
         }
 
-        &-line img{
+        &-line img {
             vertical-align: top;
             margin-top: 1.5rem;
         }
     }
 
-    .land{
+    .land {
         width: 54.8rem;
         margin-left: 9.7rem;
 
-        &-txt{
+        &-txt {
             .montserrat_reg_24();
             color: @txt_white;
             text-transform: uppercase;
@@ -235,21 +242,21 @@ section{
             line-height: 2rem;
         }
 
-        &-arrow{
+        &-arrow {
             display: inline-block;
             margin-left: 33.65rem;
         }
 
-        &-line img{
+        &-line img {
             vertical-align: top;
             margin-top: 1.5rem;
         }
     }
 
-    .all-projects{
+    .all-projects {
         margin: 19rem 0rem 0rem 43.6rem;
 
-        &-txt{
+        &-txt {
             .montserrat_reg_24();
             line-height: 2rem;
             color: @txt_gray;
@@ -257,111 +264,111 @@ section{
             display: inline-block;
         }
 
-        &-arrow{
+        &-arrow {
             display: inline-block;
         }
 
-        &-line img{
+        &-line img {
             vertical-align: top;
         }
     }
 
-    .about-us{
+    .about-us {
         padding-top: 7rem;
 
-        &-gray-txt{
+        &-gray-txt {
             .montserrat_reg_20();
             text-transform: uppercase;
             margin-bottom: 5rem;
         }
 
-        &-title h1{
+        &-title h1 {
             .montserrat_sbold_25();
             font-weight: 600;
             line-height: 3.5rem;
             margin-bottom: 3rem;
         }
 
-        &-img img{
+        &-img img {
             width: 100%;
             margin-bottom: 4rem;
         }
 
-        &-txt{
+        &-txt {
             .montserrat_reg_24();
         }
 
-        &-read-more{
+        &-read-more {
             font-family: 'Montserrat', sans-serif;
             font-size: 16px;
             text-decoration: underline;
-            color:#B0B0B0;
+            color: #B0B0B0;
             text-align: right;
             vertical-align: top;
         }
     }
 
-    .we-offer{
+    .we-offer {
         padding-top: 7rem;
 
-        &-gray-txt{
+        &-gray-txt {
             .montserrat_reg_20();
             text-transform: uppercase;
             margin-bottom: 5rem;
         }
 
-        &-title h1{
+        &-title h1 {
             .montserrat_sbold_25();
             font-weight: 600;
             line-height: 3.5rem;
             margin-bottom: 4rem;
         }
 
-        &-arch{
+        &-arch {
             .montserrat_reg_24();
             text-transform: uppercase;
-            display: inline-block; 
+            display: inline-block;
             padding-top: 1.5rem;
         }
 
-        &-plus-arch{
+        &-plus-arch {
             display: inline-block;
             padding-left: 40rem;
         }
 
-        &-case-two{
+        &-case-two {
             margin-top: 1.5rem;
         }
 
-        &-design{
+        &-design {
             .montserrat_reg_24();
             text-transform: uppercase;
-            display: inline-block; 
+            display: inline-block;
         }
 
-        &-plus-design{
+        &-plus-design {
             display: inline-block;
             padding-left: 57.5rem;
         }
 
-        &-case-three{
+        &-case-three {
             margin-top: 1.5rem;
         }
 
-        &-concept{
+        &-concept {
             .montserrat_reg_24();
             text-transform: uppercase;
-            display: inline-block; 
+            display: inline-block;
         }
 
-        &-plus-concept{
+        &-plus-concept {
             display: inline-block;
             padding-left: 23.1rem;
         }
     }
 
 
-    .footer-line{
+    .footer-line {
         padding: 12rem 0 9rem 0;
     }
 
@@ -371,7 +378,7 @@ section{
 
 
 //menuuuuuuuuuuuuuuuuuuuuuuuu
-.main-menu{
+.main-menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -379,57 +386,59 @@ section{
     height: 100%;
     background-color: @bgn_black;
 
-    .menu-txt{
+    .menu-txt {
         padding: 2rem 0 0 6rem;
         width: 70rem;
         display: inline-block;
-        a{
+
+        a {
             text-decoration: none;
-            h1{
+
+            h1 {
                 .montserrat_sbold_96();
                 margin-bottom: 3rem;
                 -webkit-transition: all 0.5s ease;
-                transition: all 0.5s ease; /* Время изменения цвета */
+                transition: all 0.5s ease;
+                /* Время изменения цвета */
             }
 
-            h1:hover{
+            h1:hover {
                 cursor: pointer;
-                color: #000; /* Меняем цвет ссылки */
-                -webkit-text-stroke: 1px #FFFFFF; /* Толщина и цвет обводки */
+                color: #000;
+                /* Меняем цвет ссылки */
+                -webkit-text-stroke: 1px #FFFFFF;
+                /* Толщина и цвет обводки */
                 //text-stroke: 1px @txt_white;
             }
 
-            
+
         }
-        
+
     }
 
-    .cross{
+    .cross {
         display: inline-block;
         vertical-align: top;
         padding-left: 4rem;
     }
 
-    .menu-logo{
+    .menu-logo {
         display: inline-block;
         position: absolute;
         right: 0;
         top: 0;
     }
 
-    .mail{
+    .mail {
         .montserrat_sbold_96();
         font-size: 32px;
         text-align: right;
         padding-right: 3.5rem;
-        line-height: 0rem; 
+        line-height: 0rem;
     }
-    
-    .line-menu{
+
+    .line-menu {
         float: bottom;
         width: 100%;
     }
 }
-
-
-

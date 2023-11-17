@@ -5,11 +5,7 @@
   */
 
 
-.left-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 
 .slider-indicator-container {
   font-family: "SF Pro Display", sans-serif;
