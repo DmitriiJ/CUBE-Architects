@@ -47,13 +47,22 @@
   transition-duration: 0.5s;
 }
 
+.slider-container{
+  display: flex;
+}
+
+.pres-interrier-slider-card{
+  width: 100%;
+}
 
 /* стили для корневого элемента слайдера */
 .itcss {
   position: relative;
-  max-width: 600px;
+  max-height: 100%;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 /* стили для wrapper */
@@ -70,6 +79,7 @@
   backface-visibility: hidden;
   transition: transform 0.5s ease;
   will-change: transform;
+  /* right: 50vw; */
 }
 
 /* стили для элементов */
@@ -80,6 +90,7 @@
   transform-style: preserve-3d;
   backface-visibility: hidden;
   will-change: transform;
+
 }
 
 /* кнопки Prev и Next */
