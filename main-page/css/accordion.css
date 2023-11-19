@@ -2,6 +2,7 @@
 
     .about-accordion-list {
         padding: 0;
+        margin: 0;
     }
 
     .about-accordion-list-part {
@@ -19,7 +20,9 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: start;
-        margin: 15px 0 10px 0;
+        padding: 15px 0 10px 0;
+        background-color: #fff;
+        
     }
 
     .about-accordion-heading-text {
@@ -31,9 +34,9 @@
 
     .about-accordion-heading-icon {
         background-color: #B0B0B0;
-        -webkit-clip-path: polygon(0 48%, 48% 48%, 48% 0, 52% 0, 52% 48%, 100% 48%, 100% 52%, 52% 52%, 52% 100%, 48% 100%, 48% 52%, 0 52%);
+        /* -webkit-clip-path: polygon(0 48%, 48% 48%, 48% 0, 52% 0, 52% 48%, 100% 48%, 100% 52%, 52% 52%, 52% 100%, 48% 100%, 48% 52%, 0 52%); */
         clip-path: polygon(0 48%, 48% 48%, 48% 0, 52% 0, 52% 48%, 100% 48%, 100% 52%, 52% 52%, 52% 100%, 48% 100%, 48% 52%, 0 52%);
-        transition-duration: 0.5s;
+        /* transition-duration: 0.5s; */
         width: 30px;
         height: 30px;
     }
@@ -42,7 +45,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: start;
+        background-color: #fff;
     }
 
     .about-accordion-text-content {
@@ -53,9 +57,10 @@
     }
 
     .about-accordion-image-content {
-        margin: auto auto 20px auto;
+        margin: 0 auto 20px auto;
         width: 20%;
-        height: 20%;
+        height: auto;
+        overflow: hidden;
     }
 
     .about-accordion-separator {
@@ -72,19 +77,19 @@
 
     .about-accordion-content-container {
         transition-duration: 0.5s;
-        max-height: 0;
-        height: auto;
+        /* max-height: 0; */
+        z-index: -1;
+        height: 0;
     }
 
     .about-accordion-text-content {
         transition-duration: 0.5s;
         height: auto;
-        z-index: -1;
         overflow: hidden;
         outline: none;
     }
 
     .about-accordion-image-content {
         transition-duration: 0.5s;
-        max-height: 0;
+        /* max-height: 0; */
     }

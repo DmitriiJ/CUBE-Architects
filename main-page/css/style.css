@@ -19,6 +19,7 @@ section {
 }
 .main {
   padding: 4.5rem 0 0 0;
+  background-color: #fff;
 }
 .main .ru {
   display: inline-block;
