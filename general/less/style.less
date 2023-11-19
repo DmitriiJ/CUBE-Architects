@@ -84,11 +84,190 @@
         }
     }
 
+    .hamburger-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: end;
+
+    }
+
     .hamburger {
+        display: flex;
+        flex-direction: column;
         text-align: right;
+        margin: 0 0 0 auto;
+        padding: 10px 0;
+        transition-duration: 0.2s;
+        justify-content: space-between;
+        height: 40px;
+    }
+
+    .hamburger:hover {
+        cursor: pointer;
+        background-color: #000;
+
+    }
+
+    .hamburger-line {
+        background-color: #000;
+        width: 3vw;
+        height: 5px;
+        transition-duration: 0.2s;
+    }
+
+    .hamburger:hover .hamburger-line {
+        background-color: #fff;
     }
 }
 
+
+//menuuuuuuuuuuuuuuuuuuuuuuuu
+.main-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: @bgn_black;
+
+    .menu-txt {
+        padding: 2rem 0 0 6rem;
+        width: 70rem;
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+
+            h1 {
+                .montserrat_sbold_96();
+                margin-bottom: 3rem;
+                -webkit-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+                /* Время изменения цвета */
+            }
+
+            h1:hover {
+                cursor: pointer;
+                color: #000;
+                /* Меняем цвет ссылки */
+                -webkit-text-stroke: 1px #FFFFFF;
+                /* Толщина и цвет обводки */
+                //text-stroke: 1px @txt_white;
+            }
+
+
+        }
+
+    }
+
+
+    .cross {
+        rotate: 45deg;
+        transition-duration: 0.2s;
+        height: 70px;
+        width: 70px;
+        margin-top: 30px;  
+    }
+
+    .cross:hover {
+        rotate: -45deg;
+        cursor: pointer;
+    }
+
+    .cross-figure{
+        clip-path: polygon(0 48%, 48% 48%, 48% 0, 52% 0, 52% 48%, 100% 48%, 100% 52%, 52% 52%, 52% 100%, 48% 100%, 48% 52%, 0 52%);
+        width: 100%;
+        height: 100%;
+        background-color: #b0b0b0;
+    }
+
+    .menu-logo {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .mail {
+        .montserrat_sbold_96();
+        font-size: 32px;
+        text-align: right;
+        padding-right: 3.5rem;
+        line-height: 0rem;
+    }
+
+    .line-menu {
+        float: bottom;
+        width: 100%;
+    }
+}
+
+.main-menu {
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    z-index: 10;
+    transition-duration: 0.5s;
+
+    .main-menu .menu-txt {
+        padding: 2rem 0 0 6rem;
+        width: 70rem;
+        display: inline-block;
+    }
+
+    .main-menu .menu-txt a {
+        text-decoration: none;
+    }
+
+    .main-menu .menu-txt a h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 96px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #ffffff;
+        margin-bottom: 3rem;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.2s ease;
+        /* Время изменения цвета */
+    }
+
+    .main-menu .menu-txt a h1:hover {
+        cursor: pointer;
+        color: #000;
+        /* Меняем цвет ссылки */
+        -webkit-text-stroke: 1px #FFFFFF;
+        /* Толщина и цвет обводки */
+    }
+
+
+    .main-menu .menu-logo {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .main-menu .mail {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 96px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 32px;
+        text-align: right;
+        padding-right: 3.5rem;
+        line-height: 0rem;
+    }
+
+    .main-menu .line-menu {
+        float: bottom;
+        width: 100%;
+    }
+}
 
 
 
