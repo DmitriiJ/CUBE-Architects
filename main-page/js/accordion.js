@@ -44,13 +44,13 @@ function changeAccordionPartContent(accordPart) {
 function showPlusIcon(accordPart) {
     let accordPlusIcon = accordPart.querySelector('.about-accordion-heading-icon');
     accordPlusIcon.style.clipPath = 'polygon(0 48%, 48% 48%, 48% 0, 52% 0, 52% 48%, 100% 48%, 100% 52%, 52% 52%, 52% 100%, 48% 100%, 48% 52%, 0 52%)';
-    // accordPlusIcon.style.transform = 'rotate(0deg)';
+    accordPlusIcon.style.transform = 'rotate(0deg)';
 }
 
 function showMinusIcon(accordPart) {
     let accordPlusIcon = accordPart.querySelector('.about-accordion-heading-icon');
-    accordPlusIcon.style.clipPath = 'polygon(48% 0, 52% 0, 52% 100%, 48% 100%)';
-    // accordPlusIcon.style.transform = 'rotate(90deg)';
+    accordPlusIcon.style.clipPath = 'polygon(0 48%, 48% 48%, 48% 48%, 52% 48%, 52% 48%, 100% 48%, 100% 52%, 52% 52%, 52% 52%, 48% 52%, 48% 52%, 0 52%)';
+    accordPlusIcon.style.transform = 'rotate(180deg)';
 }
 
 //accordion end

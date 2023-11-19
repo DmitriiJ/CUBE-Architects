@@ -22,7 +22,7 @@
         align-items: start;
         padding: 15px 0 10px 0;
         background-color: #fff;
-        
+
     }
 
     .about-accordion-heading-text {
@@ -36,7 +36,7 @@
         background-color: #B0B0B0;
         /* -webkit-clip-path: polygon(0 48%, 48% 48%, 48% 0, 52% 0, 52% 48%, 100% 48%, 100% 52%, 52% 52%, 52% 100%, 48% 100%, 48% 52%, 0 52%); */
         clip-path: polygon(0 48%, 48% 48%, 48% 0, 52% 0, 52% 48%, 100% 48%, 100% 52%, 52% 52%, 52% 100%, 48% 100%, 48% 52%, 0 52%);
-        /* transition-duration: 0.5s; */
+        transition: all 0.5s ease;
         width: 30px;
         height: 30px;
     }
