@@ -1,0 +1,419 @@
+// basic sattings
+html{
+    font-size: 10px;
+}
+
+section{
+    padding: 9rem 0;
+}
+
+
+// font famaly
+.montserrat_reg_16(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B0B0B0;
+    text-transform: uppercase;
+}
+
+.montserrat_reg_20(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #B0B0B0;
+}
+
+.montserrat_reg_24(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.montserrat_sbold_25(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.montserrat_sbold_96(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+
+// colors
+@bgn_black: #1A1A1A;
+@txt_white: #FFFFFF;
+@txt_gray: #B0B0B0;
+
+
+
+.main{
+    padding: 4.5rem 0 0 0;
+
+    .ru{
+        margin-left: 10.8rem;
+        display: inline-block;
+        .montserrat_reg_20();
+        color: #000000;
+        text-transform: uppercase;
+        text-decoration: underline;
+        margin-right: 1.2rem;
+    }
+
+    .eng{
+        display: inline-block;
+        .montserrat_reg_20();
+        color: #000000;
+        text-transform: uppercase;
+    }
+
+    .wrap{
+        display: table;
+        width: 100%;
+        height: 152px;
+        &-block{
+            display: table-cell;
+            vertical-align: bottom;
+        }
+        
+        h1{
+            .montserrat_sbold_96();
+            line-height: 65px;
+            margin-left: 10.2rem;
+        }
+    }
+    
+    .hamburger{
+        text-align: right;
+    }
+
+    
+    .main-projects{
+        padding-top: 5rem;
+    }
+
+    .object-1{
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: inline-block;
+            padding-left: 21.8rem;
+        }
+    }
+
+    .navigation{
+        .montserrat_reg_24();
+        color: #B0B0B0;
+        .all-projects{
+            color:#000;
+            .montserrat_sbold_25();
+            font-size: 24px;
+            text-decoration-line: underline;
+        }
+        p{
+            -webkit-transition: all 0.7s ease;
+            transition: all 0.7s ease; //Время изменения цвета */
+        }
+
+        p:hover{
+            cursor: pointer;
+            color: #000; // Меняем цвет ссылки
+            text-decoration: underline;
+        }
+    }
+
+
+
+    .object-2{
+        margin: 13.3rem 0 7.5rem 0;
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: inline-block;
+            padding-left: 30rem;
+        }
+    }
+
+    .section{
+        background-color: @bgn_black;
+    }
+
+    .object-3{
+        margin-top: 13.3rem;
+        &-txt{
+            .montserrat_reg_16();
+            color: @txt_white;
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            color: @txt_white;
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: inline-block;
+            padding-left: 21.8rem;
+            color: @txt_white;
+        }
+    }
+
+    .object-4{
+        margin: 9.5rem 0 9.5rem 0;
+        width: 100%;
+        &-txt{
+            .montserrat_reg_16();
+            color: @txt_white;
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            color: @txt_white;
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: inline-block;
+            padding-left: 42.3rem;
+            color: @txt_white;
+        }
+    }
+
+    .object-5{
+        margin: 9.5rem 0 0 0;
+        width: 100%;
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: inline-block;
+            padding-left: 24.8rem;
+        }
+    }
+
+    .object-6{
+        margin-top: 15.3rem;
+        width: 100%;
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: inline-block;
+            padding-left: 21.8rem;
+        }
+    }
+
+    .object-7{
+        margin: 4.8rem 0 0 7rem;
+        width: 100%;
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: inline-block;
+            padding-left: 30rem;
+        }
+    }
+
+    .footer-line{
+        padding: 12rem 0 9rem 0;
+    }
+
+
+    .footer {
+        background-color: #000;
+        
+    }
+    
+    .footer-left-col{
+        margin-top: 90px;
+    }
+    
+    .footer-com-info {
+        .montserrat_reg_20();
+        color: @txt_white;
+        font-size: 20px;
+        line-height: 31.18px;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+        width: 45%;
+    }
+    
+    .footer-email {
+        color: @txt_white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 54px;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 31.18px;
+        text-decoration: underline;
+        margin-bottom: 60px;
+    }
+    
+    .footer-company-name {
+        .montserrat_reg_24();
+        width: 100%;
+        text-align: end;
+        margin-top: 65px;
+        margin-bottom: 70px;
+    }
+    
+    .footer-right-col{
+        margin-top: 105px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .footer-online-contacts{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    
+    .online-contact{
+        .montserrat_reg_24();
+        font-weight: 500;
+        line-height: 37.42px;
+        color: @txt_white;
+        margin-left: 40px;
+        text-decoration: none;
+    }
+    
+    .footer-language-switcher{
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        padding-bottom: 65px;
+    }
+    
+    .footer-language-button-ru, .footer-language-separator{
+        .montserrat_reg_20();
+        color: @txt_white;
+        text-decoration: none;
+        line-height: 24.38px;
+        text-decoration: underline;
+    }
+
+    .footer-language-button-eng{
+        .montserrat_reg_20();
+        color: @txt_white;
+        text-decoration: none;
+        line-height: 24.38px;
+    }
+    
+    .footer-language-separator{
+        margin: auto 10px;
+    }
+
+
+}
+
+
+//menuuuuuuuuuuuuuuuuuuuuuuuu
+.main-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: @bgn_black;
+
+    .menu-txt{
+        padding: 2rem 0 0 6rem;
+        width: 70rem;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            h1{
+                .montserrat_sbold_96();
+                color: @txt_white;
+                text-transform: uppercase;
+                margin-bottom: 3rem;
+                -webkit-transition: all 0.5s ease;
+                transition: all 0.5s ease; //Время изменения цвета */
+            }
+
+            h1:hover{
+                cursor: pointer;
+                color: #000; // Меняем цвет ссылки
+                -webkit-text-stroke: 1px #FFFFFF; // Толщина и цвет обводки
+            }
+
+            
+        }
+        
+    }
+
+    .cross{
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 4rem;
+    }
+
+    .menu-logo{
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .mail{
+        .montserrat_sbold_96();
+        color: @txt_white;
+        text-transform: uppercase;
+        font-size: 32px;
+        text-align: right;
+        padding-right: 3.5rem;
+        line-height: 0rem; 
+    }
+    
+    .line-menu{
+        float: bottom;
+        width: 100%;
+    }
+}
