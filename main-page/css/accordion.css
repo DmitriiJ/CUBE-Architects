@@ -22,14 +22,15 @@
         align-items: start;
         padding: 15px 0 10px 0;
         background-color: #fff;
-
     }
 
     .about-accordion-heading-text {
         color: #000;
         text-transform: uppercase;
         font-weight: 400;
-        font-size: 24px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        line-height: 3rem;
     }
 
     .about-accordion-heading-icon {
@@ -52,8 +53,8 @@
     .about-accordion-text-content {
         color: #000;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
     }
 
     .about-accordion-image-content {
