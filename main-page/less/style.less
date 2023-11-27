@@ -29,6 +29,19 @@
     color: #B0B0B0;
 }
 
+.montserrat_reg_16() {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B0B0B0;
+}
+
+.montserrat_reg_18() {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .montserrat_reg_20() {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -82,10 +95,10 @@
     }
 
     .main-txt {
-        .montserrat_reg_20();
+        .montserrat_reg_16();
         color: #000000;
         text-transform: uppercase;
-        line-height: 3.5rem;
+        line-height: 3rem;
         margin-bottom: 24rem;
     }
 
@@ -121,22 +134,23 @@
     }
 
     .create-future-txt p {
-        .montserrat_reg_20();
-        line-height: 1.5rem;
+        .montserrat_reg_16();
+        line-height: 1.2rem;
         text-transform: uppercase;
     }
 
     .under-slider-title h1 {
-        .montserrat_sbold_25();
+        .montserrat_reg_24();
         text-transform: uppercase;
-        line-height: 3.5rem;
-        margin-top: 5rem;
+        font-weight: 400;
+        line-height: 3.8rem;
+        margin-top: 4rem;
     }
 
     .under-slider-txt p {
-        .montserrat_reg_24();
+        .montserrat_reg_18();
         line-height: 3.5rem;
-        margin: 3rem 0rem 5rem 0rem;
+        margin: 2rem 0rem 5rem 0rem;
     }
 
     .projects {
@@ -258,10 +272,14 @@
 
         &-txt {
             .montserrat_reg_24();
-            line-height: 2rem;
+            line-height: 1.5rem;
             color: @txt_gray;
             text-transform: uppercase;
             display: inline-block;
+        }
+
+        &-txt:hover {
+            cursor: pointer;
         }
 
         &-arrow {
@@ -274,18 +292,19 @@
     }
 
     .about-us {
-        padding-top: 7rem;
+        padding-top: 5rem;
 
         &-gray-txt {
-            .montserrat_reg_20();
+            .montserrat_reg_16();
             text-transform: uppercase;
-            margin-bottom: 5rem;
+            margin-bottom: 3rem;
         }
 
         &-title h1 {
-            .montserrat_sbold_25();
-            font-weight: 600;
-            line-height: 3.5rem;
+            .montserrat_reg_24();
+            text-transform: uppercase;
+            font-weight: 400;
+            line-height: 3.8rem;
             margin-bottom: 3rem;
         }
 
@@ -295,16 +314,8 @@
         }
 
         &-txt {
-            .montserrat_reg_24();
-        }
-
-        &-read-more {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 16px;
-            text-decoration: underline;
-            color: #B0B0B0;
-            text-align: right;
-            vertical-align: top;
+            .montserrat_reg_18();
+            line-height: 3.5rem;
         }
     }
 
@@ -312,20 +323,22 @@
         padding-top: 7rem;
 
         &-gray-txt {
-            .montserrat_reg_20();
+            .montserrat_reg_16();
             text-transform: uppercase;
-            margin-bottom: 5rem;
+            margin-bottom: 3rem;
         }
 
         &-title h1 {
-            .montserrat_sbold_25();
-            font-weight: 600;
-            line-height: 3.5rem;
+            .montserrat_reg_24();
+            font-weight: 400;
+            line-height: 3.8rem;
+            text-transform: uppercase;
             margin-bottom: 4rem;
         }
 
         &-arch {
-            .montserrat_reg_24();
+            .montserrat_reg_18();
+            font-weight: 400;
             text-transform: uppercase;
             display: inline-block;
             padding-top: 1.5rem;

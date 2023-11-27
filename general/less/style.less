@@ -35,11 +35,17 @@ html{
     font-weight: 600;
 }
 
-.montserrat_sbold_96() {
+.montserrat_reg_81() {
     font-family: 'Montserrat', sans-serif;
-    font-size: 96px;
+    font-size: 81px;
+    font-weight: 300;
+}
+
+.montserrat_sbold_64() {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     color: @txt_white;
 }
 
@@ -57,7 +63,7 @@ html{
 @txt_gray: #B0B0B0;
 
 .header {
-    padding: 45px 0 50px 0;
+    padding: 25px 0 50px 0;
 
     .ru {
         display: inline-block;
@@ -95,7 +101,7 @@ html{
             justify-content: flex-start;
             display: flex;
             flex-direction: column;
-            .questrial();
+            .montserrat_reg_81();
         }
     }
 
@@ -152,14 +158,14 @@ html{
 
 
     .menu-txt {
-        padding: 2rem 0 0 6rem;
+        padding: 3rem 0 0 6rem;
 
         // width: 70rem;
         a {
             text-decoration: none;
 
             h1 {
-                .montserrat_sbold_96();
+                .montserrat_sbold_64();
                 margin-bottom: 3rem;
                 -webkit-transition: all 0.5s ease;
                 transition: all 0.5s ease;
@@ -175,7 +181,9 @@ html{
                 // text-stroke: 1px @txt_white;
             }
 
-
+            .last-link{
+                margin-bottom: 12rem;
+            }
         }
 
     }
@@ -218,11 +226,12 @@ html{
     }
 
     .mail {
-        .montserrat_sbold_96();
-        font-size: 32px;
+        .montserrat_sbold_64();
+        font-size: 25px;
         text-align: right;
         padding-right: 3.5rem;
         line-height: 0rem;
+        margin-bottom: 15px;
     }
 
     .mail-underline {
@@ -255,9 +264,9 @@ html{
     .footer-email {
         color: @txt_white;
         font-family: 'Montserrat', sans-serif;
-        font-size: 54px;
+        font-size: 36px;
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 400;
         line-height: 31.18px;
         text-decoration: underline;
         margin-bottom: 60px;
