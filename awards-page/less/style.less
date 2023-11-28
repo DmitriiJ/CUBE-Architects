@@ -1,16 +1,15 @@
-//compress: true
-
-// // basic sattings
-// html{
-//     font-size: 10px;
-// }
-// 
-// section{
-//     padding: 9rem 0;
-// }
-
-
 // font famaly
+.montserrat_reg_16(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 3.6rem;
+}
+
+.montserrat_reg_18(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 3.6rem;
+}
 
 .montserrat_reg_20(){
     font-family: 'Montserrat', sans-serif;
@@ -24,7 +23,9 @@
 .montserrat_reg_24(){
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    line-height: 3.6rem;
+    line-height: 3.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .montserrat_sbold_25(){
@@ -32,6 +33,12 @@
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+.montserrat_reg_81() {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 81px;
+    font-weight: 300;
 }
 
 .montserrat_sbold_96(){
@@ -50,15 +57,99 @@
 
 .main{
 
-    .fest-12-arch{
-        margin: 5rem 0 0 6.6rem;
-        &-title{
+    .header {
+        padding: 25px 0 50px 0;
+    
+        .ru {
+            display: inline-block;
             .montserrat_reg_20();
-            margin-bottom: 4rem;
+            color: #000000;
+            text-transform: uppercase;
+            text-decoration: underline;
+            margin-right: 1.2rem;
+            margin-left: 4.5rem;
+        }
+    
+        .eng {
+            display: inline-block;
+            .montserrat_reg_20();
+            color: #000000;
+            text-transform: uppercase;
+        }
+    
+        .upper-header-part {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+    
+        .wrap {
+            display: flex;
+            justify-content: flex-start;
+            align-items: end;
+            flex-direction: row;
+            width: 100%;
+            height: 90%;
+            margin-left: 4.1rem;
+       
+            h1 {
+                vertical-align: bottom;
+                justify-content: flex-start;
+                display: flex;
+                flex-direction: column;
+                .montserrat_reg_81();
+            }
+        }
+    
+    
+    
+        .hamburger-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: end;
+        }
+    
+        .hamburger {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            margin: 0 0 0 auto;
+            padding: 10px 0;
+            transition-duration: 0.2s;
+            justify-content: space-between;
+            height: 40px;
+        }
+    
+        .hamburger:hover {
+            cursor: pointer;
+            background-color: #000;
+    
+        }
+    
+        .hamburger-line {
+            background-color: #000;
+            width: 3vw;
+            height: 5px;
+            transition-duration: 0.2s;
+        }
+    
+        .hamburger:hover .hamburger-line {
+            background-color: #fff;
+        }
+    }
+
+    .fest-12-arch{
+        margin: 0rem 0 0 6.6rem;
+        &-title{
+            .montserrat_reg_18();
+            color: @txt_gray;
+            margin-bottom: 3rem;
         }
         &-txt{
-            .montserrat_reg_24();
-            margin-top: 4rem;
+            .montserrat_reg_18();
+            margin-top: 3rem;
         }
 
         &-grandprix{
@@ -73,12 +164,12 @@
             display: inline-block;
             margin-top: 5rem;
             h3{
-                .montserrat_sbold_25();
-                margin-bottom: 2rem;
-                line-height: 3.5rem; 
+                .montserrat_reg_24();
+                margin-bottom: 2rem; 
             }
             p{
-                .montserrat_reg_24(); 
+                .montserrat_reg_18();
+                width: 44.8rem; 
             }
         }
 
@@ -98,7 +189,8 @@
         padding: 7rem 0 7rem 1rem;
 
         &-title{
-            .montserrat_reg_20();
+            .montserrat_reg_18();
+            color: @txt_gray;
             padding-left: 11.5rem; 
         }
 
@@ -109,18 +201,19 @@
         &-center{
             margin: 10rem 0 0 0.7rem;
             &-uptxt{
-                .montserrat_reg_20();
+                .montserrat_reg_16();
+                color: @txt_gray;
             }
             &-img{
                 padding-top: 6rem;
             }
             &-title{
                 padding-top: 7.5rem;
-                .montserrat_sbold_25();
+                .montserrat_reg_24();
                 color: @txt_white;
             }
             &-txt{
-                .montserrat_reg_24();
+                .montserrat_reg_18();
                 padding-top: 2rem;
                 color: @txt_gray;
             }
@@ -129,7 +222,7 @@
         &-right{
             margin: 51rem 0 0 1.2rem;
             &-txt{
-                .montserrat_reg_24();
+                .montserrat_reg_18();
                 color: @txt_gray;
                 padding-top: 2rem; 
             }
@@ -139,8 +232,9 @@
     .photo-awards{
         &-title{
             padding: 7rem 0 0 6.6rem;
-            .montserrat_reg_20();
+            .montserrat_reg_18();
             text-transform: uppercase;
+            color: @txt_gray;
         }
         &-img{
             padding: 3rem 0 0 6.6rem;
@@ -148,23 +242,24 @@
 
         &-txtdown{
             width: 31.7rem;
-            .montserrat_reg_24();
+            .montserrat_reg_18();
             color:#000;
             margin: 6rem 0 0 6.6rem;
         }
         &-imgdown{
-            padding-top: 6rem;
+            padding: 6rem 0 7rem 0;
         }
     }
 
     .other-awards{
         &-title{
             padding: 7rem 0 0 6.6rem;
-            .montserrat_reg_20();
+            .montserrat_reg_18();
             text-transform: uppercase;
+            color: @txt_gray;
         }
         &-titletxt{
-            .montserrat_sbold_25();
+            .montserrat_reg_24();
             color: @txt_white;
             padding: 3rem 0 0 6.6rem; 
         }
@@ -174,7 +269,7 @@
             display: inline-block;
         }
         &-txt-greenurban{
-            .montserrat_reg_24();
+            .montserrat_reg_18();
             color: @txt_white;
             display: inline-block;
             width: 34.7rem;
@@ -183,7 +278,8 @@
         }
 
         &-txt-leo{
-            .montserrat_reg_20();
+            .montserrat_reg_16();
+            color: @txt_white;
             padding-top: 10rem; 
         }
         &-img-leo{
@@ -193,7 +289,7 @@
             padding: 9.5rem 0 0 5rem;
         }
         &-txt-yellow{
-            .montserrat_reg_24();
+            .montserrat_reg_18();
             color: @txt_white;
             padding: 4rem 0 7rem 5rem;
         }
@@ -202,8 +298,9 @@
     .masa{
         margin-top: 7rem;
         &-title{
-            .montserrat_reg_20();
+            .montserrat_reg_18();
             text-transform: uppercase;
+            color: @txt_gray;
             padding-left: 6.6rem;
         }
 
@@ -211,17 +308,17 @@
             padding: 3rem 0 0 6.6rem;
         }
         &-titletxt{
-            .montserrat_sbold_25();
+            .montserrat_reg_24();
             padding: 3rem 0 0 3rem;
         }
         &-txt{
-            .montserrat_reg_20();
+            .montserrat_reg_16();
             color:#000;
             padding: 1rem 0 0 3rem;
         }
 
         &-txtdown{
-            .montserrat_reg_24();
+            .montserrat_reg_18();
             padding: 3rem 0 0 6.6rem;
         }
     }
