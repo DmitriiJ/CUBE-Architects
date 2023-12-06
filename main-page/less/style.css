@@ -240,6 +240,7 @@
 .main .all-projects-txt {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
+  line-height: 1.5rem;
   color: #B0B0B0;
   text-transform: uppercase;
   display: inline-block;
@@ -247,8 +248,9 @@
 .main .all-projects-arrow {
   display: inline-block;
 }
-.main .all-projects-line img {
-  vertical-align: top;
+.main .all-projects .all-projects-hr {
+  border-top: 2px solid #B0B0B0;
+  width: 95%;
 }
 .main .all-projects:hover {
   cursor: pointer;
@@ -346,6 +348,22 @@
   background-color: #fff;
 }
 @media screen and (min-width: 300px) and (max-width: 768px) {
+  .main .main-slider .left-column .main-txt {
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .main .under-slider .create-future-txt p {
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  .main .under-slider .under-slider-title h1 {
+    font-size: 18px;
+    line-height: 3rem;
+  }
+  .main .under-slider .under-slider-txt p {
+    font-size: 14px;
+    line-height: 2.5rem;
+  }
   .main .projects-container {
     display: flex;
     flex-direction: column;
@@ -403,5 +421,82 @@
   .main .projects .section .container {
     margin: 0;
     max-width: 100%;
+  }
+  .main .about-us-gray-txt p {
+    font-size: 12px;
+  }
+  .main .about-us .about-us-title h1 {
+    font-size: 18px;
+    line-height: 3rem;
+  }
+  .main .about-us .about-us-txt {
+    font-size: 14px;
+    line-height: 2.5rem;
+  }
+  .main .container {
+    max-width: 95%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    max-width: 95%;
+  }
+  .main-slider .left-column .main-txt {
+    font-size: 14px;
+    line-height: 2.8rem;
+  }
+  .under-slider .create-future-txt p {
+    font-size: 14px;
+    line-height: 1rem;
+  }
+  .under-slider .under-slider-title h1 {
+    font-size: 20px;
+    line-height: 3rem;
+  }
+  .under-slider .under-slider-txt p {
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .projects {
+    padding: 0rem;
+    background-color: #fff;
+  }
+  .projects-container .land-txt,
+  .projects-container .housing-txt,
+  .projects-container .inter-txt,
+  .projects-container .residents-txt {
+    font-size: 18px;
+  }
+  .projects-container .inter-container {
+    padding-top: 7rem;
+  }
+  .projects-container .all-projects-txt {
+    font-size: 18px;
+    line-height: 0.5rem;
+  }
+  .projects-container .projects-card:hover {
+    margin: 0;
+    cursor: default;
+    background-color: #1a1a1a;
+  }
+  .about-us-gray-txt p {
+    font-size: 14px;
+  }
+  .about-us .about-us-title h1 {
+    font-size: 20px;
+    line-height: 3rem;
+  }
+  .about-us .about-us-txt {
+    font-size: 16px;
+    line-height: 3rem;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 95%;
+  }
+  .projects-container .all-projects-txt {
+    font-size: 22px;
+    line-height: 0.5rem;
   }
 }

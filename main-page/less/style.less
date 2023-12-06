@@ -344,7 +344,7 @@
 
         &-txt {
             .montserrat_reg_24();
-            // line-height: 1.5rem;
+            line-height: 1.5rem;
             color: @txt_gray;
             text-transform: uppercase;
             display: inline-block;
@@ -354,8 +354,9 @@
             display: inline-block;
         }
 
-        &-line img {
-            vertical-align: top;
+        .all-projects-hr{
+            border-top: 2px solid @txt_gray;
+            width: 95%;
         }
 
         &:hover {
@@ -465,9 +466,35 @@
 
 }
 
-
+//////////768
 @media screen and (min-width: 300px) and (max-width: 768px) {
     .main {
+
+        .main-slider{
+            .left-column{
+                .main-txt{
+                    font-size: 12px;
+                    line-height: 2.5rem;
+                }
+            }
+        }
+
+        .under-slider{
+            .create-future-txt p{
+                font-size: 12px;
+                line-height: 1rem;
+            }
+            .under-slider-title h1 {
+                font-size: 18px;
+                line-height: 3rem;
+            }
+        
+            .under-slider-txt p {
+                font-size: 14px;
+                line-height: 2.5rem;
+            }
+        }
+
         .projects-container {
             display: flex;
             flex-direction: column;
@@ -541,9 +568,115 @@
                 }
             }
         }
+
+        .about-us{
+            &-gray-txt p{
+                font-size: 12px;
+            }
+            .about-us-title h1{
+                font-size: 18px;
+                line-height: 3rem;
+            }
+            .about-us-txt{
+                font-size: 14px;
+                line-height: 2.5rem;
+            }
+        }
+
+        .container {
+            max-width: 95%;
+        }
+    }
+}
+
+///////////////992
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .container{
+        max-width: 95%;
     }
 
+    .main-slider{
+        .left-column{
+            .main-txt{
+                font-size: 14px;
+                line-height: 2.8rem;
+            }
+        }
+    }
 
+    .under-slider{
+        .create-future-txt p{
+            font-size: 14px;
+            line-height: 1rem;
+        }
+        .under-slider-title h1 {
+            font-size: 20px;
+            line-height: 3rem;
+        }
+    
+        .under-slider-txt p {
+            font-size: 16px;
+            line-height: 3rem;
+        }
+    }
 
-   
+    .projects{
+        padding: 0rem;
+        background-color: #fff;
+    }
+    .projects-container{
+        .land-txt,
+        .housing-txt,
+        .inter-txt,
+        .residents-txt{
+            font-size: 18px;
+        }
+
+        .inter-container{
+            padding-top: 7rem;
+        }
+
+        .all-projects{
+            &-txt{
+                font-size: 18px;
+                line-height: 0.5rem;
+            }
+        }
+        .projects-card:hover {
+            margin: 0;
+            cursor: default;
+            background-color: #1a1a1a;
+        }
+    }
+
+    .about-us{
+        &-gray-txt p{
+            font-size: 14px;
+        }
+        .about-us-title h1{
+            font-size: 20px;
+            line-height: 3rem;
+        }
+        .about-us-txt{
+            font-size: 16px;
+            line-height: 3rem;
+        }
+    }
+}
+
+//////////////1200
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        max-width: 95%;
+    }
+
+    .projects-container{
+        .all-projects{
+            &-txt{
+                font-size: 22px;
+                line-height: 0.5rem;
+            }
+        }
+    }
+
 }
