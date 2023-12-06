@@ -9,6 +9,8 @@
 //     padding: 9rem 0;
 // }
 
+
+
 // font famaly
 @font-face {
     font-family: 'SF_pro_display_reg';
@@ -83,7 +85,12 @@
 
 
 
+
+
+
+
 .main {
+
     .left-column {
         display: flex;
         flex-direction: column;
@@ -155,7 +162,7 @@
 
     .projects {
         background-color: @bgn_black;
-        height: 143rem;
+        padding-bottom: 15rem;
 
         &-container {
             padding-top: 5rem;
@@ -169,10 +176,17 @@
     }
 
     .residents {
-        width: 51.9rem;
+        transition-duration: 0.2s;
+        margin: 10px;
+        width: auto;
 
         &-img {
             margin-top: 11rem;
+        }
+
+        &-img img {
+            width: 100%;
+            height: auto;
         }
 
         &-txt {
@@ -185,19 +199,31 @@
         }
 
         &-arrow {
-            display: inline-block;
-            padding-left: 30.6rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
         }
 
         &-line img {
+            width: 100%;
             vertical-align: top;
             margin-top: 1.5rem;
         }
     }
 
     .housing {
-        width: 70rem;
-        margin: 6rem 0rem 0rem 6rem;
+        transition-duration: 0.2s;
+        margin: 10px;
+        width: auto;
+
+        &-container {
+            padding: 6rem 0rem 0rem 6rem;
+        }
+
+        &-img img {
+            width: 100%;
+            height: auto;
+        }
 
         &-txt {
             .montserrat_reg_24();
@@ -209,19 +235,31 @@
         }
 
         &-arrow {
-            display: inline-block;
-            margin-left: 47.6rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
         }
 
         &-line img {
+            width: 100%;
             vertical-align: top;
             margin-top: 1.5rem;
         }
     }
 
     .inter {
-        width: 52rem;
-        margin: 15rem 0rem 0rem 6rem;
+        transition-duration: 0.2s;
+        margin: 10px;
+        width: auto;
+
+        &-container {
+            padding: 15rem 0rem 0rem 6rem;
+        }
+
+        &-img img {
+            width: 100%;
+            height: auto;
+        }
 
         &-txt {
             .montserrat_reg_24();
@@ -233,19 +271,35 @@
         }
 
         &-arrow {
-            display: inline-block;
-            margin-left: 32.8rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
         }
 
         &-line img {
+            width: 100%;
             vertical-align: top;
             margin-top: 1.5rem;
         }
     }
 
     .land {
-        width: 54.8rem;
-        margin-left: 9.7rem;
+        transition-duration: 0.2s;
+        margin: 10px;
+        width: auto;
+        // margin-left: 9.7rem;
+
+        &-container {
+            padding-left: 9.7rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &-img img {
+            width: 100%;
+            height: auto;
+        }
 
         &-txt {
             .montserrat_reg_24();
@@ -257,29 +311,45 @@
         }
 
         &-arrow {
-            display: inline-block;
-            margin-left: 33.65rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
         }
 
         &-line img {
+            width: 100%;
             vertical-align: top;
             margin-top: 1.5rem;
         }
     }
 
+
+
+
+    .card-text-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .projects-card:hover {
+        cursor: pointer;
+        margin: 5px;
+        background-color: #333;
+    }
+
     .all-projects {
-        margin: 19rem 0rem 0rem 43.6rem;
+        align-self: flex-end;
+        // margin: 19rem 0rem 0rem 43.6rem;
+        margin: 20px;
+        transition-duration: 0.2s;
 
         &-txt {
             .montserrat_reg_24();
-            line-height: 1.5rem;
+            // line-height: 1.5rem;
             color: @txt_gray;
             text-transform: uppercase;
             display: inline-block;
-        }
-
-        &-txt:hover {
-            cursor: pointer;
         }
 
         &-arrow {
@@ -289,7 +359,15 @@
         &-line img {
             vertical-align: top;
         }
+
+        &:hover {
+            cursor: pointer;
+            margin: 17px;
+            background-color: #333;
+        }
     }
+
+
 
     .about-us {
         padding-top: 5rem;
@@ -385,6 +463,27 @@
         padding: 12rem 0 9rem 0;
         background-color: #fff;
     }
+
+
 }
 
 
+@media screen and (min-width: 300px) and (width: 768px) {
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+
+        &-row {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .residents-container,
+    .housing-container,
+    .inter-container,
+    .land-container {
+        padding: 0;
+    }
+
+}
