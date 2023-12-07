@@ -345,7 +345,6 @@
 }
 .main .footer-line {
   padding: 12rem 0 9rem 0;
-  background-color: #fff;
 }
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .main .main-slider .left-column .main-txt {
@@ -433,11 +432,24 @@
     font-size: 14px;
     line-height: 2.5rem;
   }
+  .main .we-offer-gray-txt p {
+    font-size: 12px;
+  }
+  .main .we-offer-title h1 {
+    font-size: 18px;
+    line-height: 3rem;
+  }
+  .main .about-accordion .about-accordion-heading-text {
+    font-size: 16px;
+  }
+  .main .about-accordion .about-accordion-text-content {
+    font-size: 14px;
+  }
   .main .container {
     max-width: 95%;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
   .container {
     max-width: 95%;
   }
@@ -490,8 +502,21 @@
     font-size: 16px;
     line-height: 3rem;
   }
+  .we-offer-gray-txt p {
+    font-size: 14px;
+  }
+  .we-offer .we-offer-title h1 {
+    font-size: 20px;
+    line-height: 3rem;
+  }
+  .about-accordion .about-accordion-heading-text {
+    font-size: 18px;
+  }
+  .about-accordion .about-accordion-text-content {
+    font-size: 16px;
+  }
 }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
   .container {
     max-width: 95%;
   }
