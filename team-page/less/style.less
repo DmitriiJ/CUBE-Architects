@@ -55,15 +55,20 @@
     .team-up{
 
         .member-1{
-            width: 41rem;
+            width: auto;
+            .member-1-img img{
+                width: 100%;
+                height: auto;
+            }
             &-job-title{
                 .montserrat_reg_16();
                 padding-top: 1rem;
             }
             &-name{
-                .montserrat_reg_24();
+                .montserrat_reg_20();
                 text-transform: uppercase;
                 display: inline-block;
+                color: #000;
             }
             &-plus{
                 margin-left: 14.9rem;
@@ -86,18 +91,25 @@
         }
 
         .member-2{
-            width: 58.2rem;
+            margin-top: 2rem;
+            width: auto;
+            height: auto;
+            .member-2-img img{
+                width: 100%;
+                height: auto;
+            }
             &-job-title{
                 .montserrat_reg_16();
                 padding-top: 1rem;
             }
             &-name{
-                .montserrat_reg_24();
+                .montserrat_reg_20();
                 text-transform: uppercase;
                 display: inline-block;
+                color: #000;
             }
             &-plus{
-                margin-left: 32rem;
+                margin-left: 14.9rem;
                 display: inline-block;
                 background: @txt_gray;
                 height: 25px; 
@@ -115,22 +127,23 @@
                 top: 12.5px;
             }
         }
-    }
-
-    .team-down{
-        margin-top: 5rem;
 
         .member-3{
-            display: inline-block;
-            width: 36.4rem;
+            width: auto;
+            margin-top: 7rem;
+            &-img img{
+                width: 100%;
+                height: auto;
+            }
             &-job-title{
                 .montserrat_reg_16();
                 padding-top: 1rem;
             }
             &-name{
-                .montserrat_reg_24();
+                .montserrat_reg_20();
                 text-transform: uppercase;
                 display: inline-block;
+                color: #000;
             }
             &-plus{
                 margin-left: 9.8rem;
@@ -153,21 +166,60 @@
         }
 
         .member-4{
-            display: inline-block;
-            vertical-align: top;
-            width: 35.3rem;
-            margin-left: 4rem;
+            margin-top: 11rem;
+            width: auto;
+            &-img img{
+                height: auto;
+            }
             &-job-title{
                 .montserrat_reg_16();
                 padding-top: 1rem;
             }
             &-name{
-                .montserrat_reg_24();
+                .montserrat_reg_20();
                 text-transform: uppercase;
                 display: inline-block;
+                color: #000;
             }
             &-plus{
                 margin-left: 9rem;
+                display: inline-block;
+                background: @txt_gray;
+                height: 25px; 
+                width: 1px;
+                position: relative; 
+                left: 40px; 
+            }
+            &-plus::after{
+                content: "";
+                height: 1px; 
+                width: 25px;
+                background: @txt_gray;
+                position: absolute; 
+                left: -12.5px; 
+                top: 12.5px;
+            }
+        }
+
+        .member-5{
+            margin-top: 7rem;
+            width: auto;
+            .member-5-img img{
+                width: 100%;
+                height: auto;
+            }
+            &-job-title{
+                .montserrat_reg_16();
+                padding-top: 1rem;
+            }
+            &-name{
+                .montserrat_reg_20();
+                text-transform: uppercase;
+                display: inline-block;
+                color: #000;
+            }
+            &-plus{
+                margin-left: 14.9rem;
                 display: inline-block;
                 background: @txt_gray;
                 height: 25px; 
@@ -236,6 +288,8 @@
         }
         &-img{
             margin-top: 3rem;
+            width: 100%;
+            height: auto;
         }
 
         &-txtdown{
@@ -247,6 +301,8 @@
         }
         &-imgdown{
             margin-top: 3rem;
+            width: 100%;
+            height: auto;
         }
     }
 
@@ -254,4 +310,117 @@
         padding: 12rem 0 9rem 0;
     }
     
+}
+
+
+
+//////////768
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .container{
+        max-width: 95%;
+    }
+
+    .team-up{
+        .member-1{
+            .member-1-job-title{
+                font-size: 12px;
+            }
+            .member-1-name{
+                font-size: 14px;
+            }
+        }
+
+        .member-2{
+            .member-2-job-title{
+                font-size: 12px;
+            }
+            .member-2-name{
+                font-size: 14px;
+            }
+        }
+
+        .member-3{
+            .member-3-job-title{
+                font-size: 12px;
+            }
+            .member-3-name{
+                font-size: 14px;
+            }
+        }
+
+        .member-4{
+            margin-top: 100rem;
+            .member-4-job-title{
+                font-size: 12px;
+            }
+            .member-4-name{
+                font-size: 14px;
+            }
+        }
+
+        .member-5{
+            margin-top: 1px;
+            .member-5-job-title{
+                font-size: 12px;
+            }
+            .member-5-name{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+////////992
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container{
+        max-width: 95%;
+    }
+
+    .team-up{
+        .member-1{
+            .member-1-job-title{
+                font-size: 14px;
+            }
+            .member-1-name{
+                font-size: 16px;
+            }
+        }
+
+        .member-2{
+            .member-2-job-title{
+                font-size: 14px;
+            }
+            .member-2-name{
+                font-size: 16px;
+            }
+        }
+
+        .member-3{
+            .member-3-job-title{
+                font-size: 14px;
+            }
+            .member-3-name{
+                font-size: 16px;
+            }
+        }
+
+        .member-4{
+            .member-4-job-title{
+                font-size: 14px;
+            }
+            .member-4-name{
+                font-size: 16px;
+            }
+        }
+
+        .member-5{
+            .member-5-job-title{
+                font-size: 14px;
+            }
+            .member-5-name{
+                font-size: 16px;
+            }
+        }
+    }
 }

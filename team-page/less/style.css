@@ -1,5 +1,9 @@
 .main .team-up .member-1 {
-  width: 41rem;
+  width: auto;
+}
+.main .team-up .member-1 .member-1-img img {
+  width: 100%;
+  height: auto;
 }
 .main .team-up .member-1-job-title {
   font-family: 'Montserrat', sans-serif;
@@ -11,10 +15,12 @@
 }
 .main .team-up .member-1-name {
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  line-height: 2rem;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
   text-transform: uppercase;
   display: inline-block;
+  color: #000;
 }
 .main .team-up .member-1-plus {
   margin-left: 14.9rem;
@@ -35,7 +41,13 @@
   top: 12.5px;
 }
 .main .team-up .member-2 {
-  width: 58.2rem;
+  margin-top: 2rem;
+  width: auto;
+  height: auto;
+}
+.main .team-up .member-2 .member-2-img img {
+  width: 100%;
+  height: auto;
 }
 .main .team-up .member-2-job-title {
   font-family: 'Montserrat', sans-serif;
@@ -47,13 +59,15 @@
 }
 .main .team-up .member-2-name {
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  line-height: 2rem;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
   text-transform: uppercase;
   display: inline-block;
+  color: #000;
 }
 .main .team-up .member-2-plus {
-  margin-left: 32rem;
+  margin-left: 14.9rem;
   display: inline-block;
   background: #B0B0B0;
   height: 25px;
@@ -70,14 +84,15 @@
   left: -12.5px;
   top: 12.5px;
 }
-.main .team-down {
-  margin-top: 5rem;
+.main .team-up .member-3 {
+  width: auto;
+  margin-top: 7rem;
 }
-.main .team-down .member-3 {
-  display: inline-block;
-  width: 36.4rem;
+.main .team-up .member-3-img img {
+  width: 100%;
+  height: auto;
 }
-.main .team-down .member-3-job-title {
+.main .team-up .member-3-job-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -85,14 +100,16 @@
   text-transform: uppercase;
   padding-top: 1rem;
 }
-.main .team-down .member-3-name {
+.main .team-up .member-3-name {
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  line-height: 2rem;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
   text-transform: uppercase;
   display: inline-block;
+  color: #000;
 }
-.main .team-down .member-3-plus {
+.main .team-up .member-3-plus {
   margin-left: 9.8rem;
   display: inline-block;
   background: #B0B0B0;
@@ -101,7 +118,7 @@
   position: relative;
   left: 40px;
 }
-.main .team-down .member-3-plus::after {
+.main .team-up .member-3-plus::after {
   content: "";
   height: 1px;
   width: 25px;
@@ -110,13 +127,14 @@
   left: -12.5px;
   top: 12.5px;
 }
-.main .team-down .member-4 {
-  display: inline-block;
-  vertical-align: top;
-  width: 35.3rem;
-  margin-left: 4rem;
+.main .team-up .member-4 {
+  margin-top: 11rem;
+  width: auto;
 }
-.main .team-down .member-4-job-title {
+.main .team-up .member-4-img img {
+  height: auto;
+}
+.main .team-up .member-4-job-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -124,14 +142,16 @@
   text-transform: uppercase;
   padding-top: 1rem;
 }
-.main .team-down .member-4-name {
+.main .team-up .member-4-name {
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  line-height: 2rem;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
   text-transform: uppercase;
   display: inline-block;
+  color: #000;
 }
-.main .team-down .member-4-plus {
+.main .team-up .member-4-plus {
   margin-left: 9rem;
   display: inline-block;
   background: #B0B0B0;
@@ -140,7 +160,50 @@
   position: relative;
   left: 40px;
 }
-.main .team-down .member-4-plus::after {
+.main .team-up .member-4-plus::after {
+  content: "";
+  height: 1px;
+  width: 25px;
+  background: #B0B0B0;
+  position: absolute;
+  left: -12.5px;
+  top: 12.5px;
+}
+.main .team-up .member-5 {
+  margin-top: 7rem;
+  width: auto;
+}
+.main .team-up .member-5 .member-5-img img {
+  width: 100%;
+  height: auto;
+}
+.main .team-up .member-5-job-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+.main .team-up .member-5-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #000;
+}
+.main .team-up .member-5-plus {
+  margin-left: 14.9rem;
+  display: inline-block;
+  background: #B0B0B0;
+  height: 25px;
+  width: 1px;
+  position: relative;
+  left: 40px;
+}
+.main .team-up .member-5-plus::after {
   content: "";
   height: 1px;
   width: 25px;
@@ -208,6 +271,8 @@
 }
 .main .photo-awards-img {
   margin-top: 3rem;
+  width: 100%;
+  height: auto;
 }
 .main .photo-awards-txtdown {
   font-family: 'Montserrat', sans-serif;
@@ -222,7 +287,85 @@
 }
 .main .photo-awards-imgdown {
   margin-top: 3rem;
+  width: 100%;
+  height: auto;
 }
 .main .footer-line {
   padding: 12rem 0 9rem 0;
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .container {
+    max-width: 95%;
+  }
+  .team-up .member-1 .member-1-job-title {
+    font-size: 12px;
+  }
+  .team-up .member-1 .member-1-name {
+    font-size: 14px;
+  }
+  .team-up .member-2 .member-2-job-title {
+    font-size: 12px;
+  }
+  .team-up .member-2 .member-2-name {
+    font-size: 14px;
+  }
+  .team-up .member-3 .member-3-job-title {
+    font-size: 12px;
+  }
+  .team-up .member-3 .member-3-name {
+    font-size: 14px;
+  }
+  .team-up .member-4 {
+    margin-top: 100rem;
+  }
+  .team-up .member-4 .member-4-job-title {
+    font-size: 12px;
+  }
+  .team-up .member-4 .member-4-name {
+    font-size: 14px;
+  }
+  .team-up .member-5 {
+    margin-top: 1px;
+  }
+  .team-up .member-5 .member-5-job-title {
+    font-size: 12px;
+  }
+  .team-up .member-5 .member-5-name {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .container {
+    max-width: 95%;
+  }
+  .team-up .member-1 .member-1-job-title {
+    font-size: 14px;
+  }
+  .team-up .member-1 .member-1-name {
+    font-size: 16px;
+  }
+  .team-up .member-2 .member-2-job-title {
+    font-size: 14px;
+  }
+  .team-up .member-2 .member-2-name {
+    font-size: 16px;
+  }
+  .team-up .member-3 .member-3-job-title {
+    font-size: 14px;
+  }
+  .team-up .member-3 .member-3-name {
+    font-size: 16px;
+  }
+  .team-up .member-4 .member-4-job-title {
+    font-size: 14px;
+  }
+  .team-up .member-4 .member-4-name {
+    font-size: 16px;
+  }
+  .team-up .member-5 .member-5-job-title {
+    font-size: 14px;
+  }
+  .team-up .member-5 .member-5-name {
+    font-size: 16px;
+  }
 }
