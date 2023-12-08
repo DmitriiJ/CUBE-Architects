@@ -100,6 +100,7 @@
             text-decoration-line: underline;
         }
         p{
+            width: 40%;
             -webkit-transition: all 0.7s ease;
             transition: all 0.7s ease; //Время изменения цвета */
         }
@@ -148,50 +149,70 @@
 
     .object-3{
         margin-top: 13.3rem;
+        transition-duration: 0.2s;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
         &-txt{
             .montserrat_reg_16();
-            color: @txt_white;
             line-height: 1.5rem;
             margin: 1.5rem 0 0 0;
         }
         &-title{
             .montserrat_reg_24();
-            color: @txt_white;
             display: inline-block;
             line-height: 2.9rem;
         }
         &-arrow{
-            display: inline-block;
-            padding-left: 21.8rem;
-            color: @txt_white;
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
         }
     }
 
     .object-4{
-        margin: 9.5rem 0 9.5rem 0;
-        width: 100%;
+        margin: 9.5rem 0;
+        transition-duration: 0.2s;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
         &-txt{
             .montserrat_reg_16();
-            color: @txt_white;
             line-height: 1.5rem;
             margin: 1.5rem 0 0 0;
         }
         &-title{
             .montserrat_reg_24();
-            color: @txt_white;
             display: inline-block;
             line-height: 2.9rem;
         }
         &-arrow{
-            display: inline-block;
-            padding-left: 42.3rem;
-            color: @txt_white;
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
         }
     }
 
     .object-5{
-        margin: 9.5rem 0 0 0;
-        width: 100%;
+        margin: 9.5rem 0;
+        transition-duration: 0.2s;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
         &-txt{
             .montserrat_reg_16();
             line-height: 1.5rem;
@@ -203,14 +224,24 @@
             line-height: 2.9rem;
         }
         &-arrow{
-            display: inline-block;
-            padding-left: 24.8rem;
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
         }
     }
 
     .object-6{
         margin-top: 15.3rem;
-        width: 100%;
+        transition-duration: 0.2s;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
         &-txt{
             .montserrat_reg_16();
             line-height: 1.5rem;
@@ -222,14 +253,24 @@
             line-height: 2.9rem;
         }
         &-arrow{
-            display: inline-block;
-            padding-left: 21.8rem;
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
         }
     }
 
     .object-7{
         margin: 4.8rem 0 0 7rem;
-        width: 100%;
+        transition-duration: 0.2s;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
         &-txt{
             .montserrat_reg_16();
             line-height: 1.5rem;
@@ -241,105 +282,16 @@
             line-height: 2.9rem;
         }
         &-arrow{
-            display: inline-block;
-            padding-left: 30rem;
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
         }
     }
-
-    .footer-line{
-        padding: 12rem 0 9rem 0;
-    }
-
-
-    .footer {
-        background-color: #000;
-        
-    }
-    
-    .footer-left-col{
-        margin-top: 90px;
-    }
-    
-    .footer-com-info {
-        .montserrat_reg_20();
-        color: @txt_white;
-        font-size: 20px;
-        line-height: 31.18px;
-        text-transform: uppercase;
-        margin-bottom: 35px;
-        width: 45%;
-    }
-    
-    .footer-email {
-        color: @txt_white;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 54px;
-        text-transform: uppercase;
-        font-weight: 600;
-        line-height: 31.18px;
-        text-decoration: underline;
-        margin-bottom: 60px;
-    }
-    
-    .footer-company-name {
-        .montserrat_reg_24();
-        width: 100%;
-        text-align: end;
-        margin-top: 65px;
-        margin-bottom: 70px;
-    }
-    
-    .footer-right-col{
-        margin-top: 105px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .footer-online-contacts{
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-    }
-    
-    .online-contact{
-        .montserrat_reg_24();
-        font-weight: 500;
-        line-height: 37.42px;
-        color: @txt_white;
-        margin-left: 40px;
-        text-decoration: none;
-    }
-    
-    .footer-language-switcher{
-        display: flex;
-        flex-direction: row;
-        align-self: flex-end;
-        padding-bottom: 65px;
-    }
-    
-    .footer-language-button-ru, .footer-language-separator{
-        .montserrat_reg_20();
-        color: @txt_white;
-        text-decoration: none;
-        line-height: 24.38px;
-        text-decoration: underline;
-    }
-
-    .footer-language-button-eng{
-        .montserrat_reg_20();
-        color: @txt_white;
-        text-decoration: none;
-        line-height: 24.38px;
-    }
-    
-    .footer-language-separator{
-        margin: auto 10px;
-    }
-
-
 }
-
 
 
 ////////768
@@ -359,9 +311,69 @@
             font-size: 14px;
             line-height: 2rem;
             margin-top: 5px;
+            p{
+                width: 50%;
+            }
         }
 
         .object-2{
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+    }
+
+    .container-black{
+        .object-3{
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+
+        .object-4{
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+    }
+
+    .last-projects{
+        .object-5{
+            margin-top: 5rem;
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+
+        .object-6{
+            margin: 7rem 0 0 2rem;
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+
+        .object-7{
+            margin: 5rem 0 0 2rem;
             &-txt{
                 font-size: 12px;
             }
@@ -395,9 +407,76 @@
             font-size: 16px;
             line-height: 2.3rem;
             margin-top: 5px;
+            p{
+                width: 40%;
+            }
         }
 
         .object-2{
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+    }
+
+    .container-black{
+        .object-3{
+            margin-top: 7rem;
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+
+        .object-4{
+            margin: 7rem 0;
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+    }
+
+    .last-projects{
+        .object-5{
+            margin: 7rem 0;
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+
+        .object-6{
+            margin: 9rem 0 0 2rem;
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+
+        .object-7{
+            margin: 5rem 0 0 2rem;
             &-txt{
                 font-size: 14px;
             }

@@ -343,9 +343,6 @@
   display: inline-block;
   padding-left: 23.1rem;
 }
-.main .footer-line {
-  padding: 12rem 0 9rem 0;
-}
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .main .main-slider .left-column .main-txt {
     font-size: 12px;
