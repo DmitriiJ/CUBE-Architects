@@ -132,6 +132,7 @@
   width: auto;
 }
 .main .team-up .member-4-img img {
+  width: 100%;
   height: auto;
 }
 .main .team-up .member-4-job-title {
@@ -234,6 +235,10 @@
 .main .about-us .left-column {
   margin-top: 2rem;
 }
+.main .about-us .left-column .left-column-img img {
+  width: 100%;
+  height: auto;
+}
 .main .about-us .left-column-txt {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -243,11 +248,14 @@
   text-transform: none;
   color: #000;
   line-height: 3.5rem;
-  width: 41rem;
   padding-top: 1.5rem;
 }
 .main .about-us .right-column {
   margin-top: 2rem;
+}
+.main .about-us .right-column .right-column-img img {
+  width: 100%;
+  height: auto;
 }
 .main .about-us .right-column-txt {
   font-family: 'Montserrat', sans-serif;
@@ -258,7 +266,6 @@
   line-height: 3.5rem;
   text-transform: none;
   color: #000;
-  width: 41rem;
   padding-top: 1.5rem;
 }
 .main .photo-awards-title {
@@ -269,7 +276,7 @@
   text-transform: uppercase;
   margin-top: 7rem;
 }
-.main .photo-awards-img {
+.main .photo-awards .photo-awards-img img {
   margin-top: 3rem;
   width: 100%;
   height: auto;
@@ -285,7 +292,7 @@
   line-height: 3.5rem;
   margin-top: 3rem;
 }
-.main .photo-awards-imgdown {
+.main .photo-awards .photo-awards-imgdown img {
   margin-top: 3rem;
   width: 100%;
   height: auto;
@@ -333,6 +340,30 @@
   .team-up .member-5 .member-5-name {
     font-size: 14px;
   }
+  .about-us .titles .titles-gray {
+    font-size: 12px;
+  }
+  .about-us .titles .titles-black {
+    font-size: 18px;
+    line-height: 3rem;
+  }
+  .about-us .left-column .left-column-txt {
+    width: 100%;
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .about-us .right-column .right-column-txt {
+    width: 100%;
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .photo-awards .photo-awards-title {
+    font-size: 12px;
+  }
+  .photo-awards .photo-awards-txtdown {
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .container {
@@ -367,5 +398,29 @@
   }
   .team-up .member-5 .member-5-name {
     font-size: 16px;
+  }
+  .about-us .titles .titles-gray {
+    font-size: 14px;
+  }
+  .about-us .titles .titles-black {
+    font-size: 20px;
+    line-height: 3rem;
+  }
+  .about-us .left-column .left-column-txt {
+    width: 100%;
+    font-size: 14px;
+    line-height: 3rem;
+  }
+  .about-us .right-column .right-column-txt {
+    width: 100%;
+    font-size: 14px;
+    line-height: 3rem;
+  }
+  .photo-awards .photo-awards-title {
+    font-size: 14px;
+  }
+  .photo-awards .photo-awards-txtdown {
+    font-size: 14px;
+    line-height: 3rem;
   }
 }
