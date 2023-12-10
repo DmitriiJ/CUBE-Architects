@@ -17,7 +17,7 @@ function showAccordionPartContent(accordPart) {
     let accordPartContent = accordPart.querySelector('.about-accordion-content-container');
     let accordPartContentText = accordPart.querySelector('.about-accordion-text-content');
     let accordPartContentImg = accordPart.querySelector('.about-accordion-image-content');
-    accordPartContent.style.height = '150px';    
+    accordPartContent.style.height = '200px';    
     // accordPartContentImg.style.height = '25%';
 }
 
