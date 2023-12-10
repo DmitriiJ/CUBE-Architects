@@ -1,91 +1,13 @@
-.main .header {
-  padding: 25px 0 50px 0;
-}
-.main .header .ru {
-  display: inline-block;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #B0B0B0;
-  line-height: 3rem;
-  color: #000000;
-  text-transform: uppercase;
-  text-decoration: underline;
-  margin-right: 1.2rem;
-  margin-left: 4.5rem;
-}
-.main .header .eng {
-  display: inline-block;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #B0B0B0;
-  line-height: 3rem;
-  color: #000000;
-  text-transform: uppercase;
-}
-.main .header .upper-header-part {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.main .header .wrap {
-  display: flex;
-  justify-content: flex-start;
-  align-items: end;
-  flex-direction: row;
-  width: 100%;
-  height: 90%;
-  margin-left: 4.1rem;
-}
-.main .header .wrap h1 {
-  vertical-align: bottom;
-  justify-content: flex-start;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 81px;
-  font-weight: 300;
-}
-.main .header .hamburger-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: end;
-}
-.main .header .hamburger {
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-  margin: 0 0 0 auto;
-  padding: 10px 0;
-  transition-duration: 0.2s;
-  justify-content: space-between;
-  height: 40px;
-}
-.main .header .hamburger:hover {
-  cursor: pointer;
-  background-color: #000;
-}
-.main .header .hamburger-line {
-  background-color: #000;
-  width: 3vw;
-  height: 5px;
-  transition-duration: 0.2s;
-}
-.main .header .hamburger:hover .hamburger-line {
-  background-color: #fff;
-}
-.main .fest-12-arch {
-  margin: 0rem 0 0 6.6rem;
-}
 .main .fest-12-arch-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   line-height: 3.6rem;
   color: #B0B0B0;
   margin-bottom: 3rem;
+}
+.main .fest-12-arch-img img {
+  width: 100%;
+  height: auto;
 }
 .main .fest-12-arch-txt {
   font-family: 'Montserrat', sans-serif;
@@ -97,8 +19,16 @@
   margin: 5rem 5rem 0 0;
   display: inline-block;
 }
+.main .fest-12-arch-grandprix img {
+  width: 100%;
+  height: auto;
+}
 .main .fest-12-arch-dip1degree {
   display: inline-block;
+}
+.main .fest-12-arch-dip1degree img {
+  width: 100%;
+  height: auto;
 }
 .main .fest-12-arch-dip-txt {
   display: inline-block;
@@ -123,6 +53,10 @@
   vertical-align: top;
   padding: 5rem 0 0 1.4rem;
 }
+.main .fest-12-arch .fest-12-arch-dip2degree img {
+  width: 100%;
+  height: auto;
+}
 .main .section {
   background-color: #1A1A1A;
 }
@@ -140,8 +74,13 @@
 .main .fest-14-arch-left {
   padding-top: 6rem;
 }
+.main .fest-14-arch-left img {
+  width: 100%;
+  height: auto;
+}
 .main .fest-14-arch-center {
-  margin: 10rem 0 0 0.7rem;
+  margin-top: 10rem;
+  margin-left: 0.7rem;
 }
 .main .fest-14-arch-center-uptxt {
   font-family: 'Montserrat', sans-serif;
@@ -151,6 +90,10 @@
 }
 .main .fest-14-arch-center-img {
   padding-top: 6rem;
+}
+.main .fest-14-arch-center-img img {
+  width: 100%;
+  height: auto;
 }
 .main .fest-14-arch-center-title {
   padding-top: 7.5rem;
@@ -177,6 +120,10 @@
   line-height: 3.6rem;
   color: #B0B0B0;
   padding-top: 2rem;
+}
+.main .fest-14-arch-right img {
+  width: 100%;
+  height: auto;
 }
 .main .photo-awards-title {
   padding: 7rem 0 0 6.6rem;
@@ -286,6 +233,194 @@
   line-height: 3.6rem;
   padding: 3rem 0 0 6.6rem;
 }
-.main .footer-line {
-  padding: 12rem 0 9rem 0;
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .main .container {
+    max-width: 95%;
+  }
+  .main .fest-12-arch-title {
+    font-size: 12px;
+    padding-left: 0;
+  }
+  .main .fest-12-arch-txt {
+    font-size: 14px;
+    line-height: 2.5rem;
+  }
+  .main .fest-12-arch-grandprix {
+    margin-top: 3rem;
+    display: inline-block;
+    width: 45%;
+  }
+  .main .fest-12-arch-dip1degree {
+    display: inline-block;
+    width: 45%;
+  }
+  .main .fest-12-arch-dip-txt {
+    display: inline-block;
+    margin-top: 3rem;
+    width: 45%;
+  }
+  .main .fest-12-arch-dip-txt p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 2.5rem;
+  }
+  .main .fest-12-arch-dip2degree {
+    display: inline-block;
+    vertical-align: top;
+    padding: 4rem 0 0 1.4rem;
+  }
+  .main .fest-12-arch .fest-12-arch-dip2degree {
+    width: 47%;
+    margin-left: 3.4rem;
+  }
+  .main .fest-14-arch {
+    margin-top: 3rem;
+    padding: 3rem 0 7rem 1rem;
+  }
+  .main .fest-14-arch .fest-14-arch-title {
+    font-size: 12px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .main .fest-14-arch .fest-14-arch-center {
+    margin-top: 3rem;
+  }
+  .main .fest-14-arch-left {
+    padding-top: 22.5rem;
+  }
+  .main .fest-14-arch-left img {
+    height: auto;
+  }
+  .main .fest-14-arch-center {
+    margin: 10rem 0 0 0.7rem;
+  }
+  .main .fest-14-arch-center-uptxt {
+    font-size: 14px;
+    line-height: 2.5rem;
+  }
+  .main .fest-14-arch-center-img {
+    padding-top: 6rem;
+  }
+  .main .fest-14-arch-center-txt {
+    font-size: 14px;
+    line-height: 2.5rem;
+    height: auto;
+  }
+  .main .fest-14-arch-right {
+    margin: 1rem 0 0 1.2rem;
+  }
+  .main .fest-14-arch-right-txt {
+    font-size: 14px;
+    line-height: 2.5rem;
+    height: auto;
+  }
+  .main .fest-14-arch-right-img {
+    padding-top: 3.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .main .container {
+    max-width: 95%;
+  }
+  .main .fest-12-arch-title {
+    font-size: 14px;
+  }
+  .main .fest-12-arch-txt {
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .main .fest-12-arch-grandprix {
+    margin-top: 5rem;
+    width: 40%;
+  }
+  .main .fest-12-arch-dip1degree {
+    width: 40%;
+    margin-left: 2.2rem;
+  }
+  .main .fest-12-arch-dip-txt {
+    display: inline-block;
+    margin-top: 5rem;
+    width: 45%;
+  }
+  .main .fest-12-arch-dip-txt p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .main .fest-12-arch-dip2degree {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5rem 0 0 1.4rem;
+  }
+  .main .fest-12-arch .fest-12-arch-dip2degree {
+    width: 42%;
+    margin-left: 3.3rem;
+  }
+  .main .fest-14-arch {
+    margin-top: 3rem;
+    padding: 3rem 0 7rem 1rem;
+  }
+  .main .fest-14-arch .fest-14-arch-title {
+    font-size: 14px;
+    padding-left: 0;
+  }
+  .main .fest-14-arch .fest-14-arch-center {
+    margin-top: 3rem;
+  }
+  .main .fest-14-arch-left {
+    padding-top: 22.5rem;
+  }
+  .main .fest-14-arch-left img {
+    height: auto;
+  }
+  .main .fest-14-arch-center {
+    margin: 10rem 0 0 0.7rem;
+  }
+  .main .fest-14-arch-center-uptxt {
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .main .fest-14-arch-center-img {
+    padding-top: 6rem;
+  }
+  .main .fest-14-arch-center-txt {
+    font-size: 16px;
+    line-height: 3rem;
+    height: auto;
+  }
+  .main .fest-14-arch-right {
+    margin: 1rem 0 0 1.2rem;
+  }
+  .main .fest-14-arch-right-txt {
+    font-size: 16px;
+    line-height: 3rem;
+    height: auto;
+  }
+  .main .fest-14-arch-right-img {
+    padding-top: 3.5rem;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1920px) {
+  .main .fest-12-arch-grandprix {
+    margin-top: 5rem;
+    width: 40%;
+  }
+  .main .fest-12-arch-dip1degree {
+    width: 40%;
+    margin-left: 2.2rem;
+  }
+  .main .fest-12-arch .fest-12-arch-dip2degree {
+    width: 41.5%;
+    margin-left: 6rem;
+  }
+  .main .fest-12-arch-dip-txt {
+    display: inline-block;
+    margin-top: 5rem;
+    width: 40%;
+  }
+  .main .fest-12-arch-dip-txt p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 3rem;
+  }
 }

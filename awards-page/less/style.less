@@ -56,96 +56,16 @@
 
 
 .main{
-
-    .header {
-        padding: 25px 0 50px 0;
-    
-        .ru {
-            display: inline-block;
-            .montserrat_reg_20();
-            color: #000000;
-            text-transform: uppercase;
-            text-decoration: underline;
-            margin-right: 1.2rem;
-            margin-left: 4.5rem;
-        }
-    
-        .eng {
-            display: inline-block;
-            .montserrat_reg_20();
-            color: #000000;
-            text-transform: uppercase;
-        }
-    
-        .upper-header-part {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            justify-content: space-between;
-        }
-    
-        .wrap {
-            display: flex;
-            justify-content: flex-start;
-            align-items: end;
-            flex-direction: row;
-            width: 100%;
-            height: 90%;
-            margin-left: 4.1rem;
-       
-            h1 {
-                vertical-align: bottom;
-                justify-content: flex-start;
-                display: flex;
-                flex-direction: column;
-                .montserrat_reg_81();
-            }
-        }
-    
-    
-    
-        .hamburger-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            align-items: end;
-        }
-    
-        .hamburger {
-            display: flex;
-            flex-direction: column;
-            text-align: right;
-            margin: 0 0 0 auto;
-            padding: 10px 0;
-            transition-duration: 0.2s;
-            justify-content: space-between;
-            height: 40px;
-        }
-    
-        .hamburger:hover {
-            cursor: pointer;
-            background-color: #000;
-    
-        }
-    
-        .hamburger-line {
-            background-color: #000;
-            width: 3vw;
-            height: 5px;
-            transition-duration: 0.2s;
-        }
-    
-        .hamburger:hover .hamburger-line {
-            background-color: #fff;
-        }
-    }
-
     .fest-12-arch{
-        margin: 0rem 0 0 6.6rem;
+        //margin: 0rem 0 0 6.6rem;
         &-title{
             .montserrat_reg_18();
             color: @txt_gray;
             margin-bottom: 3rem;
+        }
+        &-img img{
+            width: 100%;
+            height: auto;
         }
         &-txt{
             .montserrat_reg_18();
@@ -155,9 +75,17 @@
         &-grandprix{
             margin: 5rem 5rem 0 0;
             display: inline-block;
+            img{
+                width: 100%;
+                height: auto;
+            }
         }
         &-dip1degree{
             display: inline-block;
+            img{
+                width: 100%;
+                height: auto;
+            }
         }
 
         &-dip-txt{
@@ -178,6 +106,11 @@
             vertical-align: top;
             padding: 5rem 0 0 1.4rem;
         }
+
+        .fest-12-arch-dip2degree img{
+            width: 100%;
+            height: auto;
+        }
     }
 
     .section{
@@ -196,16 +129,25 @@
 
         &-left{
             padding-top: 6rem;
+            img{
+                width: 100%;
+                height: auto;
+            }
         }
 
         &-center{
-            margin: 10rem 0 0 0.7rem;
+            margin-top: 10rem;
+            margin-left: 0.7rem;
             &-uptxt{
                 .montserrat_reg_16();
                 color: @txt_gray;
             }
             &-img{
                 padding-top: 6rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
             }
             &-title{
                 padding-top: 7.5rem;
@@ -225,6 +167,10 @@
                 .montserrat_reg_18();
                 color: @txt_gray;
                 padding-top: 2rem; 
+            }
+            img{
+                width: 100%;
+                height: auto;
             }
         }
     }
@@ -323,10 +269,236 @@
         }
     }
 
-    .footer-line{
-        padding: 12rem 0 9rem 0;
+    //////////768
+@media screen and (min-width: 300px) and (max-width: 768px) {
+        .container {
+            max-width: 95%;
+        }
+
+        .fest-12-arch{
+            &-title{
+                font-size: 12px;
+                padding-left: 0;
+            }
+            &-txt{
+                font-size: 14px;
+                line-height: 2.5rem;
+            }
+    
+            &-grandprix{
+                margin-top: 3rem;
+                display: inline-block;
+                width: 45%;
+            }
+            &-dip1degree{
+                display: inline-block;
+                width: 45%;
+            }
+    
+            &-dip-txt{
+                display: inline-block;
+                margin-top: 3rem;
+                width: 45%;
+                p{
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 2.5rem;
+                }
+            }
+    
+            &-dip2degree{
+                display: inline-block;
+                vertical-align: top;
+                padding: 4rem 0 0 1.4rem;
+            }
+
+            .fest-12-arch-dip2degree {
+                width: 47%;
+                margin-left: 3.4rem;
+            }
+        }
+
+        .fest-14-arch{
+            margin-top: 3rem;
+            padding: 3rem 0 7rem 1rem;
+    
+            .fest-14-arch-title{
+                font-size: 12px;
+                margin-left: 0;
+                padding-left: 0;
+            }
+
+            .fest-14-arch-center{
+                margin-top: 3rem;
+            }
+    
+            &-left{
+                padding-top: 22.5rem;
+                img{
+                    height: auto;
+                }
+            }
+    
+            &-center{
+                margin: 10rem 0 0 0.7rem;
+                &-uptxt{
+                    font-size: 14px;
+                    line-height: 2.5rem;
+                }
+                &-img{
+                    padding-top: 6rem;
+                }
+                &-txt{
+                    font-size: 14px;
+                    line-height: 2.5rem;
+                    height: auto;
+                }
+            }
+    
+            &-right{
+                margin: 1rem 0 0 1.2rem;
+                &-txt{
+                    font-size: 14px;
+                    line-height: 2.5rem; 
+                    height: auto;
+                }
+                &-img{
+                    padding-top: 3.5rem;
+                }
+            }
+        }
+}
+
+///////////////992
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .container {
+        max-width: 95%;
+    }
+
+    .fest-12-arch{
+        &-title{
+            font-size: 14px;
+        }
+        &-txt{
+            font-size: 16px;
+            line-height: 3rem;
+        }
+
+        &-grandprix{
+            margin-top: 5rem;
+            width: 40%;
+        }
+        &-dip1degree{
+            width: 40%;
+            margin-left: 2.2rem;
+        }
+
+        &-dip-txt{
+            display: inline-block;
+            margin-top: 5rem;
+            width: 45%;
+            p{
+                width: 100%;
+                font-size: 16px;
+                line-height: 3rem;
+            }
+        }
+
+        &-dip2degree{
+            display: inline-block;
+            vertical-align: top;
+            padding: 5rem 0 0 1.4rem;
+        }
+
+        .fest-12-arch-dip2degree{
+            width: 42%;
+            margin-left: 3.3rem;
+        }
     }
 
 
-   
+    .fest-14-arch{
+        margin-top: 3rem;
+        padding: 3rem 0 7rem 1rem;
+
+        .fest-14-arch-title{
+            font-size: 14px;
+            padding-left: 0;
+        }
+
+        .fest-14-arch-center{
+            margin-top: 3rem;
+        }
+
+        &-left{
+            padding-top: 22.5rem;
+            img{
+                height: auto;
+            }
+        }
+
+        &-center{
+            margin: 10rem 0 0 0.7rem;
+            &-uptxt{
+                font-size: 16px;
+                line-height: 3rem;
+            }
+            &-img{
+                padding-top: 6rem;
+            }
+            &-txt{
+                font-size: 16px;
+                line-height: 3rem;
+                height: auto;
+            }
+        }
+
+        &-right{
+            margin: 1rem 0 0 1.2rem;
+            &-txt{
+                font-size: 16px;
+                line-height: 3rem; 
+                height: auto;
+            }
+            &-img{
+                padding-top: 3.5rem;
+            }
+        }
+    }
+
+}
+
+
+
+/////////////laaaaargeee!!!
+@media screen and (min-width: 992px) and (max-width: 1920px){
+    .fest-12-arch{
+        &-grandprix{
+            margin-top: 5rem;
+            width: 40%;
+        }
+        &-dip1degree{
+            width: 40%;
+            margin-left: 2.2rem;
+        }
+
+        .fest-12-arch-dip2degree{
+            width: 41.5%;
+            margin-left: 6rem;
+        }
+
+        &-dip-txt{
+            display: inline-block;
+            margin-top: 5rem;
+            width: 40%;
+            p{
+                width: 100%;
+                font-size: 16px;
+                line-height: 3rem;
+            }
+        }
+    }
+
+}
+
 }
