@@ -11,6 +11,12 @@
   font-size: 96px;
   font-weight: 400;
 }
+.main {
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 3rem;
+  margin-bottom: 24rem;
+}
 .main .left-column {
   display: flex;
   flex-direction: column;
@@ -18,16 +24,6 @@
 }
 .main .main-slider {
   padding-bottom: 5rem;
-}
-.main .main-txt {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #B0B0B0;
-  color: #000000;
-  text-transform: uppercase;
-  line-height: 3rem;
-  margin-bottom: 24rem;
 }
 .main .switch-slider-number {
   height: 2.5rem;
@@ -444,6 +440,14 @@
   }
   .main .container {
     max-width: 95%;
+  }
+  .main .left-column {
+    display: none;
+  }
+  .main .first-section-container {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {

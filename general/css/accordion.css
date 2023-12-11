@@ -1,4 +1,8 @@
-    .about-accordion {}
+:root{
+    --accordion-content-height: 200px;
+}
+
+.about-accordion {}
 
     .about-accordion-list {
         padding: 0;
@@ -56,13 +60,13 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
-        height: auto;
+        height: 0;
     }
 
     .about-accordion-image-content {
         margin: 0 auto 20px auto;
         width: 30%;
-        height: auto;
+        /* height: auto; */
         overflow: hidden;
     }
 
@@ -100,9 +104,21 @@
         /* max-height: 0; */
     }
 
+    @media screen and (max-width: 768px){
+    .about-accordion-image-content{
+        width: 90%;
+    }
+    }
 
-    @media screen and (max-width: 992px){
+    @media screen and (max-width: 556px){
         .about-accordion-content-container {
-            flex-direction: column;
+            /* display: flex;
+            flex-direction: column; */
+        }
+        .about-accordion-image-content {
+            margin: 20px auto 30px auto;
+            /* width: auto; */
+            /* height: auto; */
+            overflow: hidden;
         }
     }

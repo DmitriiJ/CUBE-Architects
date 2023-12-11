@@ -7,7 +7,7 @@ function setClickToAccordionPart() {
         accordPart.addEventListener("mousedown", function () {
 
             let accordPartContent = accordPart.querySelector('.about-accordion-content-container');
-            console.log(window.getComputedStyle(accordPartContent).height);
+            // console.log(window.getComputedStyle(accordPartContent).height);
             changeAccordionPartContent(accordPart);
         })
     }
@@ -17,8 +17,18 @@ function showAccordionPartContent(accordPart) {
     let accordPartContent = accordPart.querySelector('.about-accordion-content-container');
     let accordPartContentText = accordPart.querySelector('.about-accordion-text-content');
     let accordPartContentImg = accordPart.querySelector('.about-accordion-image-content');
-    accordPartContent.style.height = '200px';    
-    // accordPartContentImg.style.height = '25%';
+    const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+    const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+    let sidesRatio = vh/vw;
+    let addHeight = 0;
+    if (sidesRatio > 1) {
+        addHeight = parseInt(window.getComputedStyle(accordPartContentImg).getPropertyValue('height').slice(0, -2));
+    }
+    
+    console.log(window.getComputedStyle(accordPartContentImg).getPropertyValue('height').slice(0, -2));
+    accordPartContent.style.height = (200 +  addHeight )+ 'px';
+    // accordPartContent.style.maxHeight = window.getComputedStyle(accordPartContent).getPropertyValue('height');
+    console.log(sidesRatio);
 }
 
 function hideAccordionPartContent(accordPart) {
@@ -26,7 +36,6 @@ function hideAccordionPartContent(accordPart) {
     let accordPartContentText = accordPart.querySelector('.about-accordion-text-content');
     let accordPartContentImg = accordPart.querySelector('.about-accordion-image-content');
     accordPartContent.style.height = '0px';
-    // accordPartContentImg.style.height = '0px';
 }
 
 function changeAccordionPartContent(accordPart) {

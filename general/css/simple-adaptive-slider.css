@@ -75,7 +75,7 @@
   position: relative;
   background-color: #fff;
   width: 1%;
-  height: 30%;
+  height: 10%;
   rotate: 30deg;
   opacity: 0;
   transition-duration: 0.2s;
@@ -92,7 +92,7 @@ rotate: -30deg;
 }
 
 .slider-button:hover .slash{
-  opacity: 0.5;
+  opacity: 0.3;
  
 }
 
