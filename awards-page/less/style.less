@@ -139,7 +139,7 @@
             margin-top: 10rem;
             margin-left: 0.7rem;
             &-uptxt{
-                .montserrat_reg_16();
+                .montserrat_reg_18();
                 color: @txt_gray;
             }
             &-img{
@@ -175,69 +175,84 @@
         }
     }
 
-    .photo-awards{
+    .fest-15-arch{
         &-title{
-            padding: 7rem 0 0 6.6rem;
+            padding-top: 7rem;
             .montserrat_reg_18();
             text-transform: uppercase;
             color: @txt_gray;
-        }
-        &-img{
-            padding: 3rem 0 0 6.6rem;
+            margin-bottom: 3rem;
         }
 
-        &-txtdown{
-            width: 31.7rem;
-            .montserrat_reg_18();
-            color:#000;
-            margin: 6rem 0 0 6.6rem;
+        &-img-main{
+            img{
+                width: 100%;
+                height: auto;
+            }
         }
-        &-imgdown{
-            padding: 6rem 0 7rem 0;
+
+        &-img-up, &-img-down{
+            margin-bottom: 3.5rem;
+            img{
+                width: 80%;
+                height: auto;
+            }
+        }
+
+        &-txt{
+            .montserrat_reg_18();
+            margin-bottom: 7rem;
         }
     }
 
     .other-awards{
-        &-title{
-            padding: 7rem 0 0 6.6rem;
-            .montserrat_reg_18();
-            text-transform: uppercase;
-            color: @txt_gray;
-        }
         &-titletxt{
             .montserrat_reg_24();
             color: @txt_white;
-            padding: 3rem 0 0 6.6rem; 
+            padding: 7rem 0 0 0rem; 
         }
 
         &-img-greenurban{
-            padding: 2rem 0 0 6.6rem;
+            padding: 3rem 0 0 0rem;
             display: inline-block;
+            width: 50%;
+            img{
+                width: 100%;
+                height: auto;
+            }
         }
         &-txt-greenurban{
             .montserrat_reg_18();
             color: @txt_white;
             display: inline-block;
-            width: 34.7rem;
+            width: 40%;
             vertical-align: top;
-            margin: 1.2rem 0 0 4rem;
+            margin: 1.7rem 0 0 2rem;
         }
 
         &-txt-leo{
-            .montserrat_reg_16();
+            .montserrat_reg_18();
             color: @txt_white;
             padding-top: 10rem; 
         }
         &-img-leo{
             padding: 5rem 0 9rem 0;
+            img{
+                width: 80%;
+                height: auto;
+            }
         }
         &-img-yellow{
-            padding: 9.5rem 0 0 5rem;
+            padding: 7rem 0 0 4.8rem;
+            img{
+                width: 70%;
+                height: auto;
+            }
         }
         &-txt-yellow{
             .montserrat_reg_18();
             color: @txt_white;
-            padding: 4rem 0 7rem 5rem;
+            padding: 4rem 0 7rem 4rem;
         }
     }
 
@@ -251,16 +266,21 @@
         }
 
         &-img{
+            width: 100%;
             padding: 3rem 0 0 6.6rem;
+            img{
+                width: 100%;
+                height: auto;
+            }
         }
         &-titletxt{
             .montserrat_reg_24();
-            padding: 3rem 0 0 3rem;
+            padding: 3rem 0 0 2rem;
         }
         &-txt{
             .montserrat_reg_16();
             color:#000;
-            padding: 1rem 0 0 3rem;
+            padding: 1rem 0 0 2rem;
         }
 
         &-txtdown{
@@ -367,6 +387,104 @@
                 }
             }
         }
+
+        .fest-15-arch{
+            .fest-15-arch-title{
+                font-size: 12px;
+                margin-left: 0;
+                padding-left: 0;
+                padding-top: 5rem;
+            }
+    
+            &-img-main{
+                margin-bottom: 2rem;
+            }
+    
+            &-img-up{
+                margin-bottom: 1rem;
+                display: inline-block;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            &-img-down{
+                display: inline-block;
+                margin-left: 2rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+    
+            &-txt{
+                font-size: 14px;
+                line-height: 2.5rem;
+                height: auto;
+                margin-bottom: 5rem;
+            }
+        }
+
+        .other-awards{
+            &-titletxt{
+                font-size: 16px;
+            }
+    
+            &-img-greenurban{
+                padding: 2rem 0 0 0rem;
+            }
+            &-txt-greenurban{
+                font-size: 14px;
+                line-height: 2.5rem;
+                height: auto;
+            }
+    
+            &-txt-leo{
+                font-size: 14px;
+                line-height: 2.5rem;
+                height: auto; 
+            }
+            &-img-leo{
+                padding: 5rem 0 9rem 0;
+            }
+            &-img-yellow{
+                padding: 7rem 0 0 3rem;
+            }
+            &-txt-yellow{
+                font-size: 14px;
+                line-height: 2.5rem;
+                height: auto;
+            }
+        }
+
+        .masa{
+            margin-top: 5rem;
+            &-title{
+                font-size: 12px;
+                padding-left: 0rem;
+            }
+    
+            &-img{
+                padding: 3rem 0 0 0rem;
+                width: 100%;
+            }
+            &-titletxt{
+                font-size: 16px;
+                padding: 3rem 0 0 2rem;
+                line-height: 3rem;
+            }
+            &-txt{
+                font-size: 14px;
+                line-height: 2.5rem;
+            }
+    
+            &-txtdown{
+                font-size: 14px;
+                line-height: 2.5rem;
+                padding-left: 0rem;
+                margin-bottom: 7rem;
+            }
+        }
 }
 
 ///////////////992
@@ -463,6 +581,87 @@
             &-img{
                 padding-top: 3.5rem;
             }
+        }
+    }
+
+    .fest-15-arch{
+        .fest-15-arch-title{
+            font-size: 14px;
+            padding-left: 0;
+            padding-top: 3rem;
+        }
+
+        &-img-up, &-img-down{
+            margin-bottom: 1rem;
+            img{
+                width: 100%;
+            }
+        }
+
+        &-txt{
+            margin-top: -12rem;
+            font-size: 16px;
+            line-height: 3rem;
+            height: auto;
+            margin-bottom: 5rem;
+        }
+    }
+
+    .other-awards{
+        &-titletxt{
+            font-size: 20px;
+        }
+
+        &-img-greenurban{
+            padding: 2rem 0 0 0rem;
+        }
+        &-txt-greenurban{
+            font-size: 16px;
+            line-height: 3rem;
+            height: auto;
+        }
+
+        &-txt-leo{
+            font-size: 16px;
+            line-height: 3rem;
+            height: auto; 
+        }
+        &-img-leo{
+            padding: 5rem 0 9rem 0;
+        }
+        &-img-yellow{
+            padding: 7rem 0 0 5rem;
+        }
+        &-txt-yellow{
+            font-size: 16px;
+            line-height: 3rem;
+            height: auto;
+        }
+    }
+
+    .masa{
+        margin-top: 5rem;
+        &-title{
+            font-size: 14px;
+        }
+
+        &-img{
+            padding: 3rem 0 0 6.6rem;
+            width: 100%;
+        }
+        &-titletxt{
+            font-size: 20px;
+            padding: 3rem 0 0 2rem;
+        }
+        &-txt{
+            font-size: 16px;
+            line-height: 3rem;
+        }
+
+        &-txtdown{
+            font-size: 16px;
+            line-height: 3rem;
+            margin-bottom: 9rem;
         }
     }
 
