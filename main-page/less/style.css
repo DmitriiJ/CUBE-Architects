@@ -17,6 +17,13 @@
   line-height: 3rem;
   margin-bottom: 24rem;
 }
+.main .main-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 3rem;
+}
 .main .left-column {
   display: flex;
   flex-direction: column;
@@ -75,7 +82,8 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 3.5rem;
+  line-height: 3rem;
+  text-transform: none;
   margin: 2rem 0rem 5rem 0rem;
 }
 .main .projects {
@@ -281,6 +289,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 3.5rem;
+  text-transform: none;
 }
 .main .we-offer {
   padding-top: 7rem;
@@ -453,6 +462,10 @@
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .container {
     max-width: 95%;
+  }
+  .main-txt {
+    font-size: 14px;
+    line-height: 2.8rem;
   }
   .main-slider .left-column .main-txt {
     font-size: 14px;

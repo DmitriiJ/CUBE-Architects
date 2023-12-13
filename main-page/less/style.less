@@ -89,6 +89,12 @@
 
 .main {
 
+    .main-txt{
+        .montserrat_reg_18();
+        font-size: 16px;
+        line-height: 3rem;
+    }
+
     .left-column {
         display: flex;
         flex-direction: column;
@@ -152,7 +158,8 @@
 
     .under-slider-txt p {
         .montserrat_reg_18();
-        line-height: 3.5rem;
+        line-height: 3rem;
+        text-transform: none;
         margin: 2rem 0rem 5rem 0rem;
     }
 
@@ -391,6 +398,7 @@
         &-txt {
             .montserrat_reg_18();
             line-height: 3.5rem;
+            text-transform: none;
         }
     }
 
@@ -620,6 +628,11 @@
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .container {
         max-width: 95%;
+    }
+
+    .main-txt{
+        font-size: 14px;
+        line-height: 2.8rem;
     }
 
     .main-slider {
