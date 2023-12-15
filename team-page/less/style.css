@@ -300,7 +300,78 @@
 .main .footer-line {
   padding: 12rem 0 9rem 0;
 }
-@media screen and (min-width: 300px) and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .main .container {
+    max-width: 95%;
+  }
+  .main .team-up .member-1 {
+    margin-top: 5rem;
+  }
+  .main .team-up .member-1 .member-1-job-title {
+    font-size: 12px;
+  }
+  .main .team-up .member-1 .member-1-name {
+    font-size: 14px;
+  }
+  .main .team-up .member-2 .member-2-job-title {
+    font-size: 12px;
+  }
+  .main .team-up .member-2 .member-2-name {
+    font-size: 14px;
+  }
+  .main .team-up .member-3 {
+    margin-top: 5rem;
+  }
+  .main .team-up .member-3 .member-3-job-title {
+    font-size: 12px;
+  }
+  .main .team-up .member-3 .member-3-name {
+    font-size: 14px;
+  }
+  .main .team-up .member-4 {
+    margin-top: 5rem;
+  }
+  .main .team-up .member-4 .member-4-job-title {
+    font-size: 12px;
+  }
+  .main .team-up .member-4 .member-4-name {
+    font-size: 14px;
+  }
+  .main .team-up .member-5 {
+    margin-top: 5rem;
+  }
+  .main .team-up .member-5 .member-5-job-title {
+    font-size: 12px;
+  }
+  .main .team-up .member-5 .member-5-name {
+    font-size: 14px;
+  }
+  .main .about-us .titles .titles-gray {
+    font-size: 12px;
+  }
+  .main .about-us .titles .titles-black {
+    font-size: 18px;
+    line-height: 3rem;
+  }
+  .main .about-us .left-column .left-column-txt {
+    width: 100%;
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .main .about-us .right-column .right-column-txt {
+    width: 100%;
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .main .photo-awards .photo-awards-title {
+    font-size: 12px;
+  }
+  .main .photo-awards .photo-awards-txtdown {
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
   .container {
     max-width: 95%;
   }
