@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="../general/fonts/stylesheet.css">
     <link rel="stylesheet" href="../general/css/simple-adaptive-slider.css">
     <link rel="shortcut icon" href="../general/img/logo.svg"/>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
 
     <title>Object-template</title>
 </head>
@@ -164,16 +168,22 @@
 
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12 about-progect-column-left">
-                            <img class="about-progect-column-left-img"
-                                src="../house-page-template/img/MA House 03 1.png">
+                            <a data-fancybox="gallery" data-src="../house-page-template/img/MA House 03 1440х960.jpg"
+                            data-caption="MA House">
+                                <img class="about-progect-column-left-img"
+                                src="../house-page-template/img/MA House 03 460х460.jpg">
+                            </a>
                             <p class="about-progect-column-text">Видение заказчика архитектурного облика дома, в этом
                                 случае, совпал с нашим. Желание
                                 сделать дом в минималистичном стиле, лишенный излишеств с использованием природных
                                 материалов (кирпич, камень, стекло), образ понятный и гармоничный.</p>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12 about-progect-column-right">
-                            <img class="about-progect-column-right-img"
-                                src="../house-page-template/img/MA House 04 1.png">
+                            <a data-fancybox="gallery" data-src="../house-page-template/img/MA House 04 1440х960.jpg"
+                            data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+                                <img class="about-progect-column-left-img"
+                                src="../house-page-template/img/MA House 04 460х460.jpg">
+                            </a>
                             <p class="about-progect-column-text">Аскетичный фасад со стороны улицы с консольным навесом
                                 для автомобилей встречает нас и
                                 создает первое впечатление. Дворовой фасад ориентирован на лесной массив с большой
@@ -193,7 +203,11 @@
 
             <div class="row">
                 <div class="about-first-floor-container col-lg-9 offset-lg-3 col-md-9 offset-md-3 col-sm-9 offset-sm-3 col-12">
-                    <img src="../house-page-template/img/MA House 02 1.png">
+                    <a data-fancybox="gallery" data-src="../house-page-template/img/MA House 02 1440х960.jpg"
+                    data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+                        <img class="about-progect-column-left-img"
+                        src="../house-page-template/img/MA House 02 460х460.jpg">
+                    </a>
                     <div class="about-first-floor">
                         <h3 class="zone-first-floor-header">По зонированию 1-го этажа:</h3>
                         <p class="zone-first-floor-info">- общая зона с кухней, столовой, гостиной, санузлом и
@@ -252,4 +266,10 @@
 </body>
 <script src="../general/js/simple-adaptive-slider.min.js"></script>
 <script src="../general/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        //
+      });    
+    </script>
 </html>
