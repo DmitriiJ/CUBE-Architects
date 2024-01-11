@@ -1,3 +1,8 @@
+.main .team-up .bottom-margin {
+  background-color: #FFFFFF;
+  height: 5rem;
+  width: 100%;
+}
 .main .team-up .member-1 {
   width: auto;
 }
@@ -128,7 +133,6 @@
   top: 12.5px;
 }
 .main .team-up .member-4 {
-  margin-top: 11rem;
   width: auto;
 }
 .main .team-up .member-4-img img {
@@ -171,7 +175,6 @@
   top: 12.5px;
 }
 .main .team-up .member-5 {
-  margin-top: 7rem;
   width: auto;
 }
 .main .team-up .member-5 .member-5-img img {
@@ -212,9 +215,6 @@
   position: absolute;
   left: -12.5px;
   top: 12.5px;
-}
-.main .about-us {
-  margin-top: 7rem;
 }
 .main .about-us .titles-gray {
   font-family: 'Montserrat', sans-serif;
