@@ -1,0 +1,598 @@
+//compress: true
+
+// basic sattings
+// html{
+//     font-size: 10px;
+// }
+
+// section{
+//     padding: 9rem 0;
+// }
+
+
+// font famaly
+.montserrat_reg_16(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B0B0B0;
+    text-transform: uppercase;
+}
+
+.montserrat_reg_20(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #B0B0B0;
+}
+
+.montserrat_reg_24(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.montserrat_sbold_25(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.montserrat_sbold_96(){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+
+// colors
+@bgn_black: #1A1A1A;
+@txt_white: #FFFFFF;
+@txt_gray: #B0B0B0;
+
+
+
+.main{
+
+    
+    .main-projects{
+        padding-top: 5rem;
+    }
+
+    .object-1{
+        transition-duration: 0.2s;
+        margin: 10px;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .navigation{
+        .montserrat_reg_24();
+        color: #B0B0B0;
+        .all-projects{
+            color:#000;
+            .montserrat_sbold_25();
+            font-size: 24px;
+            text-decoration-line: underline;
+        }
+        p{
+            width: 40%;
+            -webkit-transition: all 0.7s ease;
+            transition: all 0.7s ease; //Время изменения цвета */
+        }
+
+        p:hover{
+            cursor: pointer;
+            color: #000; // Меняем цвет ссылки
+            text-decoration: underline;
+        }
+    }
+
+
+
+    .object-2{
+        margin: 5rem 0 7.5rem 0;
+        transition-duration: 0.2s;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .section{
+        background-color: @bgn_black;
+    }
+
+    .object-3{
+        margin-top: 13.3rem;
+        transition-duration: 0.2s;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            color: @txt_white;
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .object-4{
+        margin: 9.5rem 0 9.5rem 2rem;
+        transition-duration: 0.2s;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            display: inline-block;
+            line-height: 2.9rem;
+            color: @txt_white;
+        }
+        &-arrow{
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .object-5{
+        margin: 9.5rem 0;
+        transition-duration: 0.2s;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .object-6{
+        margin: 15.3rem 0 0 2rem;
+        transition-duration: 0.2s;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .object-7{
+        margin: 4.8rem 0 0 7rem;
+        transition-duration: 0.2s;
+        width: auto;
+        &-img img{
+            width: 100%;
+            height: auto;
+        }
+        &-txt{
+            .montserrat_reg_16();
+            line-height: 1.5rem;
+            margin: 1.5rem 0 0 0;
+        }
+        &-title{
+            .montserrat_reg_24();
+            display: inline-block;
+            line-height: 2.9rem;
+        }
+        &-arrow{
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-line img {
+            width: 100%;
+            vertical-align: top;
+            margin-top: 1.5rem;
+        }
+    }
+}
+
+////////576
+@media screen and (min-width: 300px) and (max-width: 576px) {
+    .main{
+        .main-projects{
+            padding-top: 0;
+            .object-1{
+                margin: 0;
+                margin-top: 10px;
+                &-txt{
+                    font-size: 12px;
+                }
+                &-title{
+                    font-size: 14px;
+                    line-height: 1rem;
+                }
+            }
+    
+            .navigation{
+                font-size: 12px;
+                line-height: 2rem;
+                margin-top: 5px;
+                p{
+                    width: 100%;
+                }
+            }
+    
+            .object-2{
+                &-txt{
+                    font-size: 12px;
+                }
+                &-title{
+                    font-size: 14px;
+                    line-height: 1rem;
+                }
+            }
+        }
+    
+        .container-black{
+            .object-3{
+                &-txt{
+                    font-size: 12px;
+                }
+                &-title{
+                    font-size: 16px;
+                    line-height: 1rem;
+                }
+            }
+    
+            .object-4{
+                &-txt{
+                    font-size: 12px;
+                }
+                &-title{
+                    font-size: 16px;
+                    line-height: 1rem;
+                }
+            }
+        }
+    
+        .last-projects{
+            .object-5{
+                margin-top: 5rem;
+                margin-bottom: 5rem;
+                &-txt{
+                    font-size: 12px;
+                }
+                &-title{
+                    font-size: 16px;
+                    line-height: 1rem;
+                }
+            }
+    
+            .object-6{
+                margin: 0rem 0 0 2rem;
+                &-txt{
+                    font-size: 12px;
+                }
+                &-title{
+                    font-size: 16px;
+                    line-height: 1rem;
+                }
+            }
+    
+            .object-7{
+                margin: 5rem 0 0 2rem;
+                &-txt{
+                    font-size: 12px;
+                }
+                &-title{
+                    font-size: 16px;
+                    line-height: 1rem;
+                }
+            }
+        }
+    
+        .container {
+            max-width: 95%;
+        }
+    }
+}
+
+
+////////768
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .main-projects{
+        .object-1{
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+
+        .navigation{
+            font-size: 14px;
+            line-height: 2rem;
+            margin-top: 5px;
+            p{
+                width: 50%;
+            }
+        }
+
+        .object-2{
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+    }
+
+    .container-black{
+        .object-3{
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+
+        .object-4{
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+    }
+
+    .last-projects{
+        .object-5{
+            margin-top: 5rem;
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+
+        .object-6{
+            margin: 7rem 0 0 2rem;
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+
+        .object-7{
+            margin: 5rem 0 0 2rem;
+            &-txt{
+                font-size: 12px;
+            }
+            &-title{
+                font-size: 16px;
+                line-height: 1rem;
+            }
+        }
+    }
+
+    .container {
+        max-width: 95%;
+    }
+}
+
+///////992
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .main-projects{
+        .object-1{
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+
+        .navigation{
+            font-size: 16px;
+            line-height: 2.3rem;
+            margin-top: 5px;
+            p{
+                width: 40%;
+            }
+        }
+
+        .object-2{
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+    }
+
+    .container-black{
+        .object-3{
+            margin-top: 7rem;
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+
+        .object-4{
+            margin: 7rem 0;
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+    }
+
+    .last-projects{
+        .object-5{
+            margin: 7rem 0;
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+
+        .object-6{
+            margin: 9rem 0 0 2rem;
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+
+        .object-7{
+            margin: 5rem 0 0 2rem;
+            &-txt{
+                font-size: 14px;
+            }
+            &-title{
+                font-size: 18px;
+                margin-bottom: 0;
+                line-height: 2rem;
+            }
+        }
+    }
+
+    .container{
+        max-width: 95%;
+    }
+}
+

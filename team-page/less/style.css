@@ -1,0 +1,498 @@
+.main .team-up .bottom-margin {
+  background-color: #FFFFFF;
+  height: 5rem;
+  width: 100%;
+  transition-duration: 0.5s;
+}
+.main .team-up .member-1 {
+  width: auto;
+}
+.main .team-up .member-1 .member-1-img img {
+  width: 100%;
+  height: auto;
+}
+.main .team-up .member-1-job-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+.main .team-up .member-1-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #000;
+}
+.main .team-up .member-1-plus {
+  margin-left: 14.9rem;
+  display: inline-block;
+  background: #B0B0B0;
+  height: 25px;
+  width: 1px;
+  position: relative;
+  left: 40px;
+}
+.main .team-up .member-1-plus::after {
+  content: "";
+  height: 1px;
+  width: 25px;
+  background: #B0B0B0;
+  position: absolute;
+  left: -12.5px;
+  top: 12.5px;
+}
+.main .team-up .member-2 {
+  margin-top: 2rem;
+  width: auto;
+  height: auto;
+}
+.main .team-up .member-2 .member-2-img img {
+  width: 100%;
+  height: auto;
+}
+.main .team-up .member-2-job-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+.main .team-up .member-2-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #000;
+}
+.main .team-up .member-2-plus {
+  margin-left: 14.9rem;
+  display: inline-block;
+  background: #B0B0B0;
+  height: 25px;
+  width: 1px;
+  position: relative;
+  left: 40px;
+}
+.main .team-up .member-2-plus::after {
+  content: "";
+  height: 1px;
+  width: 25px;
+  background: #B0B0B0;
+  position: absolute;
+  left: -12.5px;
+  top: 12.5px;
+}
+.main .team-up .member-3 {
+  width: auto;
+  margin-top: 7rem;
+}
+.main .team-up .member-3-img img {
+  width: 100%;
+  height: auto;
+}
+.main .team-up .member-3-job-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+.main .team-up .member-3-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #000;
+}
+.main .team-up .member-3-plus {
+  margin-left: 9.8rem;
+  display: inline-block;
+  background: #B0B0B0;
+  height: 25px;
+  width: 1px;
+  position: relative;
+  left: 40px;
+}
+.main .team-up .member-3-plus::after {
+  content: "";
+  height: 1px;
+  width: 25px;
+  background: #B0B0B0;
+  position: absolute;
+  left: -12.5px;
+  top: 12.5px;
+}
+.main .team-up .member-4 {
+  width: auto;
+}
+.main .team-up .member-4-img img {
+  width: 100%;
+  height: auto;
+}
+.main .team-up .member-4-job-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+.main .team-up .member-4-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #000;
+}
+.main .team-up .member-4-plus {
+  margin-left: 9rem;
+  display: inline-block;
+  background: #B0B0B0;
+  height: 25px;
+  width: 1px;
+  position: relative;
+  left: 40px;
+}
+.main .team-up .member-4-plus::after {
+  content: "";
+  height: 1px;
+  width: 25px;
+  background: #B0B0B0;
+  position: absolute;
+  left: -12.5px;
+  top: 12.5px;
+}
+.main .team-up .member-5 {
+  width: auto;
+}
+.main .team-up .member-5 .member-5-img img {
+  width: 100%;
+  height: auto;
+}
+.main .team-up .member-5-job-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+.main .team-up .member-5-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #000;
+}
+.main .team-up .member-5-plus {
+  margin-left: 14.9rem;
+  display: inline-block;
+  background: #B0B0B0;
+  height: 25px;
+  width: 1px;
+  position: relative;
+  left: 40px;
+}
+.main .team-up .member-5-plus::after {
+  content: "";
+  height: 1px;
+  width: 25px;
+  background: #B0B0B0;
+  position: absolute;
+  left: -12.5px;
+  top: 12.5px;
+}
+.main .about-us .titles-gray {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+}
+.main .about-us .titles-black {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 3.8rem;
+  padding-top: 3rem;
+}
+.main .about-us .left-column {
+  margin-top: 2rem;
+}
+.main .about-us .left-column .left-column-img img {
+  width: 100%;
+  height: auto;
+}
+.main .about-us .left-column-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  text-transform: none;
+  color: #000;
+  line-height: 3.5rem;
+  padding-top: 1.5rem;
+}
+.main .about-us .right-column {
+  margin-top: 2rem;
+}
+.main .about-us .right-column .right-column-img img {
+  width: 100%;
+  height: auto;
+}
+.main .about-us .right-column-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  line-height: 3.5rem;
+  text-transform: none;
+  color: #000;
+  padding-top: 1.5rem;
+}
+.main .photo-awards-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  margin-top: 7rem;
+}
+.main .photo-awards .photo-awards-img img {
+  margin-top: 3rem;
+  width: 100%;
+  height: auto;
+}
+.main .photo-awards-txtdown {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B0B0B0;
+  text-transform: uppercase;
+  text-transform: none;
+  color: #000000;
+  line-height: 3.5rem;
+  margin-top: 3rem;
+}
+.main .photo-awards .photo-awards-imgdown img {
+  margin-top: 3rem;
+  width: 100%;
+  height: auto;
+}
+.main .footer-line {
+  padding: 12rem 0 9rem 0;
+}
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .main .container {
+    max-width: 95%;
+  }
+  .main .team-up .member-1 {
+    margin-top: 5rem;
+  }
+  .main .team-up .member-1 .member-1-job-title {
+    font-size: 12px;
+  }
+  .main .team-up .member-1 .member-1-name {
+    font-size: 14px;
+  }
+  .main .team-up .member-2 .member-2-job-title {
+    font-size: 12px;
+  }
+  .main .team-up .member-2 .member-2-name {
+    font-size: 14px;
+  }
+  .main .team-up .member-3 {
+    margin-top: 5rem;
+  }
+  .main .team-up .member-3 .member-3-job-title {
+    font-size: 12px;
+  }
+  .main .team-up .member-3 .member-3-name {
+    font-size: 14px;
+  }
+  .main .team-up .member-4 {
+    margin-top: 5rem;
+  }
+  .main .team-up .member-4 .member-4-job-title {
+    font-size: 12px;
+  }
+  .main .team-up .member-4 .member-4-name {
+    font-size: 14px;
+  }
+  .main .team-up .member-5 {
+    margin-top: 5rem;
+  }
+  .main .team-up .member-5 .member-5-job-title {
+    font-size: 12px;
+  }
+  .main .team-up .member-5 .member-5-name {
+    font-size: 14px;
+  }
+  .main .about-us .titles .titles-gray {
+    font-size: 12px;
+  }
+  .main .about-us .titles .titles-black {
+    font-size: 18px;
+    line-height: 3rem;
+  }
+  .main .about-us .left-column .left-column-txt {
+    width: 100%;
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .main .about-us .right-column .right-column-txt {
+    width: 100%;
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .main .photo-awards .photo-awards-title {
+    font-size: 12px;
+  }
+  .main .photo-awards .photo-awards-txtdown {
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container {
+    max-width: 95%;
+  }
+  .team-up .member-1 .member-1-job-title {
+    font-size: 12px;
+  }
+  .team-up .member-1 .member-1-name {
+    font-size: 14px;
+  }
+  .team-up .member-2 .member-2-job-title {
+    font-size: 12px;
+  }
+  .team-up .member-2 .member-2-name {
+    font-size: 14px;
+  }
+  .team-up .member-3 .member-3-job-title {
+    font-size: 12px;
+  }
+  .team-up .member-3 .member-3-name {
+    font-size: 14px;
+  }
+  .team-up .member-4 {
+    margin-top: 100rem;
+  }
+  .team-up .member-4 .member-4-job-title {
+    font-size: 12px;
+  }
+  .team-up .member-4 .member-4-name {
+    font-size: 14px;
+  }
+  .team-up .member-5 {
+    margin-top: 1px;
+  }
+  .team-up .member-5 .member-5-job-title {
+    font-size: 12px;
+  }
+  .team-up .member-5 .member-5-name {
+    font-size: 14px;
+  }
+  .about-us .titles .titles-gray {
+    font-size: 12px;
+  }
+  .about-us .titles .titles-black {
+    font-size: 18px;
+    line-height: 3rem;
+  }
+  .about-us .left-column .left-column-txt {
+    width: 100%;
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .about-us .right-column .right-column-txt {
+    width: 100%;
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .photo-awards .photo-awards-title {
+    font-size: 12px;
+  }
+  .photo-awards .photo-awards-txtdown {
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .container {
+    max-width: 95%;
+  }
+  .team-up .member-1 .member-1-job-title {
+    font-size: 14px;
+  }
+  .team-up .member-1 .member-1-name {
+    font-size: 16px;
+  }
+  .team-up .member-2 .member-2-job-title {
+    font-size: 14px;
+  }
+  .team-up .member-2 .member-2-name {
+    font-size: 16px;
+  }
+  .team-up .member-3 .member-3-job-title {
+    font-size: 14px;
+  }
+  .team-up .member-3 .member-3-name {
+    font-size: 16px;
+  }
+  .team-up .member-4 .member-4-job-title {
+    font-size: 14px;
+  }
+  .team-up .member-4 .member-4-name {
+    font-size: 16px;
+  }
+  .team-up .member-5 .member-5-job-title {
+    font-size: 14px;
+  }
+  .team-up .member-5 .member-5-name {
+    font-size: 16px;
+  }
+  .about-us .titles .titles-gray {
+    font-size: 14px;
+  }
+  .about-us .titles .titles-black {
+    font-size: 20px;
+    line-height: 3rem;
+  }
+  .about-us .left-column .left-column-txt {
+    width: 100%;
+    font-size: 14px;
+    line-height: 3rem;
+  }
+  .about-us .right-column .right-column-txt {
+    width: 100%;
+    font-size: 14px;
+    line-height: 3rem;
+  }
+  .photo-awards .photo-awards-title {
+    font-size: 14px;
+  }
+  .photo-awards .photo-awards-txtdown {
+    font-size: 14px;
+    line-height: 3rem;
+  }
+}

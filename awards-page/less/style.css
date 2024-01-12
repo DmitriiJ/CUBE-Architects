@@ -1,0 +1,790 @@
+.main .fest-12-arch-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  color: #B0B0B0;
+  margin-bottom: 3rem;
+}
+.main .fest-12-arch-img img {
+  width: 100%;
+  height: auto;
+}
+.main .fest-12-arch-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  margin-top: 3rem;
+}
+.main .fest-12-arch-grandprix {
+  margin: 5rem 5rem 0 0;
+  display: inline-block;
+}
+.main .fest-12-arch-grandprix img {
+  width: 100%;
+  height: auto;
+}
+.main .fest-12-arch-dip1degree {
+  display: inline-block;
+}
+.main .fest-12-arch-dip1degree img {
+  width: 100%;
+  height: auto;
+}
+.main .fest-12-arch-dip-txt {
+  display: inline-block;
+  margin-top: 5rem;
+}
+.main .fest-12-arch-dip-txt h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 3.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.main .fest-12-arch-dip-txt p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  width: 44.8rem;
+}
+.main .fest-12-arch-dip2degree {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5rem 0 0 1.4rem;
+}
+.main .fest-12-arch .fest-12-arch-dip2degree img {
+  width: 100%;
+  height: auto;
+}
+.main .section {
+  background-color: #1A1A1A;
+}
+.main .fest-14-arch {
+  margin-top: 7rem;
+  padding: 7rem 0 7rem 1rem;
+}
+.main .fest-14-arch-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  color: #B0B0B0;
+  padding-left: 11.5rem;
+}
+.main .fest-14-arch-left {
+  padding-top: 6rem;
+}
+.main .fest-14-arch-left img {
+  width: 100%;
+  height: auto;
+}
+.main .fest-14-arch-center {
+  margin-top: 10rem;
+  margin-left: 0.7rem;
+}
+.main .fest-14-arch-center-uptxt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  color: #B0B0B0;
+}
+.main .fest-14-arch-center-img {
+  padding-top: 6rem;
+}
+.main .fest-14-arch-center-img img {
+  width: 100%;
+  height: auto;
+}
+.main .fest-14-arch-center-title {
+  padding-top: 7.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 3.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.main .fest-14-arch-center-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  padding-top: 2rem;
+  color: #B0B0B0;
+}
+.main .fest-14-arch-right {
+  margin: 51rem 0 0 1.2rem;
+}
+.main .fest-14-arch-right-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  color: #B0B0B0;
+  padding-top: 2rem;
+}
+.main .fest-14-arch-right img {
+  width: 100%;
+  height: auto;
+}
+.main .fest-15-arch-title {
+  padding-top: 7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  text-transform: uppercase;
+  color: #B0B0B0;
+  margin-bottom: 3rem;
+}
+.main .fest-15-arch-img-main img {
+  width: 100%;
+  height: auto;
+}
+.main .fest-15-arch-img-up,
+.main .fest-15-arch-img-down {
+  margin-bottom: 3.5rem;
+}
+.main .fest-15-arch-img-up img,
+.main .fest-15-arch-img-down img {
+  width: 80%;
+  height: auto;
+}
+.main .fest-15-arch-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  margin-bottom: 7rem;
+}
+.main .other-awards-titletxt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 3.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 7rem 0 0 0rem;
+}
+.main .other-awards-img-greenurban {
+  padding: 3rem 0 0 0rem;
+  display: inline-block;
+  width: 50%;
+}
+.main .other-awards-img-greenurban img {
+  width: 100%;
+  height: auto;
+}
+.main .other-awards-txt-greenurban {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  color: #FFFFFF;
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  margin: 1.7rem 0 0 2rem;
+}
+.main .other-awards-txt-leo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  color: #FFFFFF;
+  padding-top: 10rem;
+}
+.main .other-awards-img-leo {
+  padding: 5rem 0 9rem 0;
+}
+.main .other-awards-img-leo img {
+  width: 80%;
+  height: auto;
+}
+.main .other-awards-img-yellow {
+  padding: 7rem 0 0 4.8rem;
+}
+.main .other-awards-img-yellow img {
+  width: 70%;
+  height: auto;
+}
+.main .other-awards-txt-yellow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  color: #FFFFFF;
+  padding: 4rem 0 7rem 4rem;
+}
+.main .masa {
+  margin-top: 7rem;
+}
+.main .masa-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  text-transform: uppercase;
+  color: #B0B0B0;
+  padding-left: 6.6rem;
+}
+.main .masa-img {
+  width: 100%;
+  padding: 3rem 0 0 6.6rem;
+}
+.main .masa-img img {
+  width: 100%;
+  height: auto;
+}
+.main .masa-titletxt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 3.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 3rem 0 0 2rem;
+}
+.main .masa-txt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 3.6rem;
+  color: #000;
+  padding: 1rem 0 0 2rem;
+}
+.main .masa-txtdown {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 3.6rem;
+  padding: 3rem 0 0 6.6rem;
+}
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .main .container {
+    max-width: 95%;
+  }
+  .main .fest-12-arch-title {
+    font-size: 12px;
+    padding-left: 0;
+  }
+  .main .fest-12-arch-txt {
+    font-size: 12px;
+    line-height: 2.5rem;
+    margin-top: 3rem;
+  }
+  .main .fest-12-arch-grandprix {
+    margin-top: 5rem;
+    display: inline-block;
+    width: 40%;
+  }
+  .main .fest-12-arch-dip1degree {
+    display: inline-block;
+    width: 40%;
+  }
+  .main .fest-12-arch-dip-txt {
+    display: inline-block;
+    margin-top: 3rem;
+    width: 40%;
+  }
+  .main .fest-12-arch-dip-txt p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .main .fest-12-arch-dip2degree {
+    display: inline-block;
+    vertical-align: top;
+    padding: 4rem 0 0 1.4rem;
+  }
+  .main .fest-12-arch .fest-12-arch-dip2degree {
+    width: 43%;
+    margin-left: 3.4rem;
+    margin-bottom: 3rem;
+  }
+  .main .fest-14-arch {
+    margin-top: 3rem;
+    padding: 3rem 0 7rem 0rem;
+  }
+  .main .fest-14-arch .fest-14-arch-title {
+    font-size: 12px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .main .fest-14-arch .fest-14-arch-center {
+    margin-top: 3rem;
+  }
+  .main .fest-14-arch-left {
+    padding-top: 3rem;
+    text-align: center;
+  }
+  .main .fest-14-arch-left img {
+    width: 70%;
+    height: auto;
+  }
+  .main .fest-14-arch-center {
+    margin: 10rem 0 0 0rem;
+  }
+  .main .fest-14-arch-center-uptxt {
+    font-size: 12px;
+    line-height: 2.5rem;
+  }
+  .main .fest-14-arch-center-img {
+    padding-top: 5rem;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .main .fest-14-arch-center-txt {
+    font-size: 12px;
+    line-height: 2.5rem;
+    height: auto;
+  }
+  .main .fest-14-arch-right {
+    margin: 3rem 0 0 0;
+  }
+  .main .fest-14-arch-right-txt {
+    font-size: 12px;
+    line-height: 2.5rem;
+    height: auto;
+  }
+  .main .fest-14-arch-right-img {
+    padding-top: 3.5rem;
+    width: 70%;
+    height: auto;
+    margin: 0 auto 3rem auto;
+  }
+  .main .fest-15-arch {
+    width: 100%;
+  }
+  .main .fest-15-arch .fest-15-arch-title {
+    font-size: 12px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 5rem;
+  }
+  .main .fest-15-arch-img-main {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .main .fest-15-arch-img-up {
+    width: 47.7%;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+  .main .fest-15-arch-img-up img {
+    width: 100%;
+    height: auto;
+  }
+  .main .fest-15-arch-img-down {
+    width: 47.7%;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-bottom: 0rem;
+  }
+  .main .fest-15-arch-img-down img {
+    width: 100%;
+    height: auto;
+  }
+  .main .fest-15-arch-txt {
+    font-size: 12px;
+    line-height: 2.5rem;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .main .other-awards-titletxt {
+    font-size: 14px;
+    margin-left: 0rem;
+  }
+  .main .other-awards-img-greenurban {
+    padding: 2rem 0 0 0rem;
+  }
+  .main .other-awards-txt-greenurban {
+    font-size: 12px;
+    line-height: 2.5rem;
+    height: auto;
+  }
+  .main .other-awards-txt-leo {
+    font-size: 12px;
+    line-height: 2.5rem;
+    height: auto;
+    padding-top: 5rem;
+  }
+  .main .other-awards-img-leo {
+    padding: 3rem 0 3rem 0;
+    margin: 0rem auto;
+  }
+  .main .other-awards-img-yellow {
+    padding: 7rem 0 0 3rem;
+  }
+  .main .other-awards-img-yellow img {
+    width: 70%;
+  }
+  .main .other-awards-txt-yellow {
+    font-size: 12px;
+    line-height: 2.5rem;
+    height: auto;
+    padding: 3rem 0;
+  }
+  .main .masa {
+    margin-top: 5rem;
+  }
+  .main .masa-title {
+    font-size: 12px;
+    padding-left: 0rem;
+  }
+  .main .masa-img {
+    padding: 1rem 0 0 0rem;
+    width: 100%;
+  }
+  .main .masa-titletxt {
+    font-size: 14px;
+    padding: 3rem 0 0 0rem;
+    line-height: 3rem;
+  }
+  .main .masa-txt {
+    font-size: 12px;
+    line-height: 2.5rem;
+    padding: 0rem;
+  }
+  .main .masa-txtdown {
+    font-size: 12px;
+    line-height: 2.5rem;
+    padding-left: 0rem;
+    margin-bottom: -3rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .main .container {
+    max-width: 95%;
+  }
+  .main .fest-12-arch-title {
+    font-size: 12px;
+    padding-left: 0;
+  }
+  .main .fest-12-arch-txt {
+    font-size: 14px;
+    line-height: 2.5rem;
+  }
+  .main .fest-12-arch-grandprix {
+    margin-top: 3rem;
+    display: inline-block;
+    width: 45%;
+  }
+  .main .fest-12-arch-dip1degree {
+    display: inline-block;
+    width: 45%;
+  }
+  .main .fest-12-arch-dip-txt {
+    display: inline-block;
+    margin-top: 3rem;
+    width: 45%;
+  }
+  .main .fest-12-arch-dip-txt p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 2.5rem;
+  }
+  .main .fest-12-arch-dip2degree {
+    display: inline-block;
+    vertical-align: top;
+    padding: 4rem 0 0 1.4rem;
+  }
+  .main .fest-12-arch .fest-12-arch-dip2degree {
+    width: 47%;
+    margin-left: 3.4rem;
+  }
+  .main .fest-14-arch {
+    margin-top: 3rem;
+    padding: 3rem 0 7rem 1rem;
+  }
+  .main .fest-14-arch .fest-14-arch-title {
+    font-size: 12px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .main .fest-14-arch .fest-14-arch-center {
+    margin-top: 3rem;
+  }
+  .main .fest-14-arch-left {
+    padding-top: 22.5rem;
+  }
+  .main .fest-14-arch-left img {
+    height: auto;
+  }
+  .main .fest-14-arch-center {
+    margin: 10rem 0 0 0.7rem;
+  }
+  .main .fest-14-arch-center-uptxt {
+    font-size: 14px;
+    line-height: 2.5rem;
+  }
+  .main .fest-14-arch-center-img {
+    padding-top: 6rem;
+  }
+  .main .fest-14-arch-center-txt {
+    font-size: 14px;
+    line-height: 2.5rem;
+    height: auto;
+  }
+  .main .fest-14-arch-right {
+    margin: 1rem 0 0 1.2rem;
+  }
+  .main .fest-14-arch-right-txt {
+    font-size: 14px;
+    line-height: 2.5rem;
+    height: auto;
+  }
+  .main .fest-14-arch-right-img {
+    padding-top: 3.5rem;
+  }
+  .main .fest-15-arch .fest-15-arch-title {
+    font-size: 12px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 5rem;
+  }
+  .main .fest-15-arch-img-main {
+    margin-bottom: 2rem;
+  }
+  .main .fest-15-arch-img-up {
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+  .main .fest-15-arch-img-up img {
+    width: 100%;
+    height: auto;
+  }
+  .main .fest-15-arch-img-down {
+    display: inline-block;
+    margin-left: 2rem;
+  }
+  .main .fest-15-arch-img-down img {
+    width: 100%;
+    height: auto;
+  }
+  .main .fest-15-arch-txt {
+    font-size: 14px;
+    line-height: 2.5rem;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .main .other-awards-titletxt {
+    font-size: 16px;
+  }
+  .main .other-awards-img-greenurban {
+    padding: 2rem 0 0 0rem;
+  }
+  .main .other-awards-txt-greenurban {
+    font-size: 14px;
+    line-height: 2.5rem;
+    height: auto;
+  }
+  .main .other-awards-txt-leo {
+    font-size: 14px;
+    line-height: 2.5rem;
+    height: auto;
+  }
+  .main .other-awards-img-leo {
+    padding: 5rem 0 9rem 0;
+  }
+  .main .other-awards-img-yellow {
+    padding: 7rem 0 0 3rem;
+  }
+  .main .other-awards-txt-yellow {
+    font-size: 14px;
+    line-height: 2.5rem;
+    height: auto;
+  }
+  .main .masa {
+    margin-top: 5rem;
+  }
+  .main .masa-title {
+    font-size: 12px;
+    padding-left: 0rem;
+  }
+  .main .masa-img {
+    padding: 3rem 0 0 0rem;
+    width: 100%;
+  }
+  .main .masa-titletxt {
+    font-size: 16px;
+    padding: 3rem 0 0 2rem;
+    line-height: 3rem;
+  }
+  .main .masa-txt {
+    font-size: 14px;
+    line-height: 2.5rem;
+  }
+  .main .masa-txtdown {
+    font-size: 14px;
+    line-height: 2.5rem;
+    padding-left: 0rem;
+    margin-bottom: 7rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .main .container {
+    max-width: 95%;
+  }
+  .main .fest-12-arch-title {
+    font-size: 14px;
+  }
+  .main .fest-12-arch-txt {
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .main .fest-12-arch-grandprix {
+    margin-top: 5rem;
+    width: 40%;
+  }
+  .main .fest-12-arch-dip1degree {
+    width: 40%;
+    margin-left: 2.2rem;
+  }
+  .main .fest-12-arch-dip-txt {
+    display: inline-block;
+    margin-top: 5rem;
+    width: 45%;
+  }
+  .main .fest-12-arch-dip-txt p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .main .fest-12-arch-dip2degree {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5rem 0 0 1.4rem;
+  }
+  .main .fest-12-arch .fest-12-arch-dip2degree {
+    width: 42%;
+    margin-left: 3.3rem;
+  }
+  .main .fest-14-arch {
+    margin-top: 3rem;
+    padding: 3rem 0 7rem 1rem;
+  }
+  .main .fest-14-arch .fest-14-arch-title {
+    font-size: 14px;
+    padding-left: 0;
+  }
+  .main .fest-14-arch .fest-14-arch-center {
+    margin-top: 3rem;
+  }
+  .main .fest-14-arch-left {
+    padding-top: 22.5rem;
+  }
+  .main .fest-14-arch-left img {
+    height: auto;
+  }
+  .main .fest-14-arch-center {
+    margin: 10rem 0 0 0.7rem;
+  }
+  .main .fest-14-arch-center-uptxt {
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .main .fest-14-arch-center-img {
+    padding-top: 6rem;
+  }
+  .main .fest-14-arch-center-txt {
+    font-size: 16px;
+    line-height: 3rem;
+    height: auto;
+  }
+  .main .fest-14-arch-right {
+    margin: 1rem 0 0 1.2rem;
+  }
+  .main .fest-14-arch-right-txt {
+    font-size: 16px;
+    line-height: 3rem;
+    height: auto;
+  }
+  .main .fest-14-arch-right-img {
+    padding-top: 3.5rem;
+  }
+  .main .fest-15-arch .fest-15-arch-title {
+    font-size: 14px;
+    padding-left: 0;
+    padding-top: 3rem;
+  }
+  .main .fest-15-arch-img-up,
+  .main .fest-15-arch-img-down {
+    margin-bottom: 1rem;
+  }
+  .main .fest-15-arch-img-up img,
+  .main .fest-15-arch-img-down img {
+    width: 100%;
+  }
+  .main .fest-15-arch-txt {
+    margin-top: -12rem;
+    font-size: 16px;
+    line-height: 3rem;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .main .other-awards-titletxt {
+    font-size: 20px;
+  }
+  .main .other-awards-img-greenurban {
+    padding: 2rem 0 0 0rem;
+  }
+  .main .other-awards-txt-greenurban {
+    font-size: 16px;
+    line-height: 3rem;
+    height: auto;
+  }
+  .main .other-awards-txt-leo {
+    font-size: 16px;
+    line-height: 3rem;
+    height: auto;
+  }
+  .main .other-awards-img-leo {
+    padding: 5rem 0 9rem 0;
+  }
+  .main .other-awards-img-yellow {
+    padding: 7rem 0 0 5rem;
+  }
+  .main .other-awards-txt-yellow {
+    font-size: 16px;
+    line-height: 3rem;
+    height: auto;
+  }
+  .main .masa {
+    margin-top: 5rem;
+  }
+  .main .masa-title {
+    font-size: 14px;
+  }
+  .main .masa-img {
+    padding: 3rem 0 0 6.6rem;
+    width: 100%;
+  }
+  .main .masa-titletxt {
+    font-size: 20px;
+    padding: 3rem 0 0 2rem;
+  }
+  .main .masa-txt {
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .main .masa-txtdown {
+    font-size: 16px;
+    line-height: 3rem;
+    margin-bottom: 9rem;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1920px) {
+  .main .fest-12-arch-grandprix {
+    margin-top: 5rem;
+    width: 40%;
+  }
+  .main .fest-12-arch-dip1degree {
+    width: 40%;
+    margin-left: 2.2rem;
+  }
+  .main .fest-12-arch .fest-12-arch-dip2degree {
+    width: 41.5%;
+    margin-left: 6rem;
+  }
+  .main .fest-12-arch-dip-txt {
+    display: inline-block;
+    margin-top: 5rem;
+    width: 40%;
+  }
+  .main .fest-12-arch-dip-txt p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 3rem;
+  }
+}

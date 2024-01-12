@@ -1,0 +1,524 @@
+//compress: true
+
+// basic sattings
+html{
+    font-size: 10px;
+}
+
+// section{
+//     padding: 9rem 0;
+// }
+
+//font-styles
+.SF_reg () {
+    font-family: 'SF_pro_display_reg';
+    font-size: 16px;
+    color: #B0B0B0;
+}
+
+.montserrat_reg_20() {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #B0B0B0;
+}
+
+.montserrat_reg_24() {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.montserrat_sbold_25() {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.montserrat_reg_81() {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 81px;
+    font-weight: 300;
+}
+
+.montserrat_sbold_64() {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: @txt_white;
+}
+
+.questrial {
+    font-family: 'Questrial', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+}
+
+// colors
+@black: #000;
+@almost-white: #D8D8D8;
+@bgn_black: #1A1A1A;
+@txt_white: #FFFFFF;
+@txt_gray: #B0B0B0;
+
+.header {
+    padding: 25px 0 50px 0;
+
+    .ru {
+        display: inline-block;
+        .montserrat_reg_20();
+        color: #000000;
+        text-transform: uppercase;
+        text-decoration: underline;
+        margin-right: 1.2rem;
+    }
+
+    .eng {
+        display: inline-block;
+        .montserrat_reg_20();
+        color: #000000;
+        text-transform: uppercase;
+    }
+
+    .upper-header-part {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .wrap {
+        display: flex;
+        justify-content: flex-start;
+        align-items: end;
+        flex-direction: row;
+        width: 100%;
+        height: 90%;
+   
+        h1 {
+            vertical-align: bottom;
+            justify-content: flex-start;
+            display: flex;
+            flex-direction: column;
+            .montserrat_reg_81();
+            font-size: 72px;
+            text-transform: none;
+        }
+    }
+
+
+
+    .hamburger-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: end;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        margin: 0 0 0 auto;
+        padding: 10px 0;
+        transition-duration: 0.2s;
+        justify-content: space-between;
+        height: 40px;
+    }
+
+    .hamburger:hover {
+        cursor: pointer;
+        background-color: #000;
+
+    }
+
+    .hamburger-line {
+        background-color: #000;
+        width: 50px;
+        height: 5px;
+        transition-duration: 0.2s;
+    }
+
+    .hamburger:hover .hamburger-line {
+        background-color: #fff;
+    }
+}
+
+
+//menuuuuuuuuuuuuuuuuuuuuuuuu
+.main-menu {
+    position: fixed;
+    left: 100vw;
+    z-index: 10;
+    transition-duration: 0.5s;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: @bgn_black;
+
+
+
+    .menu-txt {
+        padding: 3rem 0 0 6rem;
+
+        // width: 70rem;
+        a {
+            text-decoration: none;
+
+            h1 {
+                .montserrat_sbold_64();
+                margin-bottom: 3rem;
+                -webkit-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+                /* Время изменения цвета */
+            }
+
+            h1:hover {
+                cursor: pointer;
+                color: #000;
+                /* Меняем цвет ссылки */
+                -webkit-text-stroke: 1px #FFFFFF;
+                /* Толщина и цвет обводки */
+                // text-stroke: 1px @txt_white;
+            }
+
+            .last-link{
+                margin-bottom: 12rem;
+            }
+        }
+
+    }
+
+
+    .cross {
+        rotate: 45deg;
+        transition-duration: 0.2s;
+        height: 70px;
+        width: 70px;
+        margin: 30px auto;
+        padding: 0;
+    }
+
+    .cross:hover {
+        rotate: -45deg;
+        cursor: pointer;
+    }
+
+    .cross-figure {
+        clip-path: polygon(0 48%, 48% 48%, 48% 0, 52% 0, 52% 48%, 100% 48%, 100% 52%, 52% 52%, 52% 100%, 48% 100%, 48% 52%, 0 52%);
+        width: 100%;
+        height: 100%;
+        background-color: #b0b0b0;
+        transition-duration: 0.2s;
+    }
+
+    .cross:hover .cross-figure {
+        clip-path: polygon(0 41%, 41% 41%, 41% 0, 59% 0, 59% 41%, 100% 41%, 100% 59%, 59% 59%, 59% 100%, 41% 100%, 41% 59%, 0 59%);
+    }
+
+    .menu-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: end
+    }
+
+    .menu-logo-img {
+        width: 70%;
+    }
+
+    .mail {
+        .montserrat_sbold_64();
+        font-size: 25px;
+        text-align: right;
+        padding-right: 3.5rem;
+        line-height: 0rem;
+        margin-bottom: 15px;
+    }
+
+    .mail-underline {
+        width: 100%;
+        height: 3px;
+        background-color: @txt_white;
+    }
+
+}
+
+.footer-line{
+    background-color: #fff;
+    padding: 9rem 0;
+}
+
+.footer {
+    background-color: @black;
+
+    .footer-left-col {
+        margin-top: 90px;
+    }
+
+    .footer-com-info {
+        .montserrat_reg_20();
+        color: @txt_white;
+        font-size: 20px;
+        line-height: 31.18px;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+        width: 50%;
+    }
+
+    .footer-email {
+        color: @txt_white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: 400;
+        line-height: 31.18px;
+        text-decoration: underline;
+        margin-bottom: 60px;
+    }
+
+    .footer-company-name {
+        .montserrat_reg_24();
+        width: 100%;
+        text-align: end;
+        margin-top: 65px;
+        margin-bottom: 70px;
+    }
+
+    .footer-right-col {
+        margin-top: 105px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer-online-contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .online-contact {
+        .montserrat_reg_24();
+        font-weight: 500;
+        line-height: 37.42px;
+        color: @txt_white;
+        margin-left: 40px;
+        text-decoration: none;
+    }
+
+    .footer-language-switcher {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        padding-bottom: 65px;
+    }
+
+    .footer-language-button,
+    .footer-language-separator {
+        .montserrat_reg_20();
+        color: @txt_white;
+        text-decoration: none;
+        line-height: 24.38px;
+    }
+
+    .footer-language-separator {
+        margin: auto 10px;
+    }
+}
+
+//////////992
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .header{
+        &-language .ru, .eng{
+            font-size: 18px;
+        }
+
+        .wrap-block h1{
+            font-size: 56px;
+        }
+    }
+
+    .main-menu{
+        .menu-txt a{
+            h1{
+                font-size: 56px;
+            }
+        }
+
+        .mail{
+            font-size: 20px;
+        }
+    }
+
+    .footer-line{
+        margin: 0;
+        height: 1rem;
+    }
+
+    .footer{
+        .footer-email{
+            font-size: 24px;
+            margin-bottom: 4rem;
+        }
+        .footer-com-info{
+            font-size: 16px;
+            width: 60%;
+            margin-bottom: 1rem;
+        }
+        .footer-company-name{
+            width: 100%;
+        }
+
+        .online-contact{
+            font-size: 18px;
+            line-height: 1.5rem;
+        }
+        .footer-language-button{
+            font-size: 18px;
+            vertical-align: bottom;
+        }
+        .footer-language-switcher{
+            padding-bottom: 1.3rem;
+        }
+    }
+}
+
+//////////768
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .header{
+        &-language .ru, .eng{
+            font-size: 14px;
+        }
+
+        .wrap-block h1{
+            font-size: 36px;
+            line-height: 6rem;
+        }
+    }
+
+    .main-menu{
+        .menu-txt a{
+            h1{
+                font-size: 36px;
+            }
+        }
+
+        .mail{
+            font-size: 18px;
+        }
+    }
+
+    .footer-line{
+        margin-top: 0;
+        height: 0;
+    }
+
+    .footer{
+        .footer-left-col{
+            margin-top: 5rem;
+        }
+
+        .footer-right-col{
+            margin-top: 6.4rem;
+        }
+        .footer-email{
+            font-size: 18px;
+            margin-bottom: 3rem;
+        }
+        .footer-com-info{
+            font-size: 14px;
+            width: 60%;
+            margin-bottom: 1rem;
+        }
+        .footer-company-name{
+            width: 100%;
+        }
+
+        .online-contact{
+            font-size: 16px;
+            line-height: 0.8rem;
+        }
+        .footer-language-button{
+            font-size: 16px;
+            vertical-align: bottom;
+        }
+        .footer-language-switcher{
+            padding-bottom: 1.5rem;
+        }
+    }
+
+}
+
+
+///////////////576
+@media screen and (min-width: 300px) and (max-width: 576px) {
+    .header{
+        .logo img{
+            width: 100%;
+            height: auto;
+        }
+
+        &-language .ru, .eng{
+            font-size: 12px;
+        }
+
+        .wrap-block h1{
+            font-size: 24px;
+            line-height: 6rem;
+        }
+    }
+
+    .main-menu{
+        .menu-txt a{
+            h1{
+                font-size: 42px;
+            }
+        }
+
+        .mail{
+            font-size: 14px;
+        }
+    }
+
+    .footer-line{
+        margin-top: 0;
+        height: 0;
+    }
+
+    .footer{
+        .footer-left-col{
+            margin-top: 5rem;
+        }
+
+        .footer-right-col{
+            margin-top: 6.4rem;
+        }
+        .footer-email{
+            font-size: 14px;
+            margin-bottom: 3rem;
+        }
+        .footer-com-info{
+            font-size: 12px;
+            width: 80%;
+            margin-bottom: 0rem;
+            line-height: 2.8rem;
+        }
+        .footer-company-name{
+            width: 100%;
+            padding-bottom: 1.1rem;
+        }
+
+        .online-contact{
+            font-size: 14px;
+            line-height: 0.8rem;
+        }
+        .footer-language-button{
+            font-size: 12px;
+            vertical-align: bottom;
+        }
+        .footer-language-switcher{
+            padding-bottom: 1.2rem;
+        }
+    }
+}
