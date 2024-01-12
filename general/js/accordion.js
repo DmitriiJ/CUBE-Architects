@@ -17,7 +17,18 @@ function showAccordionPartContent(accordPart) {
     let accordPartContent = accordPart.querySelector('.about-accordion-content-container');
     let accordPartContentText = accordPart.querySelector('.about-accordion-text-content');
     let accordPartContentImg = accordPart.querySelector('.about-accordion-image-content');
+    let bottomMargin = accordPart.querySelector('.bottom-margin');
     
+    // console.log(window.getComputedStyle(bottomMargin).getPropertyValue('height'));
+    // console.log(window.getComputedStyle(bottomMargin).getPropertyValue('maxHeight'));
+    let buff = window.getComputedStyle(bottomMargin).getPropertyValue('height');
+    console.log(buff);
+
+    bottomMargin.style.maxHeight = buff;
+    bottomMargin.style.height = 0;
+
+    console.log(window.getComputedStyle(bottomMargin).getPropertyValue("max-height"));
+
     const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
     const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
     let sidesRatio = vh/vw;
@@ -32,7 +43,10 @@ function hideAccordionPartContent(accordPart) {
     let accordPartContent = accordPart.querySelector('.about-accordion-content-container');
     let accordPartContentText = accordPart.querySelector('.about-accordion-text-content');
     let accordPartContentImg = accordPart.querySelector('.about-accordion-image-content');
+    let bottomMargin = accordPart.querySelector('.bottom-margin');
     accordPartContent.style.height = '0px';
+    
+    bottomMargin.style.height = window.getComputedStyle(bottomMargin).getPropertyValue('max-height');
 }
 
 function changeAccordionPartContent(accordPart) {

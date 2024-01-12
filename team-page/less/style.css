@@ -2,6 +2,7 @@
   background-color: #FFFFFF;
   height: 5rem;
   width: 100%;
+  transition-duration: 0.5s;
 }
 .main .team-up .member-1 {
   width: auto;
