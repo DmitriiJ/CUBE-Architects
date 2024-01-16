@@ -36,7 +36,7 @@ function showAccordionPartContent(accordPart) {
     if (sidesRatio > 1 && accordPartContentImg!=null) {
         addHeight = parseInt(window.getComputedStyle(accordPartContentImg).getPropertyValue('height').slice(0, -2));
     }
-    accordPartContent.style.height = (300 +  addHeight )+ 'px';
+    accordPartContent.style.height = (200 +  addHeight )+ 'px';
 }
 
 function hideAccordionPartContent(accordPart) {

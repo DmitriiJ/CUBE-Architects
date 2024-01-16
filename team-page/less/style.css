@@ -1,7 +1,6 @@
 .main .team-up .bottom-margin {
-  background-color: #FFFFFF;
-  height: 5rem;
   width: 100%;
+  background-color: #FFFFFF;
   transition-duration: 0.5s;
 }
 .main .team-up .member-1 {
@@ -134,6 +133,7 @@
   top: 12.5px;
 }
 .main .team-up .member-4 {
+  margin-top: 11rem;
   width: auto;
 }
 .main .team-up .member-4-img img {
@@ -176,6 +176,7 @@
   top: 12.5px;
 }
 .main .team-up .member-5 {
+  margin-top: 7rem;
   width: auto;
 }
 .main .team-up .member-5 .member-5-img img {
@@ -376,40 +377,58 @@
   .container {
     max-width: 95%;
   }
-  .team-up .member-1 .member-1-job-title {
+  .main .team-up .member-1 .bottom-margin-1 {
+    height: 3rem;
+  }
+  .main .team-up .member-1 .member-1-job-title {
     font-size: 12px;
   }
-  .team-up .member-1 .member-1-name {
+  .main .team-up .member-1 .member-1-name {
     font-size: 14px;
   }
-  .team-up .member-2 .member-2-job-title {
+  .main .team-up .member-2 .bottom-margin-2 {
+    height: 3rem;
+  }
+  .main .team-up .member-2 .member-2-job-title {
     font-size: 12px;
   }
-  .team-up .member-2 .member-2-name {
+  .main .team-up .member-2 .member-2-name {
     font-size: 14px;
   }
-  .team-up .member-3 .member-3-job-title {
+  .main .team-up .member-3 {
+    margin-top: 0;
+  }
+  .main .team-up .member-3 .bottom-margin-3 {
+    height: 12rem;
+  }
+  .main .team-up .member-3 .member-3-job-title {
     font-size: 12px;
   }
-  .team-up .member-3 .member-3-name {
+  .main .team-up .member-3 .member-3-name {
     font-size: 14px;
   }
-  .team-up .member-4 {
-    margin-top: 100rem;
+  .main .team-up .member-4 {
+    margin-top: 0;
   }
-  .team-up .member-4 .member-4-job-title {
+  .main .team-up .member-4 .bottom-margin-4 {
+    height: 3rem;
+  }
+  .main .team-up .member-4 .member-4-job-title {
     font-size: 12px;
   }
-  .team-up .member-4 .member-4-name {
+  .main .team-up .member-4 .member-4-name {
     font-size: 14px;
   }
-  .team-up .member-5 {
-    margin-top: 1px;
+  .main .team-up .member-5 {
+    margin-top: 0;
   }
-  .team-up .member-5 .member-5-job-title {
+  .main .team-up .member-5 .bottom-margin-5 {
+    height: 20rem;
+  }
+  .main .team-up .member-5 .member-5-job-title {
     font-size: 12px;
   }
-  .team-up .member-5 .member-5-name {
+  .main .team-up .member-5 .member-5-name {
     font-size: 14px;
   }
   .about-us .titles .titles-gray {
@@ -437,61 +456,82 @@
     line-height: 2.5rem;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .container {
     max-width: 95%;
   }
-  .team-up .member-1 .member-1-job-title {
+  .main .team-up .member-1 .bottom-margin-1 {
+    height: 11rem;
+  }
+  .main .team-up .member-1 .member-1-job-title {
     font-size: 14px;
   }
-  .team-up .member-1 .member-1-name {
+  .main .team-up .member-1 .member-1-name {
     font-size: 16px;
   }
-  .team-up .member-2 .member-2-job-title {
+  .main .team-up .member-2 .bottom-margin-2 {
+    height: 7rem;
+  }
+  .main .team-up .member-2 .member-2-job-title {
     font-size: 14px;
   }
-  .team-up .member-2 .member-2-name {
+  .main .team-up .member-2 .member-2-name {
     font-size: 16px;
   }
-  .team-up .member-3 .member-3-job-title {
+  .main .team-up .member-3 .bottom-margin-3 {
+    height: 17rem;
+  }
+  .main .team-up .member-3 .member-3-job-title {
     font-size: 14px;
   }
-  .team-up .member-3 .member-3-name {
+  .main .team-up .member-3 .member-3-name {
     font-size: 16px;
   }
-  .team-up .member-4 .member-4-job-title {
+  .main .team-up .member-4 {
+    margin-top: 0;
+  }
+  .main .team-up .member-4 .bottom-margin-4 {
+    height: 11rem;
+  }
+  .main .team-up .member-4 .member-4-job-title {
     font-size: 14px;
   }
-  .team-up .member-4 .member-4-name {
+  .main .team-up .member-4 .member-4-name {
     font-size: 16px;
   }
-  .team-up .member-5 .member-5-job-title {
+  .main .team-up .member-5 {
+    margin-top: 0;
+  }
+  .main .team-up .member-5 .bottom-margin-5 {
+    min-height: 12rem;
+  }
+  .main .team-up .member-5 .member-5-job-title {
     font-size: 14px;
   }
-  .team-up .member-5 .member-5-name {
+  .main .team-up .member-5 .member-5-name {
     font-size: 16px;
   }
-  .about-us .titles .titles-gray {
+  .main .about-us .titles .titles-gray {
     font-size: 14px;
   }
-  .about-us .titles .titles-black {
+  .main .about-us .titles .titles-black {
     font-size: 20px;
     line-height: 3rem;
   }
-  .about-us .left-column .left-column-txt {
+  .main .about-us .left-column .left-column-txt {
     width: 100%;
     font-size: 14px;
     line-height: 3rem;
   }
-  .about-us .right-column .right-column-txt {
+  .main .about-us .right-column .right-column-txt {
     width: 100%;
     font-size: 14px;
     line-height: 3rem;
   }
-  .photo-awards .photo-awards-title {
+  .main .photo-awards .photo-awards-title {
     font-size: 14px;
   }
-  .photo-awards .photo-awards-txtdown {
+  .main .photo-awards .photo-awards-txtdown {
     font-size: 14px;
     line-height: 3rem;
   }

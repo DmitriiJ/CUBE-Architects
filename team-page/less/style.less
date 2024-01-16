@@ -53,16 +53,16 @@
 .main {
 
     .team-up {
-
         .bottom-margin {
-            background-color: @txt_white;
-            height: 5rem;
             width: 100%;
+            background-color: @txt_white;
             transition-duration: 0.5s;
         }
 
         .member-1 {
             width: auto;
+
+
 
             .member-1-img img {
                 width: 100%;
@@ -188,9 +188,8 @@
         }
 
         .member-4 {
-            // margin-top: 11rem;
+            margin-top: 11rem;
             width: auto;
-    
 
             &-img img {
                 width: 100%;
@@ -231,9 +230,8 @@
         }
 
         .member-5 {
-            // margin-top: 7rem;
+            margin-top: 7rem;
             width: auto;
-    
 
             .member-5-img img {
                 width: 100%;
@@ -384,6 +382,7 @@
             }
 
             .member-2 {
+
                 .member-2-job-title {
                     font-size: 12px;
                 }
@@ -478,58 +477,82 @@
         max-width: 95%;
     }
 
-    .team-up {
-        .member-1 {
-            .member-1-job-title {
-                font-size: 12px;
+    .main {
+        .team-up {
+            .member-1 {
+                .bottom-margin-1 {
+                    height: 3rem;
+                }
+
+                .member-1-job-title {
+                    font-size: 12px;
+                }
+
+                .member-1-name {
+                    font-size: 14px;
+                }
             }
 
-            .member-1-name {
-                font-size: 14px;
-            }
-        }
+            .member-2 {
+                .bottom-margin-2 {
+                    height: 3rem;
+                }
 
-        .member-2 {
-            .member-2-job-title {
-                font-size: 12px;
-            }
+                .member-2-job-title {
+                    font-size: 12px;
+                }
 
-            .member-2-name {
-                font-size: 14px;
-            }
-        }
-
-        .member-3 {
-            .member-3-job-title {
-                font-size: 12px;
+                .member-2-name {
+                    font-size: 14px;
+                }
             }
 
-            .member-3-name {
-                font-size: 14px;
-            }
-        }
+            .member-3 {
+                margin-top: 0;
 
-        .member-4 {
-            margin-top: 100rem;
+                .bottom-margin-3 {
+                    height: 12rem;
+                }
 
-            .member-4-job-title {
-                font-size: 12px;
-            }
+                .member-3-job-title {
+                    font-size: 12px;
+                }
 
-            .member-4-name {
-                font-size: 14px;
-            }
-        }
-
-        .member-5 {
-            margin-top: 1px;
-
-            .member-5-job-title {
-                font-size: 12px;
+                .member-3-name {
+                    font-size: 14px;
+                }
             }
 
-            .member-5-name {
-                font-size: 14px;
+            .member-4 {
+                margin-top: 0;
+
+                .bottom-margin-4 {
+                    height: 3rem;
+                }
+
+                .member-4-job-title {
+                    font-size: 12px;
+                }
+
+                .member-4-name {
+                    font-size: 14px;
+                }
+            }
+
+            .member-5 {
+                margin-top: 0;
+
+                .bottom-margin-5 {
+                    height: 20rem;
+                }
+
+                .member-5-job-title {
+                    font-size: 12px;
+                }
+
+                .member-5-name {
+                    font-size: 14px;
+                }
             }
         }
     }
@@ -577,103 +600,124 @@
 
 
 ////////992
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     .container {
         max-width: 95%;
     }
 
-    .team-up {
-        .member-1 {
-            .member-1-job-title {
-                font-size: 14px;
+    .main {
+        .team-up {
+            .member-1 {
+                .bottom-margin-1 {
+                    height: 11rem;
+                }
+
+                .member-1-job-title {
+                    font-size: 14px;
+                }
+
+                .member-1-name {
+                    font-size: 16px;
+                }
             }
 
-            .member-1-name {
-                font-size: 16px;
+            .member-2 {
+                .bottom-margin-2 {
+                    height: 7rem;
+                }
+
+                .member-2-job-title {
+                    font-size: 14px;
+                }
+
+                .member-2-name {
+                    font-size: 16px;
+                }
+            }
+
+            .member-3 {
+                .bottom-margin-3 {
+                    height: 17rem;
+                }
+
+                .member-3-job-title {
+                    font-size: 14px;
+                }
+
+                .member-3-name {
+                    font-size: 16px;
+                }
+            }
+
+            .member-4 {
+                margin-top: 0;
+                    .bottom-margin-4{
+                        height: 11rem;
+                    }
+                .member-4-job-title {
+                    font-size: 14px;
+                }
+
+                .member-4-name {
+                    font-size: 16px;
+                }
+            }
+
+            .member-5 {
+                margin-top: 0;
+.bottom-margin-5{
+    min-height: 12rem;
+}
+                .member-5-job-title {
+                    font-size: 14px;
+                }
+
+                .member-5-name {
+                    font-size: 16px;
+                }
             }
         }
 
-        .member-2 {
-            .member-2-job-title {
-                font-size: 14px;
+        .about-us {
+            .titles {
+                .titles-gray {
+                    font-size: 14px;
+                }
+
+                .titles-black {
+                    font-size: 20px;
+                    line-height: 3rem;
+                }
             }
 
-            .member-2-name {
-                font-size: 16px;
-            }
-        }
-
-        .member-3 {
-            .member-3-job-title {
-                font-size: 14px;
+            .left-column {
+                .left-column-txt {
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 3rem;
+                }
             }
 
-            .member-3-name {
-                font-size: 16px;
-            }
-        }
-
-        .member-4 {
-            .member-4-job-title {
-                font-size: 14px;
-            }
-
-            .member-4-name {
-                font-size: 16px;
-            }
-        }
-
-        .member-5 {
-            .member-5-job-title {
-                font-size: 14px;
-            }
-
-            .member-5-name {
-                font-size: 16px;
+            .right-column {
+                .right-column-txt {
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 3rem;
+                }
             }
         }
-    }
 
-    .about-us {
-        .titles {
-            .titles-gray {
+        .photo-awards {
+            .photo-awards-title {
                 font-size: 14px;
             }
 
-            .titles-black {
-                font-size: 20px;
+            .photo-awards-txtdown {
+                font-size: 14px;
                 line-height: 3rem;
             }
         }
-
-        .left-column {
-            .left-column-txt {
-                width: 100%;
-                font-size: 14px;
-                line-height: 3rem;
-            }
-        }
-
-        .right-column {
-            .right-column-txt {
-                width: 100%;
-                font-size: 14px;
-                line-height: 3rem;
-            }
-        }
     }
-
-    .photo-awards {
-        .photo-awards-title {
-            font-size: 14px;
-        }
-
-        .photo-awards-txtdown {
-            font-size: 14px;
-            line-height: 3rem;
-        }
-    }
-
 
 
 }
