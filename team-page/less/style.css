@@ -6,6 +6,9 @@
 .main .team-up .member-1 {
   width: auto;
 }
+.main .team-up .member-1 .bottom-margin-1 {
+  height: 11rem;
+}
 .main .team-up .member-1 .member-1-img img {
   width: 100%;
   height: auto;
@@ -50,6 +53,9 @@
   width: auto;
   height: auto;
 }
+.main .team-up .member-2 .bottom-margin-2 {
+  height: 7rem;
+}
 .main .team-up .member-2 .member-2-img img {
   width: 100%;
   height: auto;
@@ -93,6 +99,9 @@
   width: auto;
   margin-top: 7rem;
 }
+.main .team-up .member-3 .bottom-margin-3 {
+  height: 15rem;
+}
 .main .team-up .member-3-img img {
   width: 100%;
   height: auto;
@@ -133,8 +142,10 @@
   top: 12.5px;
 }
 .main .team-up .member-4 {
-  margin-top: 11rem;
   width: auto;
+}
+.main .team-up .member-4 .bottom-margin-4 {
+  height: 4rem;
 }
 .main .team-up .member-4-img img {
   width: 100%;
@@ -176,8 +187,10 @@
   top: 12.5px;
 }
 .main .team-up .member-5 {
-  margin-top: 7rem;
   width: auto;
+}
+.main .team-up .member-5 .bottom-margin-5 {
+  height: 15rem;
 }
 .main .team-up .member-5 .member-5-img img {
   width: 100%;
@@ -307,13 +320,19 @@
     max-width: 95%;
   }
   .main .team-up .member-1 {
-    margin-top: 5rem;
+    margin-top: 0;
+  }
+  .main .team-up .member-1 .bottom-margin-1 {
+    height: 5rem;
   }
   .main .team-up .member-1 .member-1-job-title {
     font-size: 12px;
   }
   .main .team-up .member-1 .member-1-name {
     font-size: 14px;
+  }
+  .main .team-up .member-2 .bottom-margin-2 {
+    height: 5rem;
   }
   .main .team-up .member-2 .member-2-job-title {
     font-size: 12px;
@@ -322,7 +341,10 @@
     font-size: 14px;
   }
   .main .team-up .member-3 {
-    margin-top: 5rem;
+    margin-top: 0;
+  }
+  .main .team-up .member-3 .bottom-margin-3 {
+    height: 5rem;
   }
   .main .team-up .member-3 .member-3-job-title {
     font-size: 12px;
@@ -331,7 +353,10 @@
     font-size: 14px;
   }
   .main .team-up .member-4 {
-    margin-top: 5rem;
+    margin-top: 0;
+  }
+  .main .team-up .member-4 .bottom-margin-4 {
+    height: 5rem;
   }
   .main .team-up .member-4 .member-4-job-title {
     font-size: 12px;
@@ -340,7 +365,10 @@
     font-size: 14px;
   }
   .main .team-up .member-5 {
-    margin-top: 5rem;
+    margin-top: 0;
+  }
+  .main .team-up .member-5 .bottom-margin-5 {
+    height: 5rem;
   }
   .main .team-up .member-5 .member-5-job-title {
     font-size: 12px;
@@ -467,7 +495,8 @@
     font-size: 14px;
   }
   .main .team-up .member-1 .member-1-name {
-    font-size: 16px;
+    width: 100%;
+    font-size: 14px;
   }
   .main .team-up .member-2 .bottom-margin-2 {
     height: 7rem;
@@ -476,7 +505,8 @@
     font-size: 14px;
   }
   .main .team-up .member-2 .member-2-name {
-    font-size: 16px;
+    width: auto;
+    font-size: 14px;
   }
   .main .team-up .member-3 .bottom-margin-3 {
     height: 17rem;
@@ -485,31 +515,31 @@
     font-size: 14px;
   }
   .main .team-up .member-3 .member-3-name {
-    font-size: 16px;
+    font-size: 14px;
   }
   .main .team-up .member-4 {
     margin-top: 0;
   }
   .main .team-up .member-4 .bottom-margin-4 {
-    height: 11rem;
+    height: 16rem;
   }
   .main .team-up .member-4 .member-4-job-title {
     font-size: 14px;
   }
   .main .team-up .member-4 .member-4-name {
-    font-size: 16px;
+    font-size: 14px;
   }
   .main .team-up .member-5 {
     margin-top: 0;
   }
   .main .team-up .member-5 .bottom-margin-5 {
-    min-height: 12rem;
+    height: 17rem;
   }
   .main .team-up .member-5 .member-5-job-title {
     font-size: 14px;
   }
   .main .team-up .member-5 .member-5-name {
-    font-size: 16px;
+    font-size: 14px;
   }
   .main .about-us .titles .titles-gray {
     font-size: 14px;
