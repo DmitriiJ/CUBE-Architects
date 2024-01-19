@@ -89,7 +89,7 @@
 
 .main {
 
-    .main-txt{
+    .main-txt {
         .montserrat_reg_18();
         font-size: 16px;
         line-height: 3rem;
@@ -344,24 +344,34 @@
     .all-projects {
         align-self: flex-end;
         // margin: 19rem 0rem 0rem 43.6rem;
-        margin: 20px;
+        // margin: 20px;
         transition-duration: 0.2s;
+            
+        &-container{
+            display: flex;
+            justify-content: space-between;
+        }
 
         &-txt {
             .montserrat_reg_24();
             line-height: 1.5rem;
+            margin: 0;
             color: @txt_gray;
             text-transform: uppercase;
-            display: inline-block;
+
+            display: flex;
+            justify-content: end;
+            align-self: center;
         }
 
         &-arrow {
-            display: inline-block;
+            // display: inline-block;
         }
 
         .all-projects-hr {
             border-top: 2px solid @txt_gray;
-            width: 95%;
+            width: 100%;
+            margin-top: 0;
         }
 
         &:hover {
@@ -467,7 +477,7 @@
 
 ///////////////576
 @media screen and (min-width: 300px) and (max-width: 576px) {
-    .main{
+    .main {
 
         .under-slider {
             .create-future-txt p {
@@ -510,7 +520,8 @@
         .projects-txt {
             margin-bottom: 3rem;
             margin-left: 2rem;
-            p{
+
+            p {
                 font-size: 16px;
             }
         }
@@ -544,13 +555,22 @@
 
         .all-projects {
             margin: 0;
-            margin-right: 0rem;
-            .all-projects-txt{
-                font-size: 12px;
-                line-height: 0.3rem;
+            margin-right: 1vw;
+
+            .all-projects-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 5px;
             }
-            .all-projects-arrow{
-                width: 10%;
+
+            .all-projects-txt {
+                font-size: 12px;
+                line-height: 1.5rem;
+            }
+
+            .all-projects-arrow {
+                width: auto;
                 height: auto;
             }
         }
@@ -795,7 +815,7 @@
         max-width: 95%;
     }
 
-    .main-txt{
+    .main-txt {
         font-size: 14px;
         line-height: 2.8rem;
     }
