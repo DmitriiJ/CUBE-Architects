@@ -539,6 +539,9 @@
     margin: 0;
     margin-right: 2rem;
   }
+  .main .all-projects-txt {
+    font-size: 14px;
+  }
   .main .all-projects:hover {
     margin: 0;
     margin-right: 2rem;
