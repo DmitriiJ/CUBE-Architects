@@ -536,16 +536,21 @@
   .main .fest-15-arch-img-main {
     margin-bottom: 2rem;
   }
+  .main .fest-15-arch-img-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .main .fest-15-arch-img-up {
     margin-bottom: 1rem;
-    display: inline-block;
+    width: 100%;
   }
   .main .fest-15-arch-img-up img {
     width: 100%;
     height: auto;
   }
   .main .fest-15-arch-img-down {
-    display: inline-block;
+    width: 100%;
     margin-left: 2rem;
   }
   .main .fest-15-arch-img-down img {
