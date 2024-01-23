@@ -495,37 +495,56 @@
   .main .fest-14-arch .fest-14-arch-center {
     margin-top: 3rem;
   }
+  .main .fest-14-arch-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
   .main .fest-14-arch-left {
     padding-top: 22.5rem;
+    margin: 0 0.5rem;
   }
   .main .fest-14-arch-left img {
     height: auto;
   }
+  .main .fest-14-arch-center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .main .fest-14-arch-center {
-    margin: 10rem 0 0 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+    height: 100%;
   }
   .main .fest-14-arch-center-uptxt {
     font-size: 14px;
     line-height: 2.5rem;
-  }
-  .main .fest-14-arch-center-img {
-    padding-top: 6rem;
   }
   .main .fest-14-arch-center-txt {
     font-size: 14px;
     line-height: 2.5rem;
     height: auto;
   }
+  .main .fest-14-arch-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .main .fest-14-arch-right {
-    margin: 1rem 0 0 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+    height: 100%;
   }
   .main .fest-14-arch-right-txt {
+    margin-top: 1rem;
     font-size: 14px;
     line-height: 2.5rem;
     height: auto;
-  }
-  .main .fest-14-arch-right-img {
-    padding-top: 3.5rem;
   }
   .main .fest-15-arch .fest-15-arch-title {
     font-size: 12px;
@@ -656,31 +675,36 @@
     margin-left: 3.3rem;
   }
   .main .fest-14-arch {
-    margin-top: 3rem;
     padding: 3rem 0 7rem 1rem;
   }
   .main .fest-14-arch .fest-14-arch-title {
     font-size: 14px;
     padding-left: 0;
   }
-  .main .fest-14-arch .fest-14-arch-center {
-    margin-top: 3rem;
-  }
   .main .fest-14-arch-left {
-    padding-top: 22.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    margin: 0 0.5rem;
   }
   .main .fest-14-arch-left img {
     height: auto;
   }
   .main .fest-14-arch-center {
-    margin: 10rem 0 0 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+    height: 100%;
   }
   .main .fest-14-arch-center-uptxt {
+    padding-top: 4rem;
     font-size: 16px;
     line-height: 3rem;
   }
   .main .fest-14-arch-center-img {
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
   .main .fest-14-arch-center-txt {
     font-size: 16px;
@@ -688,12 +712,17 @@
     height: auto;
   }
   .main .fest-14-arch-right {
-    margin: 1rem 0 0 1.2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0.5rem;
   }
   .main .fest-14-arch-right-txt {
     font-size: 16px;
     line-height: 3rem;
     height: auto;
+    padding-top: 4rem;
   }
   .main .fest-14-arch-right-img {
     padding-top: 3.5rem;
