@@ -28,7 +28,6 @@
     align-items: center;
     padding: 15px 0 10px 0;
     background-color: #fff;
-
 }
 
 .about-accordion-heading-text {
@@ -54,6 +53,7 @@
     justify-content: space-between;
     align-items: start;
     background-color: #fff;
+    overflow: hidden;
 }
 
 .about-accordion-text-content {
@@ -64,6 +64,7 @@
     line-height: 30px;
     height: 0;
     text-transform: none;
+    
 }
 
 .about-accordion-image-content {

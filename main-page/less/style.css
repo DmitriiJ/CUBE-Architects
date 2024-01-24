@@ -11,6 +11,9 @@
   font-size: 96px;
   font-weight: 400;
 }
+:root {
+  --accordeon-open-height: 200px;
+}
 .main {
   color: #000000;
   text-transform: uppercase;
