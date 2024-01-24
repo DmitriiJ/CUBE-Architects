@@ -7,6 +7,15 @@
   padding: 4.5rem 0 0 0;
   background-color: #1A1A1A;
 }
+.main .header .hamburger-line {
+  background-color: #FFFFFF;
+}
+.main .header .hamburger-container:hover .hamburger-line {
+  background-color: #1A1A1A;
+}
+.main .header .hamburger:hover {
+  background-color: #FFFFFF;
+}
 .main .header .upper-header-part .header-language .ru,
 .main .header .upper-header-part .header-language .eng {
   color: #FFFFFF;

@@ -1,19 +1,19 @@
 //fonts
-.montserrat_reg_20(){
+.montserrat_reg_20() {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.montserrat_reg_24(){
+.montserrat_reg_24() {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     color: @txt_white;
     text-transform: uppercase;
 }
 
-.montserrat_sbold_25(){
+.montserrat_sbold_25() {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-transform: uppercase;
@@ -27,7 +27,7 @@
     font-weight: 300;
 }
 
-.montserrat_sbold_96(){
+.montserrat_sbold_96() {
     font-family: 'Montserrat', sans-serif;
     font-size: 96px;
     font-weight: 400;
@@ -41,7 +41,7 @@
 
 
 
-.main{
+.main {
     position: fixed;
     top: 0;
     left: 0;
@@ -50,17 +50,32 @@
     padding: 4.5rem 0 0 0;
     background-color: @bgn_black;
 
-    .header{
-        .upper-header-part{
-            .header-language{
-                .ru, .eng{
+    .header {
+        .hamburger-line {
+            background-color: @txt_white;
+        }
+
+        .hamburger-container:hover .hamburger-line{
+            background-color: @bgn_black;
+        }
+
+        .hamburger:hover{
+            background-color: @txt_white;
+        }
+
+        .upper-header-part {
+            .header-language {
+
+                .ru,
+                .eng {
                     color: #FFFFFF;
                 }
             }
         }
-        .wrap{
-            .wrap-block{
-                h1{
+
+        .wrap {
+            .wrap-block {
+                h1 {
                     color: #FFFFFF;
                     font-size: 89px;
                 }
@@ -68,146 +83,166 @@
         }
     }
 
-    .info{
+    .info {
         padding-top: 5rem;
-        &-mail{
+
+        &-mail {
             .montserrat_reg_24();
             text-decoration: underline;
             padding-bottom: 7rem;
             margin-top: -0.8rem;
         }
-        &-column p{
+
+        &-column p {
             color: @txt_white;
             margin-top: 1rem;
             .montserrat_reg_20();
         }
-        .social-tg, .social-inst, .social-vib{
+
+        .social-tg,
+        .social-inst,
+        .social-vib {
             display: inline-block;
             margin: 7rem 3.5rem 0 0;
             .montserrat_sbold_25();
             font-weight: 400;
         }
-        .map img{
+
+        .map img {
             width: 100%;
             height: auto;
         }
     }
 
     /////////////laaaaargeee!!!
-@media screen and (min-width: 992px) and (max-width: 1300px){
-    .header{
-        .wrap{
-            .wrap-block{
-                h1{
-                    color: #FFFFFF;
-                    font-size: 64px;
-                }
-            }
-        }
-    }
-}
-
-/////992
-@media screen and (min-width: 768px) and (max-width: 992px){
-    .container {
-        max-width: 95%;
-    }
-    
-    .header{
-        .wrap{
-            .wrap-block{
-                h1{
-                    color: #FFFFFF;
-                    font-size: 50px;
+    @media screen and (min-width: 992px) and (max-width: 1300px) {
+        .header {
+            .wrap {
+                .wrap-block {
+                    h1 {
+                        color: #FFFFFF;
+                        font-size: 64px;
+                    }
                 }
             }
         }
     }
 
-    .info{
-        .info-mail{
-            font-size: 22px;
+    /////992
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        .container {
+            max-width: 95%;
         }
-        .info-column p{
-            font-size: 16px;
-        }
-        .info-column-social{
-            .social-inst, .social-tg, .social-vib{
-                font-size: 18px;
+
+        .header {
+            .wrap {
+                .wrap-block {
+                    h1 {
+                        color: #FFFFFF;
+                        font-size: 50px;
+                    }
+                }
             }
         }
-    }
-}
 
-//////////768
-@media screen and (min-width: 576px) and (max-width: 768px) {
-    .container {
-        max-width: 95%;
-    }
-    
-    .header{
-        .wrap{
-            .wrap-block{
-                h1{
-                    color: #FFFFFF;
-                    font-size: 48px;
+        .info {
+            .info-mail {
+                font-size: 22px;
+            }
+
+            .info-column p {
+                font-size: 16px;
+            }
+
+            .info-column-social {
+
+                .social-inst,
+                .social-tg,
+                .social-vib {
+                    font-size: 18px;
                 }
             }
         }
     }
 
-    .info{
-        .info-mail{
-            font-size: 16px;
-            padding-bottom: 2rem;
+    //////////768
+    @media screen and (min-width: 576px) and (max-width: 768px) {
+        .container {
+            max-width: 95%;
         }
-        .info-column p{
-            font-size: 12px;
-        }
-        .info-column-social{
-            .social-inst, .social-tg, .social-vib{
-                font-size: 14px;
-                margin: 5rem 3.5rem 0 0;
+
+        .header {
+            .wrap {
+                .wrap-block {
+                    h1 {
+                        color: #FFFFFF;
+                        font-size: 48px;
+                    }
+                }
             }
         }
-    }
-}
 
+        .info {
+            .info-mail {
+                font-size: 16px;
+                padding-bottom: 2rem;
+            }
 
+            .info-column p {
+                font-size: 12px;
+            }
 
-//////////576
-@media screen and (min-width: 300px) and (max-width: 576px) {
-    .container {
-        max-width: 95%;
-    }
-    
-    .header{
-        .wrap{
-            .wrap-block{
-                h1{
-                    color: #FFFFFF;
-                    font-size: 32px;
-                    line-height: 7rem;
+            .info-column-social {
+
+                .social-inst,
+                .social-tg,
+                .social-vib {
+                    font-size: 14px;
+                    margin: 5rem 3.5rem 0 0;
                 }
             }
         }
     }
 
-    .info{
-        .info-mail{
-            font-size: 16px;
-            padding-bottom: 2rem;
+
+
+    //////////576
+    @media screen and (min-width: 300px) and (max-width: 576px) {
+        .container {
+            max-width: 95%;
         }
-        .info-column p{
-            font-size: 12px;
+
+        .header {
+            .wrap {
+                .wrap-block {
+                    h1 {
+                        color: #FFFFFF;
+                        font-size: 32px;
+                        line-height: 7rem;
+                    }
+                }
+            }
         }
-        .info-column-social{
-            .social-inst, .social-tg, .social-vib{
-                font-size: 14px;
-                margin: 5rem 3.5rem 3rem 0;
+
+        .info {
+            .info-mail {
+                font-size: 16px;
+                padding-bottom: 2rem;
+            }
+
+            .info-column p {
+                font-size: 12px;
+            }
+
+            .info-column-social {
+
+                .social-inst,
+                .social-tg,
+                .social-vib {
+                    font-size: 14px;
+                    margin: 5rem 3.5rem 3rem 0;
+                }
             }
         }
     }
 }
-}
-
