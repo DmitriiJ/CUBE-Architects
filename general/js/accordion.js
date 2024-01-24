@@ -22,7 +22,7 @@ function showAccordionPartContent(accordPart) {
     if (bottomMargin != null) {
         let buff = window.getComputedStyle(bottomMargin).getPropertyValue('height');
         bottomMargin.style.maxHeight = buff;
-        bottomMargin.style.height = 0;
+        bottomMargin.style.height = '3rem';
     }
 
     const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
@@ -32,7 +32,7 @@ function showAccordionPartContent(accordPart) {
     if (sidesRatio > 1 && accordPartContentImg != null) {
         addHeight = parseInt(window.getComputedStyle(accordPartContentImg).getPropertyValue('height').slice(0, -2));
     }
-    accordPartContent.style.height = (200 + addHeight) + 'px';
+    accordPartContent.style.height = (150 + addHeight) + 'px';
 }
 
 function hideAccordionPartContent(accordPart) {
