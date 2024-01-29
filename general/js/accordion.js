@@ -8,6 +8,13 @@ function setClickToAccordionPart() {
         accordPart.addEventListener("mousedown", function () {
             let accordPartContent = accordPart.querySelector('.about-accordion-content-container');
             // console.log(window.getComputedStyle(accordPartContent).height);
+            window.onresize = function() {
+                // if (window.getComputedStyle(accordPartContent).height == '0px') {
+                    showAccordionPartContent(accordPart);
+                    showMinusIcon(accordPart);
+                    
+                // }
+              };
             changeAccordionPartContent(accordPart);
         })
     }
@@ -74,3 +81,4 @@ function showMinusIcon(accordPart) {
 //accordion end
 
 setClickToAccordionPart();
+

@@ -447,6 +447,9 @@
   .main .container {
     max-width: 95%;
   }
+  .main .container .footer-line {
+    padding-top: 0;
+  }
   .main .fest-12-arch-title {
     font-size: 12px;
     padding-left: 0;
@@ -633,12 +636,15 @@
     font-size: 14px;
     line-height: 2.5rem;
     padding-left: 0rem;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .main .container {
     max-width: 95%;
+  }
+  .main .container .footer-line {
+    padding-top: 0;
   }
   .main .fest-12-arch-title {
     font-size: 14px;
@@ -795,7 +801,7 @@
   .main .masa-txtdown {
     font-size: 16px;
     line-height: 3rem;
-    margin-bottom: 9rem;
+    margin-bottom: 7rem;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1920px) {
