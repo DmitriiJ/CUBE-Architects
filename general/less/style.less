@@ -1,7 +1,7 @@
 //compress: true
 
 // basic sattings
-html{
+html {
     font-size: 10px;
 }
 
@@ -95,7 +95,7 @@ html{
         flex-direction: row;
         width: 100%;
         height: 90%;
-   
+
         h1 {
             vertical-align: bottom;
             justify-content: flex-start;
@@ -178,12 +178,17 @@ html{
                 cursor: pointer;
                 color: #000;
                 /* Меняем цвет ссылки */
+                // -webkit-text-stroke: 1px #FFFFFF;
+
+                text-stroke: 1px #FFFFFF;
                 -webkit-text-stroke: 1px #FFFFFF;
+                // outline: 1px solid #fff;
+                text-rendering: geometricPrecision;
                 /* Толщина и цвет обводки */
                 // text-stroke: 1px @txt_white;
             }
 
-            .last-link{
+            .last-link {
                 margin-bottom: 12rem;
             }
         }
@@ -244,7 +249,7 @@ html{
 
 }
 
-.footer-line{
+.footer-line {
     background-color: #fff;
     padding: 9rem 0;
 }
@@ -329,56 +334,62 @@ html{
 
 //////////992
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    .header{
-        &-language .ru, .eng{
+    .header {
+
+        &-language .ru,
+        .eng {
             font-size: 18px;
         }
 
-        .wrap-block h1{
+        .wrap-block h1 {
             font-size: 56px;
         }
     }
 
-    .main-menu{
-        .menu-txt a{
-            h1{
+    .main-menu {
+        .menu-txt a {
+            h1 {
                 font-size: 56px;
             }
         }
 
-        .mail{
+        .mail {
             font-size: 20px;
         }
     }
 
-    .footer-line{
+    .footer-line {
         margin: 0;
         height: 1rem;
     }
 
-    .footer{
-        .footer-email{
+    .footer {
+        .footer-email {
             font-size: 24px;
             margin-bottom: 4rem;
         }
-        .footer-com-info{
+
+        .footer-com-info {
             font-size: 16px;
             width: 60%;
             margin-bottom: 1rem;
         }
-        .footer-company-name{
+
+        .footer-company-name {
             width: 100%;
         }
 
-        .online-contact{
+        .online-contact {
             font-size: 18px;
             line-height: 1.5rem;
         }
-        .footer-language-button{
+
+        .footer-language-button {
             font-size: 18px;
             vertical-align: bottom;
         }
-        .footer-language-switcher{
+
+        .footer-language-switcher {
             padding-bottom: 1.3rem;
         }
     }
@@ -386,64 +397,71 @@ html{
 
 //////////768
 @media screen and (min-width: 576px) and (max-width: 768px) {
-    .header{
-        &-language .ru, .eng{
+    .header {
+
+        &-language .ru,
+        .eng {
             font-size: 14px;
         }
 
-        .wrap-block h1{
+        .wrap-block h1 {
             font-size: 36px;
             line-height: 6rem;
         }
     }
 
-    .main-menu{
-        .menu-txt a{
-            h1{
+    .main-menu {
+        .menu-txt a {
+            h1 {
                 font-size: 36px;
             }
         }
 
-        .mail{
+        .mail {
             font-size: 18px;
         }
     }
 
-    .footer-line{
+    .footer-line {
         margin-top: 0;
         height: 0;
     }
 
-    .footer{
-        .footer-left-col{
+    .footer {
+        .footer-left-col {
             margin-top: 5rem;
         }
 
-        .footer-right-col{
+        .footer-right-col {
             margin-top: 6.4rem;
         }
-        .footer-email{
+
+        .footer-email {
             font-size: 18px;
             margin-bottom: 3rem;
         }
-        .footer-com-info{
+
+        .footer-com-info {
             font-size: 14px;
             width: 60%;
             margin-bottom: 1rem;
         }
-        .footer-company-name{
+
+        .footer-company-name {
             width: 100%;
         }
 
-        .online-contact{
+        .online-contact {
             font-size: 16px;
             line-height: 0.8rem;
         }
-        .footer-language-button{
+
+        .footer-language-button {
             font-size: 16px;
             vertical-align: bottom;
         }
-        .footer-language-switcher{
+
+        .footer-language-switcher {
             padding-bottom: 1.5rem;
         }
     }
@@ -453,71 +471,77 @@ html{
 
 ///////////////576
 @media screen and (min-width: 300px) and (max-width: 576px) {
-    .header{
-        .logo img{
+    .header {
+        .logo img {
             width: 100%;
             height: auto;
         }
 
-        &-language .ru, .eng{
+        &-language .ru,
+        .eng {
             font-size: 12px;
         }
 
-        .wrap-block h1{
+        .wrap-block h1 {
             font-size: 24px;
             line-height: 6rem;
         }
     }
 
-    .main-menu{
-        .menu-txt a{
-            h1{
+    .main-menu {
+        .menu-txt a {
+            h1 {
                 font-size: 42px;
             }
         }
 
-        .mail{
+        .mail {
             font-size: 14px;
         }
     }
 
-    .footer-line{
+    .footer-line {
         margin-top: 0;
         height: 0;
     }
 
-    .footer{
-        .footer-left-col{
+    .footer {
+        .footer-left-col {
             margin-top: 5rem;
         }
 
-        .footer-right-col{
+        .footer-right-col {
             margin-top: 6.4rem;
         }
-        .footer-email{
+
+        .footer-email {
             font-size: 14px;
             margin-bottom: 3rem;
         }
-        .footer-com-info{
+
+        .footer-com-info {
             font-size: 12px;
             width: 80%;
             margin-bottom: 0rem;
             line-height: 2.8rem;
         }
-        .footer-company-name{
+
+        .footer-company-name {
             width: 100%;
             padding-bottom: 1.1rem;
         }
 
-        .online-contact{
+        .online-contact {
             font-size: 14px;
             line-height: 0.8rem;
         }
-        .footer-language-button{
+
+        .footer-language-button {
             font-size: 12px;
             vertical-align: bottom;
         }
-        .footer-language-switcher{
+
+        .footer-language-switcher {
             padding-bottom: 1.2rem;
         }
     }
