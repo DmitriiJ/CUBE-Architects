@@ -237,7 +237,15 @@
   cursor: pointer;
   background-color: #333;
 }
+.main .all-projects-place {
+  display: flex;
+  justify-content: end;
+}
 .main .all-projects {
+  width: auto;
+  margin-left: auto;
+  margin-right: 0;
+  justify-self: flex-end;
   align-self: flex-end;
   transition-duration: 0.2s;
 }
@@ -253,6 +261,7 @@
   margin-bottom: 0;
   color: #B0B0B0;
   text-transform: uppercase;
+  margin-right: 2rem;
   display: flex;
   justify-content: end;
   align-self: center;
@@ -543,8 +552,6 @@
     font-size: 14px;
   }
   .main .all-projects:hover {
-    margin: 0;
-    margin-right: 2rem;
     background-color: #1A1A1A;
     cursor: default;
   }
@@ -635,8 +642,8 @@
     font-size: 18px;
     line-height: 0.5rem;
   }
-  .projects-container .projects-card:hover {
-    margin: 0;
+  .projects-container .projects-card:hover,
+  .projects-container .all-projects:hover {
     cursor: default;
     background-color: #1a1a1a;
   }

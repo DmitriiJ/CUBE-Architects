@@ -81,7 +81,7 @@
 @txt_white: #FFFFFF;
 @txt_gray: #B0B0B0;
 
-:root{
+:root {
     --accordeon-open-height: 200px;
 }
 
@@ -339,7 +339,16 @@
         background-color: #333;
     }
 
+    .all-projects-place {
+        display: flex;
+        justify-content: end;
+    }
+
     .all-projects {
+        width: auto;
+        margin-left: auto;
+        margin-right: 0;
+        justify-self: flex-end;
         align-self: flex-end;
         // margin: 19rem 0rem 0rem 43.6rem;
         // margin: 20px;
@@ -357,7 +366,7 @@
             margin-bottom: 0;
             color: @txt_gray;
             text-transform: uppercase;
-
+            margin-right: 2rem;
             display: flex;
             justify-content: end;
             align-self: center;
@@ -741,8 +750,7 @@
         }
 
         .all-projects:hover {
-            margin: 0;
-            margin-right: 2rem;
+            // margin: 0;
             background-color: #1A1A1A;
             cursor: default;
         }
@@ -882,8 +890,9 @@
             }
         }
 
-        .projects-card:hover {
-            margin: 0;
+        .projects-card:hover,
+        .all-projects:hover {
+            // margin: 0;   
             cursor: default;
             background-color: #1a1a1a;
         }
