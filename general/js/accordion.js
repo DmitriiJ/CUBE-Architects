@@ -34,10 +34,11 @@ function showAccordionPartContent(accordPart) {
 
     const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
     const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
-    let sidesRatio = vh / vw;
+    // let sidesRatio = vh / vw;
     let addHeight = 0;
-    if (sidesRatio > 1 && accordPartContentImg != null) {
+    if (window.innerWidth < 768 && accordPartContentImg != null) {
         addHeight = parseInt(window.getComputedStyle(accordPartContentImg).getPropertyValue('height').slice(0, -2));
+        console.log(addHeight)
     }
     let accordOpenHeight = getComputedStyle(document.documentElement).getPropertyValue('--accordeon-open-height').slice(0, -2);
 
