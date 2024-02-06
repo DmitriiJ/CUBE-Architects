@@ -13,8 +13,12 @@
 
 @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Medium.ttf"), 
-    url("../fonts/Montserrat-VariableFont_wght.ttf")     
-    ;
+    src: 
+    url("../fonts/gg/Montserrat-VariableFont_wght.ttf")     
+  }
+
+  @font-face{
+    font-family: "Montserrat-Medium";
+    src: url("../fonts/gg/Montserrat-Medium.ttf");
   }
 
