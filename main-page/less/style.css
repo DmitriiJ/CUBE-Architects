@@ -127,6 +127,9 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+.main .residents-line {
+  line-height: 0;
+}
 .main .residents-line img {
   width: 100%;
   vertical-align: top;
@@ -158,6 +161,9 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+.main .housing-line {
+  line-height: 0;
+}
 .main .housing-line img {
   width: 100%;
   vertical-align: top;
@@ -188,6 +194,9 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+.main .inter-line {
+  line-height: 0;
 }
 .main .inter-line img {
   width: 100%;
@@ -222,6 +231,9 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+.main .land-line {
+  line-height: 0;
 }
 .main .land-line img {
   width: 100%;
