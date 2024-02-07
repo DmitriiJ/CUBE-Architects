@@ -90,10 +90,10 @@
 }
 
 .about-accordion-content-container {
-    transition-duration: 0.5s;
-    /* max-height: 0; */
+    transition-duration: 1s;
     z-index: -1;
-    height: 0;
+    height: auto;
+    max-height: 0px;
 }
 
 .about-accordion-text-content {
@@ -105,7 +105,7 @@
 
 .about-accordion-image-content {
     transition-duration: 0.5s;
-    /* max-height: 0; */
+    max-height: auto;
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {

@@ -7,13 +7,9 @@ function setClickToAccordionPart() {
     for (let accordPart of accordionClickAreas) {
         accordPart.addEventListener("mousedown", function () {
             let accordPartContent = accordPart.querySelector('.about-accordion-content-container');
-            // console.log(window.getComputedStyle(accordPartContent).height);
             window.onresize = function() {
-                // if (window.getComputedStyle(accordPartContent).height == '0px') {
                     showAccordionPartContent(accordPart);
                     showMinusIcon(accordPart);
-                    
-                // }
               };
             changeAccordionPartContent(accordPart);
         })
@@ -22,46 +18,31 @@ function setClickToAccordionPart() {
 
 function showAccordionPartContent(accordPart) {
     let accordPartContent = accordPart.querySelector('.about-accordion-content-container');
-    let accordPartContentText = accordPart.querySelector('.about-accordion-text-content');
     let accordPartContentImg = accordPart.querySelector('.about-accordion-image-content');
-    let bottomMargin = accordPart.querySelector('.bottom-margin');
-
-    if (bottomMargin != null) {
-        let buff = window.getComputedStyle(bottomMargin).getPropertyValue('height');
-        bottomMargin.style.maxHeight = buff;
-        bottomMargin.style.height = '3rem';
-    }
-
     const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
     const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
-    // let sidesRatio = vh / vw;
     let addHeight = 0;
     if (window.innerWidth < 768 && accordPartContentImg != null) {
-        addHeight = parseInt(window.getComputedStyle(accordPartContentImg).getPropertyValue('height').slice(0, -2));
-        console.log(addHeight)
+        addHeight = parseInt(window.getComputedStyle(accordPartContentImg).height.slice(0, -2));
     }
     let accordOpenHeight = getComputedStyle(document.documentElement).getPropertyValue('--accordeon-open-height').slice(0, -2);
-
-    accordPartContent.style.height = (parseInt(accordOpenHeight) + addHeight) + 'px';
+    accordPartContent.style.maxHeight = (parseInt(accordOpenHeight) + addHeight) + 'px';
 }
 
 function hideAccordionPartContent(accordPart) {
     let accordPartContent = accordPart.querySelector('.about-accordion-content-container');
-    let accordPartContentText = accordPart.querySelector('.about-accordion-text-content');
-    let accordPartContentImg = accordPart.querySelector('.about-accordion-image-content');
-    let bottomMargin = accordPart.querySelector('.bottom-margin');
-    accordPartContent.style.height = '0px';
-    if (bottomMargin != null)
-        bottomMargin.style.height = window.getComputedStyle(bottomMargin).getPropertyValue('max-height');
+    accordPartContent.style.maxHeight = '0px';
 }
 
 function changeAccordionPartContent(accordPart) {
     let accordPartContent = accordPart.querySelector('.about-accordion-content-container');
-    if (window.getComputedStyle(accordPartContent).height == '0px') {
+    if (window.getComputedStyle(accordPartContent).maxHeight == '0px') {
         showAccordionPartContent(accordPart);
         showMinusIcon(accordPart);
+        
     }
     else {
+        console.log(window.getComputedStyle(accordPartContent).getPropertyValue('max-height'))
         hideAccordionPartContent(accordPart);
         showPlusIcon(accordPart);
     }
